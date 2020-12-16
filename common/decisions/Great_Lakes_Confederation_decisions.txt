@@ -1686,3 +1686,162 @@ GLF_great_north_confederation_decisions = {
 		}
 	}
 }
+
+GLF_visit_tribes_decisions = {
+
+	GLF_visit_the_shawnee_tribe= {
+
+		icon = generic_form_nation
+		fire_only_once = yes	
+		
+		available = {
+		}
+		complete_effect = {
+		}
+			
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_visit_the_huron_tribe= {
+
+		icon = generic_form_nation
+		fire_only_once = yes	
+		
+		available = {
+		}
+		complete_effect = {
+		}
+			
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_visit_the_haudenosaunee= {
+
+		icon = generic_form_nation
+		fire_only_once = yes	
+		
+		available = {
+		}
+		complete_effect = {
+		}
+			
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_visit_the_ojibwe_tribe= {
+
+		icon = generic_form_nation
+		fire_only_once = yes	
+		
+		available = {
+		}
+		complete_effect = {
+		}
+			
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_visit_the_potawatomi_tribe= {
+
+		icon = generic_form_nation
+		fire_only_once = yes	
+		
+		available = {
+		}
+		complete_effect = {
+		}
+			
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_visit_the_ottawa_tribe= {
+
+		icon = generic_form_nation
+		fire_only_once = yes	
+		
+		available = {
+		}
+		complete_effect = {
+		}
+			
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_visit_the_illinois_tribe= {
+
+		icon = generic_form_nation
+		fire_only_once = yes	
+		
+		available = {
+		}
+		remove_effect = {
+			air_experience = 10
+		}
+			
+		cost = 0
+		
+		days_remove = 45
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_visit_the_fox_tribe= {
+
+		icon = generic_form_nation
+		fire_only_once = yes	
+		
+		available = {
+		}
+		complete_effect = {
+		}
+			
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_visit_the_miami_tribe= {
+
+		icon = generic_form_nation
+		fire_only_once = yes	
+		
+		available = {
+		}
+		complete_effect = {
+		}
+			
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

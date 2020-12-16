@@ -1,4 +1,4 @@
-﻿capital = 393
+﻿capital = 810
 oob = "GLF_1936"
 
 # Starting tech

@@ -19,7 +19,7 @@ state={
 		}
 		add_core_of = GLF
 		victory_points = {
-			6710 50 
+			6710 35 
 		}
 		1939.1.1 = {
 			buildings = {

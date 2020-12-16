@@ -123,3 +123,13 @@ GLF_great_north_confederation_decisions = {
 	#}
 
 }
+
+GLF_visit_tribes_decisions = {
+	icon = GFX_decision_category_military_operation
+	priority = 9
+	picture = GFX_decision_category_GLF_italy
+	allowed = {original_tag = GLF}
+	
+	visible = {	
+	}
+}
