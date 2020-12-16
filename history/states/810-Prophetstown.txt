@@ -1,0 +1,25 @@
+state={
+	id=810
+	name="STATE_810"
+	
+	history={
+		owner = GLF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		add_core_of = GLF
+		victory_points = {
+			4437 50
+		}
+
+	}
+	
+	provinces={
+		4437 
+	}
+	manpower=820012
+	buildings_max_level_factor=1.000
+	state_category=city
+}

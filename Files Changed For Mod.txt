@@ -1,0 +1,26 @@
+
+	common/ideas/zzz_generic.txt
+	common/bookmarks/the_gathering_storm.txt
+	common/countries/colors.txt
+	common/countries/cosmetic.txt
+	common/country_leader/00_traits.txt
+	common/country_tags/00_countries.txt
+	common/opinion_modifiers/00_opinion_modifiers.txt
+	
+	
+	history/countries/CAN - Canada.txt
+	history/countries/USA - USA.txt
+	History/states/many states!
+	history/units/CAN_1936.txt
+	history/units/USA_1936.txt
+	
+	localization/countries_I_english.yml
+	localization/countries_cosmetic_I_english.yml
+	localization/state_names_I_english.yml
+	
+	map/airports.txt
+	map/buildings.txt
+	map/rocketsites.txt
+	
+	map/strategicregions/many regions!
+	map/supplyareas/many supply areas!

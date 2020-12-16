@@ -1,0 +1,142 @@
+﻿division_template = {
+	name = "Lake Warriors"		
+
+	division_names_group = GLF_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Lake Hoard"
+
+	division_names_group = GLF_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Detroit Motorized"
+
+	division_names_group = GLF_INF_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+	    motorized = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	
+	division= {	
+		name = "Oshkinawe-ogichidaag"
+		location = 9450 
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Anyǫnyętaˀ"
+		location = 9450
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Anyǫnyętaˀ"
+		location = 1595
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Anyǫnyętaˀ"
+		location = 1866
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Lake Hoard"
+		location = 6710
+		division_template = "Lake Hoard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Kiilhswa Alenia"
+		location = 6710
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Wɒrɪə"
+		location = 6710
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Lake Hoard"
+		location = 11654
+		division_template = "Lake Hoard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Oshkinawe-ogichidaag"
+		location = 11654
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Wɒrɪə"
+		location = 3778
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Oshkinawe-ogichidaag"
+		location = 3778
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GLF"
+		}
+		requested_factories = 1
+		progress = 0.89
+		efficiency = 100
+	}
+}

@@ -1,0 +1,1688 @@
+
+GLF_repurpose_trade_ships_decisions = {	
+	repurpose_small_trade_ships = {	
+
+		icon = generic_naval
+		
+		available = {
+			if = {
+			limit = { has_dlc = "Man the Guns" }
+				has_tech = early_ship_hull_light
+				has_tech = basic_battery
+			} else {
+				has_tech = early_destroyer
+			}
+			
+			has_equipment = {
+				convoy > 3
+			}
+		}
+		
+		fire_only_once = no	
+		days_re_enable = 35
+
+		visible = {
+			
+		}		
+
+		cost = 10
+
+		complete_effect = {
+			custom_effect_tooltip = repurpose_small_trade_ships_tooltip
+			hidden_effect = {
+				if = {
+				limit = { has_dlc = "Man the Guns" }
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_light_1
+							version_name = "Small Trade Class"
+						}
+						name = "Small Converted Trade Ship" 
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_light_1
+							version_name = "Small Trade Class"
+						}
+						name = "Small Converted Trade Ship" 
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_light_1
+							version_name = "Small Trade Class"
+						}
+						name = "Small Converted Trade Ship" 
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_light_1
+							version_name = "Small Trade Class"
+						}
+						name = "Small Converted Trade Ship" 
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+				
+				} else = {
+				
+					add_equipment_production = {
+						equipment = {
+							type = destroyer_1
+						}
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = destroyer_1
+						}
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = destroyer_1
+						}
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = destroyer_1
+						}
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0			
+		}
+	}
+	
+	repurpose_medium_trade_ships = {
+
+		icon = generic_naval
+		
+		available = {
+			if = {
+			limit = { has_dlc = "Man the Guns" }
+				has_tech = early_ship_hull_cruiser
+				has_tech = basic_battery
+			} else = {
+				has_tech = early_light_cruiser
+			}
+			has_equipment = {
+				convoy > 1
+			}
+		}
+		
+		fire_only_once = no
+		days_re_enable = 35
+
+		visible = {	
+		}		
+
+		cost = 15		#The cost to execute the decision, by default its political power.
+
+		complete_effect = {
+		
+			custom_effect_tooltip = repurpose_medium_trade_ships_tooltip
+			hidden_effect = {
+				if = {
+				limit = { has_dlc = "Man the Guns" }
+				
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_cruiser_1
+							version_name = "Medium Trade Class"
+						}
+						name = "Medium Converted Trade Ship" 
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_cruiser_1
+							version_name = "Medium Trade Class"
+						}
+						name = "Medium Converted Trade Ship" 
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+				} else = {
+					add_equipment_production = {
+						equipment = {
+							type = light_cruiser_1
+						}
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = light_cruiser_1
+						}
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	
+	repurpose_large_trade_ship = {		#ID of the decision, must not contain spaces!
+
+		icon = generic_naval
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+			if = {
+			limit = { has_dlc = "Man the Guns" }
+				has_tech = early_ship_hull_heavy
+				has_tech = basic_battery
+			}else = {
+				has_tech = early_heavy_cruiser
+			}
+			
+			has_equipment = {
+				convoy > 0
+			}
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 35	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			
+			custom_effect_tooltip = repurpose_large_trade_ship_tooltip
+			hidden_effect = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_cruiser_1
+							version_name = "Large Trade Class"
+						}
+						name = "Large Converted Trade Ship" 
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+					} else = {
+					add_equipment_production = {
+						equipment = {
+							type = heavy_cruiser_1
+						}
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	
+	repurpose_the_hemlock = {		#ID of the decision, must not contain spaces!
+
+		icon = generic_naval
+		
+		available = {
+			if = {
+			limit = { has_dlc = "Man the Guns" }
+			
+				has_tech = early_ship_hull_carrier
+			}else = {
+				has_tech = early_carrier
+			}
+			has_equipment = {
+				convoy > 0
+			}
+		}
+		
+		fire_only_once = yes		#If set to yes, the decision will only appear once, after execution will not appear again.
+
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+		}		
+
+		cost = 100		#The cost to execute the decision, by default its political power.
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			
+			custom_effect_tooltip = repurpose_the_hemlock_tooltip
+			hidden_effect = {
+				if = {
+				limit = { has_dlc = "Man the Guns" }
+				
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_carrier_conversion_bb
+							version_name = "Hemlock Class"
+						}
+						name = "GLC Hemlock" 
+						requested_factories = 1
+						progress = 0.95
+						amount = 1
+					}
+					
+				} else = {
+				add_equipment_production = {
+					equipment = {
+						type = carrier_1
+					}
+					requested_factories = 1
+					progress = 0.90
+					amount = 1
+				}
+				}
+			}
+		}
+		
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+}
+GLF_new_world_communism_decisions = {
+		
+	GLF_spread_south1 = {
+
+		icon = GFX_decision_eng_propaganda_campaigns
+		highlight_states = { state = 389 }
+		fire_only_once = yes	
+		
+		cost = 50
+		
+		available = {
+			NOT = {has_country_flag = GLF_spreading_communism}
+		}
+		
+		complete_effect = {
+			set_country_flag = GLF_spreading_communism
+			USA ={
+				add_timed_idea = {
+					idea = USA_lakes_communism_spread
+					days = 45
+				}
+			}
+		}
+		
+		days_remove = 45
+		
+		remove_effect = {
+			clr_country_flag = GLF_spreading_communism
+			USA ={
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	GLF_spread_south2 = {
+
+		icon = GFX_decision_eng_propaganda_campaigns
+		highlight_states = { state = 390 }
+		fire_only_once = yes	
+		
+		cost = 50
+		
+		available = {
+			NOT = {has_country_flag = GLF_spreading_communism}
+		}
+		
+		complete_effect = {
+			set_country_flag = GLF_spreading_communism
+			USA ={
+				add_timed_idea = {
+					idea = USA_lakes_communism_spread
+					days = 45
+				}
+			}
+		}
+		
+		days_remove = 45
+		
+		remove_effect = {
+			clr_country_flag = GLF_spreading_communism
+			USA ={
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	GLF_spread_south3 = {
+
+		icon = GFX_decision_eng_propaganda_campaigns
+		highlight_states = { state = 392 }
+		fire_only_once = yes	
+		
+		cost = 50
+		
+		available = {
+			NOT = {has_country_flag = GLF_spreading_communism}
+		}
+		
+		complete_effect = {
+			set_country_flag = GLF_spreading_communism
+			USA ={
+				add_timed_idea = {
+					idea = USA_lakes_communism_spread
+					days = 45
+				}
+			}
+		}
+		
+		days_remove = 45
+		
+		remove_effect = {
+			clr_country_flag = GLF_spreading_communism
+			USA ={
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	GLF_spread_south4 = {
+
+		icon = GFX_decision_eng_propaganda_campaigns
+		highlight_states = { state = 373 }
+		fire_only_once = yes	
+		
+		cost = 50
+		
+		available = {
+			NOT = {has_country_flag = GLF_spreading_communism}
+		}
+		
+		complete_effect = {
+			set_country_flag = GLF_spreading_communism
+			USA ={
+				add_timed_idea = {
+					idea = USA_lakes_communism_spread
+					days = 45
+				}
+			}
+		}
+		
+		days_remove = 45
+		
+		remove_effect = {
+			clr_country_flag = GLF_spreading_communism
+			USA ={
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	GLF_spread_south5 = {
+
+		icon = GFX_decision_eng_propaganda_campaigns
+		highlight_states = { state = 369 }
+		fire_only_once = yes	
+		
+		cost = 50
+		
+		available = {
+			NOT = {has_country_flag = GLF_spreading_communism}
+		}
+		
+		complete_effect = {
+			set_country_flag = GLF_spreading_communism
+			USA ={
+				add_timed_idea = {
+					idea = USA_lakes_communism_spread
+					days = 45
+				}
+			}
+		}
+		
+		days_remove = 45
+		
+		remove_effect = {
+			clr_country_flag = GLF_spreading_communism
+			USA ={
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	GLF_spread_south6 = {
+
+		icon = GFX_decision_eng_propaganda_campaigns
+		highlight_states = { state = 362 }
+		fire_only_once = yes	
+		
+		cost = 50
+		
+		available = {
+			NOT = {has_country_flag = GLF_spreading_communism}
+		}
+		
+		complete_effect = {
+			set_country_flag = GLF_spreading_communism
+			USA ={
+				add_timed_idea = {
+					idea = USA_lakes_communism_spread
+					days = 45
+				}
+			}
+		}
+		
+		days_remove = 45
+		
+		remove_effect = {
+			clr_country_flag = GLF_spreading_communism
+			USA ={
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	GLF_spread_south7 = {
+
+		icon = GFX_decision_eng_propaganda_campaigns
+		highlight_states = { state = 360 }
+		fire_only_once = yes	
+		
+		cost = 50
+		
+		available = {
+			NOT = {has_country_flag = GLF_spreading_communism}
+		}
+		
+		complete_effect = {
+			set_country_flag = GLF_spreading_communism
+			USA ={
+				add_timed_idea = {
+					idea = USA_lakes_communism_spread
+					days = 45
+				}
+			}
+		}
+		
+		days_remove = 45
+		
+		remove_effect = {
+			clr_country_flag = GLF_spreading_communism
+			USA ={
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	GLF_spread_south8 = {
+
+		icon = GFX_decision_eng_propaganda_campaigns
+		highlight_states = { state = 358 }
+		fire_only_once = yes	
+		
+		cost = 50
+		
+		available = {
+			NOT = {has_country_flag = GLF_spreading_communism}
+		}
+		
+		complete_effect = {
+			set_country_flag = GLF_spreading_communism
+			USA ={
+				add_timed_idea = {
+					idea = USA_lakes_communism_spread
+					days = 45
+				}
+			}
+		}
+		
+		days_remove = 45
+		
+		remove_effect = {
+			clr_country_flag = GLF_spreading_communism
+			USA ={
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+}
+
+GLF_save_the_land_decisions = {
+	GLF_save_land1 = {
+		icon = GFX_decision_eng_puppet_usa
+		highlight_states = { state = 391 }
+		fire_only_once = yes	
+		available = {
+			391{
+				infrastructure > 1
+			}
+			NOT = {has_country_flag = GLF_land_project}
+		}
+		cost = 50
+		
+		complete_effect = {
+			set_country_flag = GLF_land_project
+		}
+		
+		days_remove = 70
+		remove_effect = {
+			clr_country_flag = GLF_land_project
+			391={
+				remove_building = {
+					type = infrastructure
+					level = 1
+				}
+			}
+			add_stability = 0.05
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_save_land2 = {
+		icon = GFX_decision_eng_puppet_usa
+		highlight_states = { state = 682 }
+		fire_only_once = yes	
+		available = {
+			682{
+				infrastructure > 1
+			}	
+			NOT = {has_country_flag = GLF_land_project}
+		}
+		cost = 50
+		
+		complete_effect = {
+			set_country_flag = GLF_land_project
+		}
+		
+		days_remove = 70
+		remove_effect = {
+			clr_country_flag = GLF_land_project
+			682={
+				remove_building = {
+					type = infrastructure
+					level = 1
+				}
+			}
+			add_stability = 0.05
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_save_land3 = {
+		icon = GFX_decision_eng_puppet_usa
+		highlight_states = { state = 394 }
+		fire_only_once = yes	
+		available = {
+			394{
+				infrastructure > 1
+			}
+			NOT = {has_country_flag = GLF_land_project}
+		}
+		cost = 50
+		
+		complete_effect = {
+			set_country_flag = GLF_land_project
+		}
+		
+		days_remove = 70
+		remove_effect = {
+			clr_country_flag = GLF_land_project
+			394={
+				remove_building = {
+					type = infrastructure
+					level = 1
+				}
+			}
+			add_stability = 0.05
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_save_land4 = {
+		icon = GFX_decision_eng_puppet_usa
+		highlight_states = { state = 393 }
+		fire_only_once = yes	
+		available = {
+			393{
+				infrastructure > 1
+			}
+			NOT = {has_country_flag = GLF_land_project}
+		}
+		cost = 50
+		
+		complete_effect = {
+			set_country_flag = GLF_land_project
+		}
+		
+		days_remove = 70
+		remove_effect = {
+			clr_country_flag = GLF_land_project
+			393={
+				remove_building = {
+					type = infrastructure
+					level = 1
+				}
+			}
+			add_stability = 0.05
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_save_land5 = {
+		icon = GFX_decision_eng_puppet_usa
+		highlight_states = { state = 395 }
+		fire_only_once = yes	
+		available = {
+			395{
+				infrastructure > 1
+			}
+			NOT = {has_country_flag = GLF_land_project}
+		}
+		cost = 50
+		
+		complete_effect = {
+			set_country_flag = GLF_land_project
+		}
+		
+		days_remove = 70
+		remove_effect = {
+			clr_country_flag = GLF_land_project
+			395={
+				remove_building = {
+					type = infrastructure
+					level = 1
+				}
+			}
+			add_stability = 0.05
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_save_land6 = {
+		icon = GFX_decision_eng_puppet_usa
+		highlight_states = { state = 396 }
+		fire_only_once = yes	
+		available = {
+			396{
+				infrastructure > 1
+			}
+			NOT = {has_country_flag = GLF_land_project}
+		}
+		cost = 50
+		
+		complete_effect = {
+			set_country_flag = GLF_land_project
+		}
+		
+		days_remove = 70
+		remove_effect = {
+			clr_country_flag = GLF_land_project
+			396={
+				remove_building = {
+					type = infrastructure
+					level = 1
+				}
+			}
+			add_stability = 0.05
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_save_land7 = {
+		icon = GFX_decision_eng_puppet_usa
+		highlight_states = { state = 261 }
+		fire_only_once = yes	
+		available = {
+			261{
+				infrastructure > 1
+			}
+			NOT = {has_country_flag = GLF_land_project}
+		}
+		cost = 50
+		
+		complete_effect = {
+			set_country_flag = GLF_land_project
+		}
+		
+		days_remove = 70
+		remove_effect = {
+			clr_country_flag = GLF_land_project
+			261={
+				remove_building = {
+					type = infrastructure
+					level = 1
+				}
+			}
+			add_stability = 0.05
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_save_land8 = {
+		icon = GFX_decision_eng_puppet_usa
+		highlight_states = { state = 276 }
+		fire_only_once = yes	
+		available = {
+			276{
+				infrastructure > 1
+			}
+			NOT = {has_country_flag = GLF_land_project}
+		}
+		cost = 50
+		
+		complete_effect = {
+			set_country_flag = GLF_land_project
+		}
+		
+		days_remove = 70
+		remove_effect = {
+			clr_country_flag = GLF_land_project
+			276={
+				remove_building = {
+					type = infrastructure
+					level = 1
+				}
+			}
+			add_stability = 0.05
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
+GLF_the_cold_peace_decisions = {
+	
+	GLF_the_cold_peace_deal_start1 = {
+		icon = GFX_decision_eng_trade_unions_support
+		is_good = yes
+		fire_only_once = no
+		days_re_enable = 0
+		
+		visible = {
+			NOT{has_country_flag = ask_for_canada}
+		}
+		available = {
+			NOT{
+				NOT {CAN {has_capitulated = yes}}
+				NOT {controls_state = 468}
+				NOT {controls_state = 809}
+				NOT {controls_state = 467}
+				NOT {controls_state = 469}
+				NOT {controls_state = 470}
+				NOT {controls_state = 465}
+				NOT {controls_state = 464}
+				NOT {controls_state = 473}
+				NOT {has_army_manpower = { size > 299999 }}
+			}
+		}
+		complete_effect = {
+			set_country_flag = ask_for_canada
+		}
+		
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	
+	GLF_the_cold_peace_deal1 = {
+		icon = GFX_decision_eng_ally_imperialist_coup
+		fire_only_once = no
+		is_good = yes
+		
+		visible = {
+			has_country_flag = ask_for_canada
+			NOT{has_country_flag = GLF_cold_peace_done}
+		}
+		
+		activation = {	
+			has_country_flag = ask_for_canada
+        }	
+		available = {
+			OR{
+				NOT {CAN ={has_capitulated = yes}}
+				NOT {controls_state = 468}
+				NOT {controls_state = 809}
+				NOT {controls_state = 467}
+				NOT {controls_state = 469}
+				NOT {controls_state = 470}
+				NOT {controls_state = 465}
+				NOT {controls_state = 464}
+				NOT {controls_state = 473}
+				NOT {has_army_manpower = { size > 299999 }}
+			}
+		}
+		days_mission_timeout = 30
+		timeout_effect = {  
+			set_country_flag = GLF_cold_peace_done
+			clr_country_flag = ask_for_canada
+			
+			GLF = { country_event = { id = glf.34} }
+		}
+		
+		complete_effect = {
+			set_country_flag = canada_fail1
+        }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_the_cold_peace_deal_start2 = {
+		icon = GFX_decision_eng_trade_unions_support
+		is_good = yes
+		fire_only_once = no
+		days_re_enable = 0
+		
+		visible = {
+			has_country_flag = canada_fail1
+			NOT{has_country_flag = ask_for_canada2}
+		}
+		available = {
+			NOT{
+				NOT {CAN {has_capitulated = yes}}
+				NOT {controls_state = 468}
+				NOT {controls_state = 809}
+				NOT {controls_state = 467}
+				NOT {controls_state = 469}
+				NOT {controls_state = 470}
+				NOT {controls_state = 465}
+				NOT {controls_state = 464}
+				NOT {controls_state = 473}
+				NOT {has_army_manpower = { size > 299999 }}
+			}
+		}
+		complete_effect = {
+			set_country_flag = ask_for_canada2
+		}
+		
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	
+	GLF_the_cold_peace_deal2 = {
+		icon = GFX_decision_eng_ally_imperialist_coup
+		fire_only_once = no
+		is_good = yes
+		
+		visible = {
+			has_country_flag = ask_for_canada2
+			NOT{has_country_flag = GLF_cold_peace_done}
+		}
+		
+		activation = {	
+			has_country_flag = ask_for_canada2
+        }	
+		available = {
+			OR{
+				NOT {CAN ={has_capitulated = yes}}
+				NOT {controls_state = 468}
+				NOT {controls_state = 809}
+				NOT {controls_state = 467}
+				NOT {controls_state = 469}
+				NOT {controls_state = 470}
+				NOT {controls_state = 465}
+				NOT {controls_state = 464}
+				NOT {controls_state = 473}
+				NOT {has_army_manpower = { size > 299999 }}
+			}
+		}
+		days_mission_timeout = 30
+		timeout_effect = {  
+			set_country_flag = GLF_cold_peace_done
+			clr_country_flag = ask_for_canada2
+			
+			GLF = { country_event = { id = glf.34} }
+		}
+		
+		complete_effect = {
+			set_country_flag = canada_fail2
+        }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_the_cold_peace_deal_start3 = {
+		icon = GFX_decision_eng_trade_unions_support
+		is_good = yes
+		fire_only_once = no
+		days_re_enable = 0
+		
+		visible = {
+			has_country_flag = canada_fail2
+			NOT{has_country_flag = ask_for_canada3}
+		}
+		available = {
+			NOT{
+				NOT {CAN {has_capitulated = yes}}
+				NOT {controls_state = 468}
+				NOT {controls_state = 809}
+				NOT {controls_state = 467}
+				NOT {controls_state = 469}
+				NOT {controls_state = 470}
+				NOT {controls_state = 465}
+				NOT {controls_state = 464}
+				NOT {controls_state = 473}
+				NOT {has_army_manpower = { size > 299999 }}
+			}
+		}
+		complete_effect = {
+			set_country_flag = ask_for_canada3
+		}
+		
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	
+	GLF_the_cold_peace_deal3 = {
+		icon = GFX_decision_eng_ally_imperialist_coup
+		fire_only_once = no
+		is_good = yes
+		
+		visible = {
+			has_country_flag = ask_for_canada3
+			NOT{has_country_flag = GLF_cold_peace_done}
+		}
+		
+		activation = {	
+			has_country_flag = ask_for_canada3
+        }	
+		available = {
+			OR{
+				NOT {CAN ={has_capitulated = yes}}
+				NOT {controls_state = 468}
+				NOT {controls_state = 809}
+				NOT {controls_state = 467}
+				NOT {controls_state = 469}
+				NOT {controls_state = 470}
+				NOT {controls_state = 465}
+				NOT {controls_state = 464}
+				NOT {controls_state = 473}
+				NOT {has_army_manpower = { size > 299999 }}
+			}
+		}
+		days_mission_timeout = 30
+		timeout_effect = {  
+			set_country_flag = GLF_cold_peace_done
+			clr_country_flag = ask_for_canada3
+			
+			GLF = { country_event = { id = glf.34} }
+		}
+		
+		complete_effect = {
+			set_country_flag = GLF_cold_peace_done
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+	
+GLF_spanish_civil_war_decisions = {
+		
+	GLF_observe_republican_tactics= {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		fire_only_once = yes	
+		
+		cost = 25
+		
+		available = {
+			NOT = {has_country_flag = GLF_spain_nationalist}
+		}
+		
+		visible = {
+			#NOT = {has_country_flag = GLF_spain_nationalist}
+		}
+		
+		days_remove = 30
+		
+		remove_effect = {
+			army_experience = 10
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	GLF_observe_republican_navel_actions= {
+
+		icon = GFX_decision_generic_naval
+		fire_only_once = yes	
+		
+		cost = 25
+		
+		available = {
+			NOT = {has_country_flag = GLF_spain_nationalist}
+		}
+		
+		visible = {
+			#NOT = {has_country_flag = GLF_spain_nationalist}
+		}
+		
+		days_remove = 30
+		
+		remove_effect = {
+			navy_experience = 10
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	GLF_contact_republican_high_command= {
+
+		icon = GFX_decision_generic_army_support
+		fire_only_once = yes	
+		
+		cost = 25
+		
+		available = {
+			NOT = {has_country_flag = GLF_spain_nationalist}
+		}
+		
+		visible = {
+			#NOT = {has_country_flag = GLF_spain_nationalist}
+		}
+		
+		days_remove = 30
+		
+		remove_effect = {
+			add_opinion_modifier = { target = SPR modifier = GLF_contact_spain }	
+			SPR = { add_opinion_modifier = { target = ROOT modifier = GLF_contact_spain } }	
+			
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.05
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	GLF_stow_away_to_nationalist_side= {
+
+		icon = GFX_decision_onmap_recruit_operative
+		fire_only_once = yes	
+		
+		cost = 25
+		
+		available = {
+			NOT = {has_country_flag = GLF_spain_nationalist}
+		}
+		
+		days_remove = 30
+		
+		remove_effect = {
+			set_country_flag = GLF_spain_nationalist
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	GLF_observe_nationalist_tactics= {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		fire_only_once = yes	
+		
+		cost = 25
+		
+		available = {
+			has_country_flag = GLF_spain_nationalist
+		}
+		
+		visible = {
+			#has_country_flag = GLF_spain_nationalist
+		}
+		
+		days_remove = 30
+		
+		remove_effect = {
+			army_experience = 10
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	GLF_observe_bombings= {
+
+		icon = GFX_decision_generic_air
+		fire_only_once = yes	
+		
+		cost = 25
+		
+		available = {
+			has_country_flag = GLF_spain_nationalist
+		}
+		
+		visible = {
+			#has_country_flag = GLF_spain_nationalist
+		}
+		
+		days_remove = 30
+		
+		remove_effect = {
+			air_experience = 20
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	GLF_contact_nationalist_high_command= {
+
+		icon = GFX_decision_generic_army_support
+		fire_only_once = yes	
+		
+		cost = 25
+		
+		available = {
+			has_country_flag = GLF_spain_nationalist
+		}
+		
+		visible = {
+			#has_country_flag = GLF_spain_nationalist
+		}
+		
+		days_remove = 30
+		
+		remove_effect = {
+			add_opinion_modifier = { target = D01 modifier = GLF_contact_spain }	
+			D01 = { add_opinion_modifier = { target = ROOT modifier = GLF_contact_spain } }	
+			
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}	
+}
+
+GLF_italy_ethiopia_war_decisions = {
+		
+	GLF_observe_italian_tactics= {
+
+		icon = GFX_decision_generic_prepare_civil_war
+		fire_only_once = yes	
+		
+		cost = 25
+		
+		days_remove = 30
+		
+		remove_effect = {
+			army_experience = 10
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_observe_italian_air_support= {
+
+		icon = GFX_decision_generic_air
+		fire_only_once = yes	
+		
+		cost = 25
+		
+		days_remove = 30
+		
+		remove_effect = {
+			air_experience = 10
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_observe-division-composition= {
+
+		icon = GFX_decision_generic_army_support
+		fire_only_once = yes	
+		
+		cost = 25
+		
+		days_remove = 30
+		
+		remove_effect = {
+			custom_effect_tooltip = GLF_italy_division
+			division_template = { 
+				name = "Akecheta's band" 
+				division_names_group = GLF_INF_01
+				regiments = { 
+					infantry = { x = 0 y = 0 } 
+					infantry = { x = 0 y = 1 } 
+					infantry = { x = 0 y = 2 } 
+					infantry = { x = 1 y = 0 } 
+					infantry = { x = 1 y = 1 } 
+					infantry = { x = 1 y = 2 } 
+				} 
+				support = { 
+					engineer = { x = 0 y = 0 } 
+					artillery = { x = 0 y = 1 }
+				} 
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
+GLF_great_north_confederation_decisions = {
+
+	GLF_form_the_great_north_confederation= {
+
+		icon = generic_form_nation
+		fire_only_once = yes	
+		
+		available = {
+			controls_state = 468
+			controls_state = 809
+			controls_state = 467
+			controls_state = 469
+			controls_state = 470
+			controls_state = 465
+			controls_state = 464
+			controls_state = 473
+		}
+		complete_effect = {
+			GLF = {set_cosmetic_tag = GNC_TRIBES}
+		}
+			
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	GLF_relocate_capital_to_quebec = {
+
+		icon = GFX_decision_eng_trade_unions_demand
+		fire_only_once = yes	
+		
+		visible = {
+			has_cosmetic_tag = GNC_TRIBES
+			NOT={has_country_flag = moved_capital}
+		}
+		
+		cost = 10
+		
+		available = {
+			controls_state = 468
+		}
+		
+		days_remove = 30
+		
+		complete_effect = {
+			set_country_flag = moved_capital
+		}
+		
+		remove_effect = {
+			add_victory_points = {
+				province = 12149
+				value = 18    
+			}
+			set_capital = 468
+			add_ideas = GLF_quebec_capital
+			
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_relocate_capital_to_chicago = {
+
+		icon = GFX_decision_eng_trade_unions_demand
+		fire_only_once = yes	
+		
+		cost = 10
+		
+		available = {
+			controls_state = 395
+		}
+		
+		visible = {
+			has_cosmetic_tag = GNC_TRIBES
+			NOT={has_country_flag = moved_capital}
+		}
+		
+		days_remove = 30
+		
+		complete_effect = {
+			set_country_flag = moved_capital
+		}
+		
+		remove_effect = {
+			set_capital = 395
+			add_ideas = GLF_chicago_capital
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_reafferm_detroit_as_the_capital = {
+
+		icon = GFX_decision_eng_trade_unions_demand
+		fire_only_once = yes	
+		
+		cost = 10
+		
+		visible = {
+			has_cosmetic_tag = GNC_TRIBES
+			NOT={has_country_flag = moved_capital}
+		}
+		
+		available = {
+			controls_state = 393
+		}
+		
+		days_remove = 30
+		
+		complete_effect = {
+			set_country_flag = moved_capital
+		}
+		
+		remove_effect = {
+			add_ideas = GLF_detroit_capital
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_incorperate_quebec_tribes= {
+
+		icon = GFX_decision_eng_trade_unions_support
+		highlight_states = { state = 466 }
+		fire_only_once = yes	
+		
+		cost = 20
+		
+		available = {
+			controls_state = 466
+			controls_state = 332
+		}
+		
+		visible = {
+			has_cosmetic_tag = GNC_TRIBES
+		}
+		
+		days_remove = 60
+		
+		remove_effect = {
+			add_state_core = 466
+			add_state_core = 332
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_incorperate_british_columbia_tribes= {
+
+		icon = GFX_decision_eng_trade_unions_support
+		highlight_states = { state = 473 }
+		fire_only_once = yes	
+		
+		cost = 20
+		
+		available = {
+			controls_state = 470
+			controls_state = 473
+		}
+		
+		visible = {
+			has_cosmetic_tag = GNC_TRIBES
+		}
+		
+		days_remove = 60
+		
+		remove_effect = {
+			add_state_core = 470
+			add_state_core = 473
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_incorperate_middle_canada_tribes= {
+
+		icon = GFX_decision_eng_trade_unions_support
+		highlight_states = { state = 469 }
+		fire_only_once = yes	
+		
+		cost = 20
+		
+		available = {
+			controls_state = 471
+			controls_state = 472
+			controls_state = 683
+			controls_state = 469
+			controls_state = 467
+		}
+		
+		visible = {
+			has_cosmetic_tag = GNC_TRIBES
+		}
+		
+		days_remove = 60
+		
+		remove_effect = {
+			add_state_core = 471
+			add_state_core = 472
+			add_state_core = 683
+			add_state_core = 469
+			add_state_core = 467
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_incorperate_Saint_Lawrence_tribes= {
+
+		icon = GFX_decision_eng_trade_unions_support
+		highlight_states = { state = 468 }
+		fire_only_once = yes	
+		
+		cost = 20
+		
+		available = {
+			controls_state = 468
+		}
+		
+		visible = {
+			has_cosmetic_tag = GNC_TRIBES
+		}
+		
+		days_remove = 60
+		
+		remove_effect = {
+			add_state_core = 468
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_incorperate_nova_scotia_tribes= {
+
+		icon = GFX_decision_eng_trade_unions_support
+		highlight_states = { state = 464 }
+		fire_only_once = yes	
+		
+		cost = 20
+		
+		available = {
+			controls_state = 465
+			controls_state = 464
+		}
+		
+		visible = {
+			has_cosmetic_tag = GNC_TRIBES
+		}
+		
+		days_remove = 60
+		
+		remove_effect = {
+			add_state_core = 465
+			add_state_core = 464
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

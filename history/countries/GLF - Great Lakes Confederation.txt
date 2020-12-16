@@ -1,0 +1,356 @@
+﻿capital = 393
+oob = "GLF_1936"
+
+# Starting tech
+
+#set_cosmetic_tag = GNC_TRIBES
+
+set_research_slots = 3
+set_technology = {
+
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
+	improved_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+set_convoys = 200
+
+add_ideas = canadian_industry_influence
+add_ideas = resurgence_of_hawkism
+add_ideas = whispers_from_winter_woods
+add_ideas = landlocked_lakes
+
+#isolation
+add_ideas = isolation
+add_ideas = closed_economy
+
+set_politics = {
+	ruling_party = neutrality
+	#ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 10
+	fascism = 10
+	communism = 10
+	neutrality = 70
+}
+
+set_party_name = { 
+    ideology = fascism
+    long_name = GLF_fascism_party_hu_long 
+    name = GLF_fascism_party_hu 
+}
+
+set_party_name = { 
+    ideology = communism
+    long_name = GLF_communism_party_hu_long 
+    name = GLF_communism_party_hu
+}
+set_party_name = { 
+    ideology = neutrality 
+    long_name = GLF_neutrality_party_hu_long  
+    name = GLF_neutrality_party_hu
+}
+
+
+create_field_marshal = {
+	name = "Meoquanee"
+	picture = "Portrait_GLF_Meoquanee.dds"
+	traits = {  defensive_doctrine brilliant_strategist career_officer media_personality }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Hento"
+	picture = "Portrait_GLF_Field_Marshall.dds"
+	traits = {  defensive_doctrine  }
+	skill = 2
+
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Pa-Akanti"
+	picture = "Portrait_GLF_Field_Marshall2.dds"
+	traits = {  brilliant_strategist   }
+	skill = 2
+
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {#male
+	name = "Rowtag"
+	picture = "Portrait_GLF_General_white.dds"
+	traits = {  trait_engineer trait_cautious brilliant_strategist harsh_leader}
+	skill = 5
+
+	attack_skill = 4 
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {#female
+	name = "Kimi"
+	picture = "Portrait_GLF_General_f_yellow.dds"
+	traits = { brilliant_strategist trickster commando trait_reckless winter_specialist}
+	skill = 5
+
+	attack_skill = 7 
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {#female
+	name = "Ethete"
+	picture = "Portrait_GLF_General_f_red.dds"
+	traits = { infantry_officer career_officer ranger}
+	skill = 4
+
+	attack_skill = 2
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {#male
+	name = "Ahanu"
+	picture = "Portrait_GLF_General_yellow.dds"
+	traits = { trait_cautious trickster winter_specialist }
+	skill = 3
+
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {#female
+	name = "Namid"
+	picture = "Portrait_GLF_General_f_green.dds"
+	traits = { infantry_officer war_hero infantry_leader }
+	skill = 3
+
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {#female
+	name = "Ayasha"
+	picture = "Portrait_GLF_General_f_blue.dds"
+	traits = { infantry_officer inflexible_strategist harsh_leader }
+	skill = 3
+
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {#male
+	name = "Hassun"
+	picture = "Portrait_GLF_General_pink.dds"
+	traits = { old_guard inflexible_strategist }
+	skill = 2
+
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {#male
+	name = "Quail"
+	picture = "Portrait_GLF_General_one_blue.dds"
+	traits = { armor_officer }
+	skill = 2
+
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {#Male
+	name = "Ogaki"
+	picture = "Portrait_GLF_General_lime.dds"
+	traits = {  }
+	skill = 1
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_country_leader = {
+	name = "Kah-ge-ga-gah-bowh"
+	desc = ""
+	picture = "greatlakesconfederationleader.dds"
+	ideology = moderatism
+	traits = {
+		the_gentle_side
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Teubentoo"
+	desc = ""
+	picture = "greatlakesconfederationleadercomm.dds"
+	ideology = marxism
+	traits = {
+		our_great_resources
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Checker Tomkins"
+	desc = ""
+	picture = "greatlakesconfederationleaderfasc3.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tribal Counsil"
+	desc = ""
+	picture = "greatlakesconfederationleaderdemo.dds"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_navy_leader = {#male
+	name = "Eluwilussit"
+	picture = "Portrait_GLF_Admiral_blue.dds"
+	traits = { cuts_corners blockade_runner spotter }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Kestejoo"
+	picture = "Portrait_GLF_Admiral_green.dds"
+	traits = { gunnery_expert superior_tactician gentlemanly }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+create_navy_leader = {#female
+	name = "Mitena"
+	picture = "Portrait_GLF_Admiral_female.dds"
+	traits = { career_officer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+
+1939.1.1 = {
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 25
+		fascism = 20
+		communism = 5
+		neutrality = 50
+	}
+}

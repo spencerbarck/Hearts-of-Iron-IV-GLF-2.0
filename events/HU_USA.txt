@@ -1,0 +1,37 @@
+﻿add_namespace = hu_usa
+
+# s illinois for n new england event for USA
+country_event = {
+	id = hu_usa.1
+	title = hu_usa.1.t
+	desc = hu_usa.1.d
+	picture = GFX_report_event_generic_sign_treaty3
+
+	is_triggered_only = yes
+
+	# Accept
+	option = {
+		name = hu_usa.1.a
+		ai_chance = {
+			factor = 50
+		}
+		effect_tooltip = {
+			GLF = { transfer_state = 798 }
+			add_opinion_modifier = { target = GLF modifier = GLF_moose_river_for_guarantees }
+		}
+		GLF = {
+			country_event = { id = glf.5 days = 1 }
+		}
+	}
+
+	# Decline
+	option = {
+		name = hu_usa.1.b
+		ai_chance = {
+			factor = -1
+		}
+		GLF = {
+			country_event = { id = glf.6 days = 1 }
+		}
+	}
+}

@@ -1,0 +1,57 @@
+﻿division_template = { 
+				name = "Lake Workers Army" 
+				is_locked = yes
+				division_names_group = CAN_GAR_01
+				regiments = { 
+					infantry = { x = 0 y = 0 } 
+					infantry = { x = 0 y = 1 } 
+					infantry = { x = 1 y = 0 } 
+					infantry = { x = 1 y = 1 } 
+					infantry = { x = 2 y = 0 } 
+					infantry = { x = 2 y = 1 } 
+					infantry = { x = 3 y = 0 } 
+					infantry = { x = 3 y = 1 } 
+					infantry = { x = 4 y = 0 } 
+					infantry = { x = 4 y = 1 } 
+				} 
+				support = { 
+					artillery = { x = 0 y = 0 }
+				}
+			}
+units = {
+			division= {	
+				name = "Lake Workers"
+				location = 6710
+				division_template = "Lake Workers Army"
+				start_experience_factor = 0.1
+				start_equipment_factor = 0.9
+			}
+			division= {	
+				name = "Lake Workers 2"
+				location = 6710
+				division_template = "Lake Workers Army"
+				start_experience_factor = 0.1
+				start_equipment_factor = 0.9
+			}
+			division= {	
+				name = "Lake Workers 3"
+				location = 11656
+				division_template = "Lake Workers Army"
+				start_experience_factor = 0.1
+				start_equipment_factor = 0.9
+			}
+			division= {	
+				name = "Lake Workers 4"
+				location = 9724
+				division_template = "Lake Workers Army"
+				start_experience_factor = 0.1
+				start_equipment_factor = 0.9
+			}
+			division= {	
+				name = "Lake Workers 5"
+				location = 9724
+				division_template = "Lake Workers Army"
+				start_experience_factor = 0.1
+				start_equipment_factor = 0.9
+			}
+}

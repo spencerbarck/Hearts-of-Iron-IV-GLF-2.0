@@ -1,0 +1,482 @@
+ideas = {
+
+	country = {
+		canadian_industry_influence = {
+			picture = canadian_industry_influence
+
+			allowed = {
+				tag = GLF
+			}
+			available = {}
+			cancel = {}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = 1
+				local_resources_factor = -0.40
+			}
+		}
+
+		canadian_industry_influence_2 = {
+			picture = canadian_industry_influence
+
+			allowed = {
+				tag = GLF
+				always = no
+			}
+			available = {}
+			cancel = {}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = 0.5
+				local_resources_factor = -0.25
+			}
+		}
+
+		canadian_industry_influence_3 = {
+			picture = canadian_industry_influence
+
+			allowed = {
+				tag = GLF
+				always = no
+			}
+			available = {}
+			cancel = {}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = 0.25
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				local_resources_factor = -0.30
+			}
+		}
+
+		resurgence_of_hawkism = {
+			picture = generic_intel_bonus
+
+			allowed = {
+				tag = GLF
+			}
+			available = {}
+			cancel = {}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				fascism_drift = 0.05
+			}
+		}
+
+		whispers_from_winter_woods = {
+			picture = tfv_can_conscription_crisis
+
+			allowed = {
+				tag = GLF
+			}
+			available = {}
+			cancel = {}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+
+				industry_air_damage_factor = -0.1
+				winter_attrition_factor = -0.3
+				army_core_defence_factor = 0.2
+			}
+		}
+
+		landlocked_lakes = {
+			picture = generic_naval_manufacturer_3
+
+			allowed = {
+				tag = GLF
+			}
+			available = {}
+			cancel = {}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.35
+				industrial_capacity_factory = -0.1
+			}
+		}
+
+		GLF_war_parade_focus = {
+
+			allowed = {
+				original_tag = GLF
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+
+			modifier = {
+				war_support_factor = 0.05
+				resistance_damage_to_garrison = -0.1
+			}
+		}
+
+
+		GLF_furs_focus = {
+
+			allowed = {
+				original_tag = GLF
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				trade_opinion_factor = 0.25
+			}
+		}
+
+		GLF_seek_reperations_focus = {
+
+			allowed = {
+				original_tag = GLF
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				political_power_cost = -0.5
+				local_resources_factor = 0.20
+			}
+		}
+
+		CAN_seek_reperations_focus = {
+
+			allowed = {
+				original_tag = CAN
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				local_resources_factor = -0.10
+			}
+		}
+
+		GLF_authoritarianism_focus = {
+
+			allowed = {
+				original_tag = GLF
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				democratic_drift = -0.1
+				democratic_acceptance = -100
+			}
+		}
+
+		GLF_incorperate_foreign_tribes_focus = {
+
+			allowed = {
+				original_tag = GLF
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				MONTHLY_POPULATION = 0.15
+			}
+		}
+		
+		GLF_call_the_warchiefs_focus = {
+
+			allowed = {
+				original_tag = GLF
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				army_core_attack_factor = 0.2
+				recon_factor = 0.1
+				max_planning = 0.25
+			}
+		}
+	}
+
+	political_advisor = {
+		GLF_tribal = {
+
+			allowed = {
+				original_tag = GLF
+			}
+
+			picture = generic_communist_revolutionary_commonwealth_2d
+
+			traits = { tribalist_leader }
+
+			do_effect = {
+				NOT = {
+					has_government = neutrality
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		GLF_comm = {
+
+			allowed = {
+				original_tag = GLF
+			}
+
+			picture = generic_communist_revolutionary_commonwealth_2d
+
+			traits = { communist_revolutionary }
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+
+		GLF_pot = {
+
+			picture = generic_political_advisor_african_2
+
+			allowed = {
+				original_tag = GLF
+			}
+
+			traits = { prince_of_terror }
+		}
+
+		GLF_coi = {
+
+			picture = generic_political_advisor_african_1
+
+			allowed = {
+				original_tag = GLF
+			}
+
+			traits = { captain_of_industry }
+		}
+
+		GLF_stc = {
+
+			picture = generic_political_advisor_african_3
+
+			allowed = {
+				original_tag = GLF
+			}
+
+			traits = { smooth_talking_charmer }
+		}
+
+		GLF_sw = {
+
+			picture = generic_political_advisor_african_3
+
+			allowed = {
+				original_tag = GLF
+			}
+
+			traits = { silent_workhorse }
+		}
+
+		GLF_tec = {
+
+			picture = generic_political_advisor_african_3
+
+			allowed = {
+				original_tag = GLF
+			}
+
+			traits = { technocrat }
+		}
+
+	}
+
+	army_chief = {
+		GLF_ad2 = {
+			picture = generic_political_advisor_african_3
+
+			allowed = {
+				original_tag = GLF
+			}
+			available = {
+
+			}
+
+			traits = { army_chief_defensive_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	navy_chief = {
+		GLF_db1 = {
+			picture = generic_political_advisor_african_3
+
+			allowed = {
+				original_tag = GLF
+			}
+			available = {
+
+			}
+
+			traits = { navy_chief_decisive_battle_1 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		GLF_no1 = {
+			picture = generic_political_advisor_african_3
+
+			allowed = {
+				original_tag = GLF
+			}
+			available = {
+
+			}
+
+			traits = { air_chief_night_operations_1 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+		ivan_dmitrievich_papanin = {
+			ledger = army
+
+			picture = ivan_papanin
+
+			allowed = {
+				original_tag = GLF
+			}
+
+			available = {
+				has_completed_focus = seduce_the_red_wolf
+			}
+
+			traits = { army_chief_organizational_3 }
+
+			do_effect = {
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	tank_manufacturer = {
+		designer = yes
+	}
+
+	naval_manufacturer = {
+		designer = yes
+	}
+
+	aircraft_manufacturer = {
+		designer = yes
+	}
+
+	materiel_manufacturer = {
+		designer = yes
+	}
+
+	industrial_concern = {
+
+	}
+
+	theorist = {
+
+	}
+}

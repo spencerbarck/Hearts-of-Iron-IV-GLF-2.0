@@ -1,0 +1,81 @@
+﻿l_english:
+ GLF_repurpose_trade_ships_decisions:0 "Repurpose Trade Ships"
+ 
+ GLF_repurpose_trade_ships_decisions_desc:0 "The Confederation has a long rich history of trade, it’s various tribes have been using rivers and lakes to trade with each other since long before the Europeans arrived. The Great Lakes are teaming with ships that stop in ports like Detroit or Chicago and then make their way up the Saint Lawrence river and out to the Atlantic. Now that the Confederation has access to the Atlantic we can utilize some of our large trading fleet to expedite the process of developing a fleet of warships."
+
+ GLF_the_cold_peace_decisions_desc:0 "Canada was unprepared for our forces. They thought that the British could protect them but we have made great advances into Canada and have made contact with several tribes that are now free from the grip of England. As we become more and more successful the British and commonwealth forces protecting Canada grow weary of this war as do the citizens of the British isles. If we are able to show enough strength the Allies will decide that this war is not worth the cost for them any more and will choose to recognize our Confederation as the rightful citizens of this land."
+ 
+ repurpose_small_trade_ships:0 "Repurpose Small Trade Ships"
+ repurpose_medium_trade_ships:0 "Repurpose Medium Trade Ships"
+ repurpose_large_trade_ship:0 "Repurpose Large Trade Ship"
+ repurpose_the_hemlock:0 "Repurpose the Hemlock"
+ 
+ repurpose_small_trade_ships_tooltip:0 "Adds 4 destroyers to production that are 95% completed."
+ repurpose_medium_trade_ships_tooltip:0 "Adds 2 light cruisers to production that are 95% completed."
+ repurpose_large_trade_ship_tooltip:0 "Adds 1 heavy cruiser to production that is 95% completed."
+ repurpose_the_hemlock_tooltip:0 "Adds 1 carrier to production that is 90% completed."
+ 
+ GLF_new_world_communism_decisions:0 "Spread Communism to the States"
+ GLF_new_world_communism_decisions_desc:0 "Our great revolution has made us into a prosperous communist state but our neighbor to the south does not subscribe to our ways of thinking. The fear of communism is being forced on the people of the United States by those who want the worker to stay destitute. We should send great artists and speakers to the states that border the Confederation so they can spread our ideology peacefully."
+ 
+ GLF_spread_south1:0 "North Dakota Community"
+ GLF_spread_south2:0 "South Dakota Community"
+ GLF_spread_south3:0 "Iowa Community"
+ GLF_spread_south4:0 "Missouri Community"
+ GLF_spread_south5:0 "Kentucky Community"
+ GLF_spread_south6:0 "Virginia Community"
+ GLF_spread_south7:0 "Pennsylvania Community"
+ GLF_spread_south8:0 "New York Community"
+ 
+ GLF_save_the_land_decisions:0 "Land Restoration"
+ GLF_save_the_land_decisions_desc:0 "During the late 19th century the Confederation became an industrial powerhouse. Tepees were traded for factories, canoes were traded for steamships, and the ground was paved over with roads. Industrial expansion caused destruction of sacred locations. These natural wonders can be restored to an extent, this will appease local tribal leaders."
+ 
+ GLF_save_land1:0 "Restore The Boundary Waters"
+ GLF_save_land2:0 "Restore Boreal Forest Region"
+ GLF_save_land3:0 "Restore Devils Lake"
+ GLF_save_land4:0 "Restore Makinac Island"
+ GLF_save_land5:0 "Restore White Pines Forest"
+ GLF_save_land6:0 "Restore The Little Smokies"
+ GLF_save_land7:0 "Restore The Cuyahoga Valley"
+ GLF_save_land8:0 "Restore Killarney Park"
+ 
+ GLF_the_cold_peace_decisions:0 "The Cold Peace"
+ GLF_the_cold_peace_decisions_desc:0 "Canada was unprepared for our forces. They thought that the British could protect them but we have made great advances into Canada and have made contact with several tribes that are now free from the grip of England. As we become more and more successful the British and commonwealth forces protecting Canada grow weary of this war as do the citizens of the British isles. If we are able to show enough strength the Allies will decide that this war is not worth the cost for them any more and will choose to recognize our Confederation as the rightful citizens of this land."
+ GLF_the_cold_peace_deal_start1:0 "Begin Peace Talks"
+ GLF_the_cold_peace_deal1:0 "Queen Charlotte Islands Conference"
+ GLF_the_cold_peace_deal_start2:0 "Renew Peace Talks (2/3)"
+ GLF_the_cold_peace_deal2:0 "Queen Charlotte Islands Conference (2/3)"
+ GLF_the_cold_peace_deal_start3:0 "Last Chance for Peace (3/3)"
+ GLF_the_cold_peace_deal3:0 "Queen Charlotte Islands Conference (3/3)"
+ 
+ 
+ GLF_spanish_civil_war_decisions:0 "Observe the Spanish Civil War"
+ GLF_spanish_civil_war_decisions_desc:0 "The Confederation was a minor player in the Great War, military actions in South Illinois and Ontario mostly involved surprising small garrison troops. It is important that we observe a modern war and learn what new tactics and technologies are being used. The Spanish civil war should be an event that will foretell the content of future wars."
+ 
+ GLF_observe_republican_tactics:0 "Observe Republican tacticts"
+ GLF_observe_republican_navel_actions:0 "Observe Republican naval actions"
+ GLF_contact_republican_high_command:0 "Contact Republican high command"
+ GLF_stow_away_to_nationalist_side:0 "Stow away to the Nationalist side"
+ GLF_observe_nationalist_tactics:0 "Observe Nationalist tacticts"
+ GLF_observe_bombings:0 "Observe Nationalist bombings"
+ GLF_contact_nationalist_high_command:0 "Contacct Nationalist high command"
+ 
+ GLF_italy_ethiopia_war_decisions:0 "Observer Akecheta in Ethiopia"
+ GLF_italy_ethiopia_war_decisions_desc:0 "Akecheta is a Dakota explorer who has recently made a long journey to India. He has decided to stop In Italian Somalia on his way back. By promising him promotion and glory we can convince him to observe the strategy and tactics of the Italian military."
+ 
+ GLF_observe_italian_tactics:0 "Observe Italian tacticts"
+ GLF_observe_italian_air_support:0 "Observe Italian air support"
+ GLF_observe-division-composition:0 "Observe Italian division composition"
+ 
+ GLF_great_north_confederation_decisions:0 "The Great North Confederation"
+ GLF_great_north_confederation_decisions_desc:0 "When traveling through a blizzard nationality, culture and ideology become more of an afterthought. The Great Lakes were a powerful foundation to build our Confederation off of but the great cold of the north unites us all from the island of Vancouver in the west to Labrador in the east."
+ 
+ GLF_form_the_great_north_confederation:0 "Form The Great North Confederation"
+ GLF_relocate_capital_to_quebec:0 "Relocate Capital to Quebec"
+ GLF_relocate_capital_to_chicago:0 "Relocate Capital to Chicago"
+ GLF_reafferm_detroit_as_the_capital:0 "Reafferm Detroit as the Capital"
+ GLF_incorperate_quebec_tribes:0 "Incorperate Quebec tribes"
+ GLF_incorperate_british_columbia_tribes:0 "Incorperate British Columbia tribes"
+ GLF_incorperate_middle_canada_tribes:0 "Incorperate Middle Canada tribes"
+ GLF_incorperate_Saint_Lawrence_tribes:0 "Incorperate Saint Lawrence tribes"
+ GLF_incorperate_nova_scotia_tribes:0 "Incorperate Nova Scotia tribes"

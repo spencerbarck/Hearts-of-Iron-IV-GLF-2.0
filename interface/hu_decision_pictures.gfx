@@ -1,0 +1,22 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_decision_category_GLF_italy"
+		texturefile = "gfx/interface/decisions/decision_cat_GLF_italy.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_category_GLF_spain"
+		texturefile = "gfx/interface/decisions/decision_cat_GLF_spain.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_category_great_north"
+		texturefile = "gfx/interface/decisions/decision_cat_great_north.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_category_save_land"
+		texturefile = "gfx/interface/decisions/decision_cat_save_land.dds"	
+	}
+}

@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_canadian_industry_influence"
+		texturefile = "gfx/interface/ideas/canadian_industry_influence.dds"	
+	}
+}

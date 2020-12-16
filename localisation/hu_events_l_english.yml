@@ -1,0 +1,291 @@
+﻿l_english:
+ glf.1.title:0 "The Chief and the Radio"
+ glf.1.d:0 "For the first time ever Chief Kah-ge-ga-gah-bowh addressed the Confederation on the radio tonight. All across the Great Lakes from Minnesota to Ontario citizens listened as the champion of the gentle side addressed the people's concerns. Following the chiefs address members from every tribe elected representative to give a speech these tribes included the Ojibwe, Ottawa, Heuron, Shawnee, Miami, Winnebago, Potawatomi, Illinois, Fox Menominee, and many others including the Iroquois Confederation, and exiled tribes from European occupied lands. Finally after what seemed like a marathon of speeches Kah-ge-ga-gah-bowh returned to conclude the event his last words moving the Confederation."
+ glf.1.a:0 "Call for new unity"
+ glf.1.b:0 "Praise the tribes"
+ 
+ glf.29.title:0 "Britain accepts our request"
+ glf.29.d:0 "Britain has accepted our request to join the allies. Hopefully we can count on their support if we give them ours."
+ glf.29.a:0 "We will help the Colonizers dispite our hisotry!"
+ glf.30.title:0 "Britain rejects our request"
+ glf.30.d:0 "Britain has rejected our request to join the allies. They will not get any help from us."
+ glf.30.a:0 "Typical Colonizers. It is their loss!"
+ 
+ glf.13.t:0 "Operation Dark Feather"
+ glf.13.d:0 "The operation to free the former chief of the Confederation is ready. Tribes friendly to us living in Canadaian territory have sheltered our most elite soldiers, these brave warriors will face insurmountable odds assaulting the prison and escaping with the dark chief. For weeks of planning military strategists have debated the best way to get the chief back across the border, they have decided that while it may be risky a seaplane will be stationed nearby and if Nixkhamich is freed from his prison he will be airlifted back to our borders. If this mission fails we will likely never get a second chance and our relations with Canada will further sour."
+ glf.13.a:0 "Be as silent as the midnight woods"
+ 
+ glf.14.t:0 "Operation Success"
+ glf.14.d:0 "Nixkhamich is free! In the dead of night our brave warriors surprised the prison guards and located where Nixkhamich was being held. Before word got out that he was free his ace pilot daughter Honovi flew him by sea plane back home to the Great Lakes. We have yet to hear from those who captured him but they will no doubt be furious."
+ glf.14.a:0 "Our warriors are truly great!"
+ 
+ glf.66.t:0 "Operation Failed"
+ glf.66.d:0 "Nixkhamich has died! The operation was a failure. Everything seemed to be going according to the plan, the prison guards were surprised, Nixkhamich was freed, but then a local garrison intercepted our forces and during the ensuing firefight Nixkhamich was shot. Our forces retreated with his body. Tribes across the Confederation are silent today as they mourn for this controversial yet strong figure."
+ glf.66.a:0 "This is a sad day"
+ 
+ glf.15.t:0 "Trial of the free Nixkamich"
+ glf.15.d:0 "Nixkhamich stands before the Confederation charged with warmongering and sabotage of foreign relations. During his 20 year reign as Chief of the Confederation he increased the size and power of our armed forces, cut what little ties we had to the Europeans, and left a permanent mark on our reputation with the world by invading Canada and the United States while their forces were occupied by the war in Europe. His supporters say that he acted in the Confederations best interest and re-took lands that rightfully belong to the Confederation. The verdict is left to the highest voice in the land, the chief of the Confederation."
+ glf.15.a:0 "Put him in our prison"
+ glf.15.b:0 "Execute him for his crimes"
+ glf.15.c:0 "He fought for the tribes in his own way"
+ 
+ glf.16.t:0 "Trial of a prisoner"
+ glf.16.d:0 "Nixkhamich may not be in our custody but we can still hold a trial for him. Nixkhamich is charged with warmongering and sabotage of foreign relations. During his 20 year reign as Chief of the Confederation he increased the size and power of our armed forces, cut what little ties we had to the Europeans, and left a permanent mark on our reputation with the world by invading Canada and the United States while their forces were occupied by the war in Europe. His supporters say that he acted in the Confederations best interest and re-took lands that rightfully belong to the Confederation. The verdict is left to the highest voice in the land, the chief of the Confederation."
+ glf.16.a:0 "He commited a crime and belongs in a prison"
+ glf.16.b:0 "He fought for the tribes in his own way"
+ 
+ glf.17.t:0 "Trial the dead"
+ glf.17.d:0 "Nixkhamich is gone but we can still discuss is actions and decide if they were right or wrong. During his 20 year reign as Chief of the Confederation he increased the size and power of our armed forces, cut what little ties we had to the Europeans, and left a permanent mark on our reputation with the world by invading Canada and the United States while their forces were occupied by the war in Europe. His supporters say that he acted in the Confederations best interest and re-took lands that rightfully belong to the Confederation. The verdict is left to the highest voice in the land, the chief of the Confederation."
+ glf.17.a:0 "He commited a crime but may he rest in peace"
+ glf.17.b:0 "He fought for the tribes in his own way"
+
+ hu_britain.1.t:0 "Great Lakes Confederation asks to join the Allies"
+ hu_britain.1.d:0 "A delagation from the Ojibwe tribe of the Great Lakes Confederation has come with an alliance offer from the Confederation. While these tribes are far across the ocean they can still send forces to help in war."
+ hu_britain.1.a:0 "We welcome these powerful tribes"
+ hu_britain.1.b:0 "An allience would be bad for us"
+ 
+ hu_usa.1.t:0 "The Great Lakes Confederation offers a trade"
+ hu_usa.1.a:0 "Accept the Trade"
+ hu_usa.1.b:0 "Decline the Trade"
+ 
+ hu_germany.1.t:0 "The Great Lakes Confederation asks to join the Axis"
+ hu_germany.1.a:0 "An ally next to The United States would be valuable"
+ hu_germany.1.b:0 "We do not need them"
+ 
+ hu_germany.2.t:0 "The Lakers want war with America"
+ hu_germany.2.a:0 "Togeather we will Triumph"
+ hu_germany.2.b:0 "We should bide our time"
+ 
+ hu_russia.1.t:0 "The Great Lakes Confederation wants to join the Comintern"
+ hu_russia.1.a:0 "Welcome these Americans"
+ hu_russia.1.b:0 "Decline"
+
+ hu_news.1.t:0 "The Great Lakes Confederation Lake Fair"
+ hu_news.1.d:0 "Thousands flocked to lake Superior today for the Great Lakes Confederation Lakes fair! Items on dispaly included finely woven dresses, extravagant canoes, beautiful beadwork, and newly modified rifles from America."
+ hu_news.1.a:0 "What a cultured fair!"
+ 
+ hu_news.2.t:0 "Great Lakes Confederation Joins Allies"
+ hu_news.2.d:0 "The tribal Confederation of the Great Lakes has been accepted into the Allies. The Confederation and Britain have a controversial history but they have put the past behind them and chosen to support each other."
+ hu_news.2.a:0 "The new world and the old stand together"
+ hu_news.2.b:0 "Britain looks for anyone to help them"
+ hu_news.2.c:0 "Enemies all of them"
+ hu_news.2.e:0 "The Great Lakes should remember who wronged them"
+ hu_news.3.t:0 "Great Lakes Confederation denied from Allies"
+ hu_news.3.d:0 "The tribal Confederation of the Great Lakes has been rejected from the Allies. The Confederation and Britain have a violent history and it appears they could not come to an agreement ."
+ hu_news.3.a:0 "They should have asked nicely"
+ hu_news.3.b:0 "Britain gets more alone"
+ hu_news.3.c:0 "The Confederation and Britain will never get along"
+ 
+ glf.2.t:0 "The Lakers ask for Moose River"
+ glf.2.d:0 "Representatives from the Canadain government have told the chief of the Confederation that they will agree to cede the Moose River region to the Confederation. This largely uninhabited region borders the cold Hudson bay and could be turned into a seaport with the proper care. This gift from the Canadians signals an improved relationship between our two countries, as they have essentially split their country in two leaving east and west Canada no longer connected by land."
+ glf.2.a:0 "They may have the wasteland"
+ glf.2.b:0 "Canada will not be split in two"
+ 
+ glf.3.t:0 "Canada agrees to cede Moose River"
+ glf.3.d:0 "Representatives from the Canadain government have told the chief of the Confederation that they will agree to cede the Moose River region to the Confederation. This largely uninhabited region borders the cold Hudson bay and could be turned into a seaport with the proper care. This gift from the Canadians signals an improved relationship between our two countries, as they have essentially split their country in two leaving east and west Canada no longer connected by land."
+ glf.3.a:0 "Perhaps peace is possible"
+ 
+ glf.4.t:0 "Canada refuses to cede Moose River"
+ glf.4.d:0 "The Canadian government has refused to return the Moose River region to us. The land would really only be useful to us but it appears that the Canadians do not want to improve relations. This is an insult to our Confederation and if the Canadian won’t give us a path to the sea we should create our own."
+ glf.4.a:0 "It was never theirs to give in the first place"
+ 
+ glf.5.t:0 "US agrees to trade North New England for South Illinois"
+ glf.5.d:0 "American Senators arrived in Detroit today to finalize the terms of land trade. The region south of the Mississippi was occupied by our forces during the Great war. While this land will be missed, the new land we are receiving is in the new England region. The entire state of Maine along with sections of New Hampshire and Vermont will be ours. This mutually beneficial trade marks an improvement in U.S-Laker relations."
+ glf.5.a:0 "This new land is a boon for the Confederation"
+ 
+ glf.6.t:0 "US refuses the trade"
+ glf.6.d:0 "The United States has refused the trade. If they will deny our path to the sea we must take it ourselves."
+ glf.6.a:0 "Perhapse we should continue south"
+ 
+ glf.7.title:0 "Russia accepts ally request"
+ glf.7.d:0 "Our offer to join the Comintern has been accepted by the Soviet Union. Workers throughout the tribes are rejoicing and plans are already being made by the Detroit Soviet to hold annual May day parades. Some tribal chiefs are hesitant to accept the new regulations that come with our membership but those who try to stop the future may be trampled by it."
+ glf.7.a:0 "We may be across the world from each other but we are united"
+ 
+ glf.8.title:0 "Russia refuses ally request"
+ glf.8.d:0 "It is a sad day for every worker in the Confederation. There is still hope though, perhaps reforms can still be made without the Soviets help."
+ glf.8.a:0 "Perhapse we should help the people in our own way"
+ 
+ glf.9.title:0 "Germany accepts ally request"
+ glf.9.d:0 "German minister of forgin affairs Herr Von Ribbentrop arrived in Detroit today bringing great news. The German Reich has accepted our membership into the Axis powers. The Confederation may not share the same values as the Axis but we have the same enemies, together we will triumph. Maybe once all of our foes are gone we can evaluate Hitler's regime."
+ glf.9.a:0 "Our enemies should fear our combined strength"
+ 
+ glf.10.title:0 "Germany refuses ally request"
+ glf.10.d:0 "Germany has refused to allow us to join the Axis. We will have to go alone."
+ glf.10.a:0 "We do not need them, we will just fight harder"
+ 
+ glf.77.t:0 "The Lakers ask for an Alliance"
+ glf.77.d:0 "Acknowledging the need for unity against the threats surrounding our countries on every side, [From.GetLeader] today announced to the world that [From.GetName] has entered a treaty with [Root.GetName] for the sake of our mutual safety."
+ glf.77.a:0 "[Root.GetName] and [From.GetName] today stands as brothers."
+ 
+ glf.18.title:0 "Canadian campers lost"
+ glf.18.d:0 "We received a message from across the Canadian border today. A group campers have gone missing, and Canadian officials suspect that they may have accidentally wandered across into Confederation territory. The group was last seen in the Manitoba area a few weeks ago, they were expected to be back by now. Lord Charles Dextrax and his son Jacques Dextrax are among the missing along with seven others. The Canadians have asked us to allow them to conduct search parties in the area. These search parties would have free reign to go across our borders, we would have to provide escorts to ensure that nobody ventures where they don’t belong. Alternatively we could conduct the search ourselves or ignore this request."
+ glf.18.a:0 "If these men are lost in our lands we should be the ones to search"
+ glf.18.b:0 "To show good will we should let the Canadians enter our lands and search"
+ glf.18.c:0 "This matter does not concern us"
+ 
+ glf.93.title:0 "Lost Canadians found"
+ glf.93.d:0 "Today the bodies of several Candaians were found in the boundary waters. The bodies were found on sacred Chippawa ground. It appears that the Canadians were confronted by some members of the Chippewa tribe and a firefight ensued. It is unclear which side started firing first. The bodies have been returned to the Candians but the body of the teenager Jacques Dextrax has not been found. An investigation into the matter has been opened to try to find the tribesmen who did this. The Canadians have thanked us for our cooperation and understand that these men should not have been where they were."
+ glf.93.a:0 "At least now we know their fates"
+ 
+ glf.92.title:0 "Lost Canadian boy turned man of the tribes"
+ glf.92.d:0 "Commander Ahanu of the Minnesota Chippewa band came forward today with a surprise. In a private meeting with the Chief of the Confederation, Ahanu brought with him a familiar face, a Canadian boy who was lost years ago. Jacques Dextrax was wearing traditional Chippewa war garbs and looked almost like a Chippewa himself. Ahanu admitted that he was leading a small fishing party through the boundary waters many years ago and they were fired on by Canadian trespassers. Several members of his party were shot and they returned fire killing all the Candians except for Jacques who now goes by Maple-Fox. Jacques was captured and taken to a secluded village, for the past few years he has lived among the Chippewa and learned the ways of the tribes. Maple-Fox has become a hardworking member of the Confederation and he attended millitary training in Canada before he was captured. Ahanu says that Maple-Fox is ready to command some forces of his own. If he is allowed to join our forces Maple-Fox may be a great asset to us."
+ glf.92.a:0 "He is a Laker now and if he wants to fight he can"
+ glf.92.b:0 "This boy was a hostage and he should be returned even if he does not want to go"
+ 
+ glf.95.title:0 "The Laker Fair"
+ glf.95.d:0 "Thousands flocked to lake Superior today for the Great Lakes Confederation Lakes fair! Items on dispaly included finely woven dresses, extravagant canoes, beautiful beadwork, and newly modified rifles from America."
+ glf.95.a:0 "Give a prize to the greatest gunsmith"
+ glf.95.b:0 "Give a prize to the greatest performance"
+ glf.95.c:0 "Give a prize to the greatest squash"
+ 
+ glf.19.title:0 "Detroit auto success" 
+ glf.19.d:0 "The car factories of Detroit are world renowned for their incredible output. Recently more and more members of the Confederation have purchased cars and trucks, this has brought lots of wealth and business to Detroit. The city that was once a small stop on the journey through the Great Lakes is now a bustling metropolis. These auto factories are important for the war effort as well as many military trucks come from the Detroit lines."
+ glf.19.a:0 "Great news for the capital of the Confederation"
+ 
+ glf.20.title:0 "Great Lakes Ship Race"
+ glf.20.d:0 "The Great Lakes have always been a hub for trade and ship travel. As more and more ships began to traverse the Lakes small competitions were held to see who could go from Duluth to Chicago to the Saint Lawrence the fastest. The Great Lakes Ship Race has evolved into a display of great shipbuilding and great sailors. This year the competition has drawn the attention of many international sailors from Europe and the United States. The participants of the competition have always been lakers but perhaps this year it can be opened up for foreigners."
+ glf.20.a:0 "Allow foreign contestants" 
+ glf.20.b:0 "Only Lakers this time"
+ 
+ glf.21.title:0 "United States sends tribes to our borders"
+ glf.21.d:0 "Today caravans of trucks and buses arrived unexpectedly in cities along the border between the United States and the Confederation. The caravans stopped and let out thousands of Apache people before quickly driving away. This is not the first time this has happened, several times throughout the history of the Confederation the United States have relocated tribes from their land to ours. Many United States officials believe it is best for these people to live in the Confederation rather than reservations in U.S occupied lands. The Confederation is a haven for these displaced people but this is not their true home and everytime we accept them it gives the United States more of a mandate to displace tribes."
+ glf.21.a:0 "We shall accept them like gifts"
+ glf.21.b:0 "They should live in their land"
+ 
+ glf.94.title:0 "Canada sends tribes to our borders"
+ glf.94.d:0 "Canadian troops arrived at the northern border of the Confederation today with thousands of Ktunaxa people following them. These people have been moved from their lands in British Columbia by the Canadians. The troops have asked us to take them in. It would be good to help these people in need but if we take them in perhaps the Canadians will send more tribes our way."
+ glf.94.a:0 "We shall accept them like gifts"
+ glf.94.b:0 "They should live in their land"
+ 
+ glf.22.title:0 "Hawkists attack Canadians at the border"
+ glf.22.d:0 "Conflicting reports from the Saint Lawrence region have arrived today. One says that Canadian troops have tried to cross a bridge into our lands and have been shot at by concerned hawkists another says that hawkists crossed the border into Canadian lands and tried to claim the land for the Confederation. The truth is most likely somewhere in between these two reports. The hawkist involved are being made into heroes across the Confederation and Canadian officials have asked the chief of the Confederation to address the incident."
+ glf.22.a:0 "This event should not be talked about"
+ glf.22.b:0 "Condem the Hawkists"
+ 
+ glf.23.title:0 "Hawkists attack Americans at the border"
+ glf.23.d:0 "A group of hawkists have reportalty taken hostages from a bordering state today. The hawkist claim that these hostages are actually prisoners who have been taken to stand trial. A few hours after the incident cooler minds prevailed and the hostages were released. The hawkist still claim that these men were murderers and thieves and by releasing them back to the United States we are given them free reign to continue to commit crimes."
+ glf.23.a:0 "This event should not be talked about"
+ glf.23.b:0 "Condem the Hawkists"
+ 
+ glf.24.title:0 "The sinking of the Sturgeon"
+ glf.24.d:0 "Today in a truly terrible turn of events the Confederation trade ship the Sturgeon was fired on by a Canadian destroyer. The massive freighter was sunk in a matter of minutes as all but three of it’s crew of twenty seven were lost. The Canadians claim that the destroyer fired accidentally and it’s crew were poorly instructed but many tribal leaders across the Confederation have called this an act of war. Some still hope that this incident can be resolved peacefully and the Canadian have offered full cooperation in any investigation we wish to have."
+ glf.24.a:0 "Perhaps this means war"
+ glf.24.b:0 "This incident should be investigated"
+ 
+ glf.25.title:0 "Warriors wish to observe Spanish conflict"
+ glf.25.d:0 "The country of Spain is now embroiled in a civil war. As nationalist fights republican brother fight brother all across the Iberian nation. Some members of our military have come forward with a proposal to send neutral observers to the area. These observers would be able to witness first hand the tactics and training being used in the conflict."
+ glf.25.a:0 "As brother fights brother we can learn from their bloodshed"
+ glf.25.b:0 "We can learn nothing from such horror"
+ 
+ glf.26.title:0 "Observers arrive in Spain"
+ glf.26.d:0 "The Laker observers have arrived in the city of Barcelona today. They will begin their trip to the frontline soon and will meet with soldiers and generals from the Republican side as they try to take notes to send back to the Confederation. The initial writings of the observers say that there is an air of both anger and sadness among the people of Spain as the country tears itself apart. It is a surprise to see the same country that sent Crisotpher Columbius to bring the old world to the new descend into such acts of chaos. It is important to remember that golden ages end and if the Confederation is to survive we must stand together."
+ glf.26.a:0 "If this is a new type of war we will see it"
+ 
+ glf.27.title:0 "Akecheta arrives in Ethiopia"
+ glf.27.d:0 "The great explorer Akecheta is an expert sailor he is known worldwide for his long voyages in his small ship he made by himself. Akecheta has always gone wherever he wants to go and he often disappears for months. He occasionally sends information about the places he goes to Confederation officials but he is by no means a reliable source. Akecheta has heard word of the war in Ethiopia and he wishes to see it first hand."
+ glf.27.a:0 "This great voyager will watch as Italy fights Ethiopia"
+ 
+ glf.28.title:0 "Akecheta returns from Ethiopia"
+ glf.28.d:0 "Akecheta says his time in Ethiopia was eye opening. He witnessed the defiant warriors of Ethiopia fight off assault after assault from the Italians. But the Ethiopians were no match for the technological superiority of the Itlaians and eventually were defeated. Akecheta will go on a tour of the Great Lakes and tell stories of bravery and perseverance all across the Confederation."
+ glf.28.a:0 "He will doubtless have many stories to tell"
+ 
+ glf.98.title:0 "Great Lakes Airshow"
+ glf.98.d:0 "The amazing pilots of the Great Lakes gathered today at the Great Lakes airshow. All manner of aircraft were shown off from small biplanes to massive seaplanes. Of the pilots the most famous was of course Honovi who wowed the crowd with death defying stunts."
+ glf.98.a:0 "Blessings and good luck to these fine aces"
+ 
+ glf.97.title:0 "Honovi's great flight"
+ glf.97.d:0 "Today the pilot Honovi became famous around the world after her incredibly long flight across the entire Confederation. She began in a small airstrip next to Manitoba and ended on the shores of Lake Ontario. Her piloting skills rival that of  American aviators like Charles Lindburg and Amilia Earhart. Even after this great feat Honovi is a controversial figure, she is an outspoken hawkist and the daughter of the dark chief himself Nixkhamich. The eyes of the Confederation are on it’s chief as they wait to see if Honovi will be honored."
+ glf.97.a:0 "Give her the greatest honor"
+ glf.97.b:0 "Meet with her but don't encorage the Hawks"
+ 
+ glf.31.title:0 "U.S Passes the Naturalization Act"
+ glf.31.d:0 "Today Franklin Delano Roosevelt signed the U.S Naturalization act of 1940."
+ glf.31.a:0 "At long last"
+ 
+ glf.96.title:0 "Strange stories from the Navajo"
+ glf.96.d:0 "Messages from the Navajo tribe in the U.S state of Arizona have been coming in for about a week now. The Confederation keeps in contact with many tribes in the U.S and Canada both openly and secretly and the Navajo are one of those tribes. The Navajo say that many of their tribesmen have been offered job opportunities mining strange rocks for a mysterious company called Union Mines Development Corporation. Men tell stories of yellow rocks that were treated like gold. Our scientists have a hypothesis, this yellow dirt that the Navajo are finding may indeed be Uranium ore and this company called Union Mines Development Corporation may actually be the United States Army looking for material to build an atomic bomb. According to our scientist these Navajo miners may unknowingly be in danger of radiation exposure."
+ glf.96.a:0 "Warn them about the yellow dirt"
+ 
+ glf.32.title:0 "National Congress of American Indians founded"
+ glf.32.d:0 "In the United States today a group of Native Americans working for the Bureau of Indian affairs gathered in Denver Colorado and founded the National Congress of American Indians. Many helped form the NCAI but three people were of particular note Archie Phinney of the Nez Perce tribe,Charles Heacock of the Lakota tribe and D’Arcy McNickle of the Flathead tribe. The NCAI is composed of delegates from dozens of tribes and will fight for the protection of Native Americans form the U.S federal government."
+ glf.32.a:0 "We should speak to this congress"
+ 
+ glf.33.title:0 "Charles Curtis wants to visit the Confederation"
+ glf.33.d:0 "Charles Curtis was the 31st vice president of the United States and the first native american to become vice president. He won a landslide victory with president Hoover in 1928 but due to the unpopularity of Hoover during the Great Depression he did not serve a second term. Curtis was born a member of the Kaw nation in the Kansas territory and he was given the nickname Indian Charlie. Charles Curtis wishes to visit the Confederation and learn what life is like for the Native Americans living here. He may seem to have good intentions but many settlers and government men during manifest destiny also seemed good intentioned."
+ glf.33.a:0 "Allow him free passage"
+ glf.33.b:0 "He might be up to something"
+ 
+ glf.34.title:0 "Begin the Queen Charlotte Islands Conference"
+ glf.34.d:0 "The Queen Charlotte Islands also known as Haida Gwaii are the last occupied lands of the Candian government, and they will be where Canada’s fate is sealed. Here on these islands the Confederation offers it’s terms to the British. We offer peace in exchange for what is rightfully ours. We claim the lands of the dominion of Canada and the region of Labrador. The Allies are tired of fighting for lands that are not theirs and we do not wish for more bloodshed. We believe our terms to be fair and if the Allies wish to continue the way then so be it."
+ glf.34.a:0 "They are tired of this war"
+ 
+ glf.35.title:0 "Give up Canada?"
+ glf.35.d:0 "The Great Lakes Confederation has taken Canada and wishes for peace. In exchange we must give them the region of Labrador and all of Canada. We will keep Haida Gwaii but Canada will be no more."
+ glf.35.a:0 "accept"
+ glf.35.b:0 "reject"
+ 
+ glf.36.title:0 "Cold Peace accepted"
+ glf.36.d:0 "The Allies have agreed to stop the fighting and make peace with us. We now own all of Canada and all the tribes who live here can be incorporated into the Confederation."
+ glf.36.a:0 "The war is over"
+ 
+ glf.37.title:0 "Cold Peace rejected"
+ glf.37.d:0 "It seems that the Allies want the bloodshed to continue. They have no hope of retaking these lands so they have made a grave error."
+ glf.37.a:0 "This was will never end"
+ 
+ glf.11.t:0 "The United States Agrees"
+ glf.11.d:0 "The President of the United States has agreed to join our faction. The two titans of the New World are now united from sea to shining sea."
+ glf.11.a:0 "The New World is strong"
+ 
+ glf.100.t:0 "Operation Dark Feather"
+ glf.100.d:0 "Before Canada was defeated chief Nixkhamich was handed over to the English. The operation to free the former chief of the Confederation is ready. Operatives friendly to us living in English territory have sheltered our most elite soldiers, these brave warriors will face insurmountable odds assaulting the prison and escaping with the dark chief. For weeks of planning military strategists have debated the best way to get the chief back across the border, they have decided that while it may be risky a seaplane will be stationed nearby and if Nixkhamich is freed from his prison he will be airlifted back to our borders. If this mission fails we will likely never get a second chance."
+ glf.100.a:0 "Be as silent as the midnight woods"
+ 
+ glf.101.t:0 "Nixkamich is finally free"
+ glf.101.d:0 "With the defeat of both the Canadians and the English Nixkhamich can finally return to the Confederation. Now that the Dark chief has returned he is now free to visit and speak to his followers."
+ glf.101.a:0 "He has been through much"
+ 
+ glf.102.t:0 "Nixkamich is transfered to us"
+ glf.102.d:0 "With the defeat of both the Canadians and the English Nixkhamich can finally return to the Confederation. Because of the Confederations decision to sentence him he will now be our prisoner."
+ glf.102.a:0 "He belongs at home"
+ 
+ glf.103.t:0 "The Chief visits the North Shore"
+ glf.103.d:0 "Today Kah-ge-ga-gah-bowh embarks on a tour of the North Shore of Lake Superior. On his tour the Chief will start his journey in the port city of Duluth and make his way up through Minnesota. After a brief stop at the Boundary waters and the headwaters of the Mississippi Kah-ge-ga-gah-bowh will conclude his journey by going by Canoe down the Kaministiquia river to Thunder Bay where he will take a ship back to Detroit. On his journey Kah-ge-ga-gah-bowh will meet with moderate tribes and attempt to get new converts to the gentle side."
+ glf.103.a:0 "His Tour should be great"
+ 
+ glf.104.t:0 "Kah-ge-ga-gah-bowh narrowly avoids Assassinated!"
+ glf.104.d:0 "It has been a terrifying day for the Confederation. During his visit to Duluth Kah-ge-ga-gah-bowh was traveling up the Park Point area of the city when a man next to the street shouted we will not be gentle and threw at the motorcade. The explosion disabled his vehicle and killed the driver but Kah-ge-ga-gah-bowh was left unscathed. The assassin was caught by local tribal police later that day trying to flee the city. It appears that the would-be assassin was a dockyard worker who had hawkist leanings. It is not clear if this man acted alone or was part of a larger hawkist cell. Due to the incident the Chief has cancelled his tour of the North Shore."
+ glf.104.a:0 "What a Breach in Security!"
+ 
+ glf.105.t:0 "Kah-ge-ga-gah-bowh Assassinated!"
+ glf.105.d:0 "Kah-ge-ga-gah-bowh has been killed. During his visit to Duluth Kah-ge-ga-gah-bowh was traveling up the Park Point area of the city when a man next to the street shouted we will not be gentle and threw at the motorcade. The explosion killed Kah-ge-ga-gah-bowh instantly and also injured the Chief of the Fond du Lac band. The assassin was caught by local tribal police later that day trying to flee the city. It appears that the would-be assassin was a dockyard worker who had hawkist leanings. It is not clear if this man acted alone or was part of a larger hawkist cell. Chief Tashunka of the Dekota tribe was chosen to be Kah-ge-ga-gah-bowh’s successor. Tashunka was formerly the Chief of the Dekota tribe but he was exiled by the United States. It is yet to be seen if Tashunka’s rule will be anything like Kah-ge-ga-gah-bowh’s."
+ glf.105.a:0 "A Dark Day"
+ 
+ glf.106.t:0 "Kah-ge-ga-gah-bowh Passes Away"
+ glf.106.d:0 "Today Kah-ge-ga-gah-bowh died suddenly, his doctors say that he had an unexpected heart attack. Kah-ge-ga-gah-bowh was the champion of the gentle side and it is unclear whether his ideas will continue after his death. Chief Tashunka of the Dekota tribe was chosen to be Kah-ge-ga-gah-bowh’s successor. Tashunka was formerly the Chief of the Dekota tribe but he was exiled by the United States. It is yet to be seen if Tashunka’s rule will be anything like Kah-ge-ga-gah-bowh’s."
+ glf.106.a:0 "He served the Tribes well"
+ 
+ glf.107.t:0 "Bugonaygeshig Passes Away"
+ glf.107.d:0 "Today the oldest surviving chief of the Confederation died peacefully in his sleep. Bugonaygeshig was wise and unyielding when it came to forign affairs, in 1889 the United States claimed that old treaties ceded lands along the Confederation border to United States settlers and attempted to seize the land through several border skirmishes. Bugonaygeshig never gave an inch of land to the invaders and protected the Confederation from further territorial loss. Bugonaygeshig was also the first chief of the Confederation to come from the Ojibwe, ever since he stepped down and gave power to Nixkamich the Confederation has had only Ojibwe chiefs. Bugonaygeshig lived to the very old age of 98 and had four children and dozens of grandchildren."
+ glf.107.a:0 "His brought the Confederation into a Great Age!"
+ 
+ glf.108.t:0 "Niagara Falls Bridge Collapse"
+ glf.108.d:0 "A great accident has occurred today. At 4:20 PM the Honeymoon bridge crossing over the Niagara river collapsed, there were about a dozen cars on the bridge at the time and it appears that seven people perished in the incident. Many across the Confederation are outraged as it appears there were signs that the bridge was failing for weeks and these signs were ignored. Inspectors failed to stop the tragedy but the builders of the bridge said it would last much longer."
+ glf.108.a:0 "Blame the Inspectors"
+ glf.108.b:0 "Blame the Builders"
+ 
+ glf.109.t:0 "1938 New England Hurricane"
+ glf.109.d:0 "The residents of the east coast have been hit by a category 3 hurricane. The storm originated off the coast of Africa and slowly made its way to North America, storm warnings were issued across the east coast but the intensity of the hurricane was underestimated. The hurricane tore through the east coast, made its way through New England and up to Quebec. Hundreds have died and tens of thousands have been displaced by the storm. This is truly a dark time for the residents of the Atlantic coast."
+ glf.109.a:0 "Coordiante Relief Efforts"
+ glf.109.b:0 "Help Lakers Most of All"
+ 
+ glf.110.t:0 "Laker Shooters Triumph in Olympics"
+ glf.110.d:0 "During the recent Berlin 1936 Olympic games Laker olympians shocked the world by taking home the gold and bronze medals for shooting. At the Wannsee shooting range Laker marksmenship Tommy Prince beat Norwegn Willy Rogeburg and took the gold for rifle prone, while great war veteran Francis Pegahmagabow got the bronze. Pegahmagabow congratulated 21 year old Prince and said that the future of Laker marksmen is strong. Delegates looked on in surprise as the Laker olympians became world famous."
+ glf.110.a:0 "What Great Shots!"
+ 
+ glf.111.t:0 "Hawkist Unrest in Prophetstown"
+ glf.111.d:0 "The historical city of Prophetstown is in flames as organized groups of Hawkists started fires and assaulted tribal officials. The Hawkest demanded that they be heard and called for more Hawkists policies be enforced. The city of Prophetstown is an important part of the Confederations history and it has now unfortunately descended into lawlessness."
+ glf.111.a:0 "Send in Soldiers"
+ glf.111.b:0 "Let Hawkists Rule Prophetstown"
+ 
+ 
+ 

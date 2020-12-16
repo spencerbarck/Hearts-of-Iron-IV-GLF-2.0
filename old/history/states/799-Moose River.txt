@@ -1,0 +1,24 @@
+state={
+	id=799
+	name="STATE_799"
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+		}
+		add_core_of = CAN
+		add_core_of = GLF
+		victory_points = {
+			9740 5
+		}
+
+	}
+	
+	provinces={
+		9740 
+	}
+	manpower=2453
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

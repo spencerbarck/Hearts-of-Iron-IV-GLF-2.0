@@ -1,0 +1,3306 @@
+﻿focus_tree = {
+	id = great_lakes_confederation_focus_tree
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = GLF
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	#######################
+	#### NAVAL SECTION ####
+	#######################
+
+	focus = {
+		id = GLF_our_path_to_the_sea
+		icon = GFX_goal_GLF_our_path_to_the_sea
+		x = 3
+		y = 0
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 1
+				category = ss_tech
+			}
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 1
+				category = dd_tech
+			}
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 1
+				category = cl_tech
+			}
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 1
+				category = ca_tech
+			}
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 1
+				category = cv_tech
+			}
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 1
+				category = bb_tech
+			}
+			
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				
+				set_technology = { basic_battery = 1 } 
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_moose_river_for_guarantees
+		icon = GFX_goal_GLF_moose_river_for_guarantees
+		x = 2
+		y = 1
+		relative_position_id = GLF_our_path_to_the_sea
+
+		cost = 5
+		prerequisite = { focus = GLF_our_path_to_the_sea }
+
+		available = { 
+			is_puppet = no
+			NOT = { has_war_with = CAN }
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			CAN = { country_event = { id = glf.2 } }
+		}
+		
+		bypass = {
+			OR = {
+				has_full_control_of_state = 809
+				
+				CAN = { exists = no }
+			}
+			
+		}
+	}
+
+	focus = {
+		id = GLF_settle_moosonee
+		icon = GFX_goal_GLF_settle_moosonee
+		x = 0
+		y = 1
+		relative_position_id = GLF_moose_river_for_guarantees
+
+		cost = 7.5
+		prerequisite = { focus = GLF_moose_river_for_guarantees }
+
+		available = { 
+			has_full_control_of_state = 809
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			809 = {
+				set_state_category = town
+				add_manpower = 1700000
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_the_great_port_of_moosonee
+		icon = GFX_goal_GLF_the_great_port_of_moosonee
+		x = 0
+		y = 1
+		relative_position_id = GLF_settle_moosonee
+
+		cost = 10
+		prerequisite = { focus = GLF_settle_moosonee }
+		
+		available = { 
+			has_full_control_of_state = 809
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_ideas = landlocked_lakes
+			809 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 8
+					province = 9740
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+
+	focus = {
+		id = GLF_the_great_portage
+		icon = GFX_goal_GLF_the_great_portage
+		x = 0
+		y = 4
+		relative_position_id = GLF_our_path_to_the_sea
+
+		cost = 7.5
+		prerequisite = { focus = GLF_our_path_to_the_sea }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_the_great_portage_focus
+		}
+	}
+
+	focus = {
+		id = GLF_move_shipyards_to_canadian_coast
+		icon = GFX_goal_GLF_move_shipyards_to_canadian_coast
+		x = 2
+		y = 1
+		relative_position_id = GLF_the_great_portage
+
+		available = {
+			has_full_control_of_state = 468
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 7.5
+		prerequisite = { focus = GLF_the_great_portage }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_ideas = landlocked_lakes
+			468 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = GLF_move_shipyards_to_american_coast
+		icon = GFX_goal_GLF_move_shipyards_to_american_coast
+		x = -2
+		y = 1
+		relative_position_id = GLF_the_great_portage
+
+		available = {
+			has_full_control_of_state = 357
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 7.5
+		prerequisite = { focus = GLF_the_great_portage }
+
+		cancel_if_invalid = yes
+		continue_if_invalid 	= no
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_ideas = landlocked_lakes
+			357 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = GLF_repurpose_trade_ships
+		icon = GFX_goal_GLF_repurpose_trade_ships
+		x = 0
+		y = 2
+		relative_position_id = GLF_the_great_portage
+
+		available = {
+			NOT {has_idea = landlocked_lakes}
+		}
+
+		bypass = {
+		}
+
+		cost = 10
+		prerequisite = { focus = GLF_the_great_portage}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				create_equipment_variant = {
+					name = "Small Trade Class"					
+					type = ship_hull_light_1
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = ship_light_battery_1
+						fixed_ship_anti_air_slot = empty
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = light_ship_engine_1
+						fixed_ship_torpedo_slot = ship_torpedo_1
+						mid_1_custom_slot = empty
+						rear_1_custom_slot = empty
+					}
+					obsolete = no
+				}
+				create_equipment_variant = {
+					name = "Medium Trade Class"
+					type = ship_hull_cruiser_1
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = ship_light_medium_battery_1
+						fixed_ship_anti_air_slot = ship_anti_air_1
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = cruiser_ship_engine_1
+						fixed_ship_armor_slot = ship_armor_cruiser_1
+						mid_1_custom_slot = empty
+						mid_2_custom_slot = empty
+						rear_1_custom_slot = ship_light_medium_battery_1
+					}
+					obsolete = no
+				}
+				create_equipment_variant = {
+					name = "Large Trade Class"
+					type = ship_hull_cruiser_1
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = ship_medium_battery_1
+						fixed_ship_anti_air_slot = ship_anti_air_1
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = cruiser_ship_engine_1
+						fixed_ship_secondaries_slot = ship_secondaries_1
+						fixed_ship_armor_slot = ship_armor_cruiser_1
+						mid_1_custom_slot = ship_medium_battery_1
+						mid_2_custom_slot = empty
+						rear_1_custom_slot = ship_airplane_launcher_1
+					}
+					obsolete = no
+				}
+				create_equipment_variant = {
+					name = "Hemlock Class"
+					type = ship_hull_carrier_conversion_bb
+					parent_version = 0
+					modules = {
+						fixed_ship_deck_slot_1 = ship_deck_space
+						fixed_ship_deck_slot_2 = ship_deck_space
+						fixed_ship_anti_air_slot = ship_anti_air_1
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = heavy_ship_engine_1
+						fixed_ship_secondaries_slot = ship_secondaries_1
+						mid_1_custom_slot = empty
+					}
+					obsolete = no
+				}
+			}
+			}
+			
+			custom_effect_tooltip = GLF_repurpose_trade_ships_tooltip
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	focus = {
+		id = GLF_s_illinois_for_n_new_england
+		icon = GFX_goal_GLF_s_illinois_for_n_new_england
+		x = -2
+		y = 1
+		relative_position_id = GLF_our_path_to_the_sea
+
+		cost = 5
+		prerequisite = { focus = GLF_our_path_to_the_sea }
+
+		available = { 
+			is_puppet = no
+			NOT = { has_war_with = USA }
+			has_full_control_of_state = 807
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			USA = { country_event = { id = hu_usa.1 } }
+		}
+		
+		bypass = {
+			OR = {
+				has_full_control_of_state = 808
+				
+				AND = {
+					USA = { is_subject = yes }
+					NOT = { USA = { is_subject_of = GLF } }
+				}
+				
+				USA = { exists = no }
+			}
+			
+		}
+	}
+
+	focus = {
+		id = GLF_settle_n_new_england
+		icon = GFX_goal_GLF_settle_n_new_england
+		x = 0
+		y = 1
+		relative_position_id = GLF_s_illinois_for_n_new_england
+
+		cost = 7.5
+		prerequisite = { focus = GLF_s_illinois_for_n_new_england }
+
+		available = { 
+			has_full_control_of_state = 808
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			808 = {
+				set_state_category = large_city
+				add_manpower = 2000000
+			}
+			add_state_core = 808
+		}
+	}
+
+	focus = {
+		id = GLF_east_coast_docks
+		icon = GFX_goal_GLF_east_coast_docks
+		x = 0
+		y = 1
+		relative_position_id = GLF_settle_n_new_england
+
+		cost = 10
+		prerequisite = { focus = GLF_settle_n_new_england }
+
+		available = { 
+			has_full_control_of_state = 808
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_ideas = landlocked_lakes
+			808 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+
+	###############################
+	#### INTERNATIONAL SECTION ####
+	###############################
+
+	focus = {
+		id = GLF_isolation_no_longer
+		icon = GFX_goal_GLF_isolation_no_longer
+		x = 15
+		y = 0
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = civilian_economy
+			add_ideas = limited_exports
+			
+			news_event = glf_news.1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = GLF_international_war_parade
+		icon = GFX_goal_GLF_international_war_parade
+		x = 6
+		y = 1
+		relative_position_id = GLF_isolation_no_longer
+
+		cost = 10
+		prerequisite = { focus = GLF_isolation_no_longer }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			army_experience = 10
+			add_ideas = GLF_war_parade_focus
+		}
+	}
+
+	focus = {
+		id = GLF_expand_our_confederation
+		icon = GFX_goal_GLF_expand_our_confederation
+		x = -2
+		y = 1
+		relative_position_id = GLF_international_war_parade
+
+		cost = 10
+		prerequisite = { focus = GLF_international_war_parade }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#add_state_claim = 467
+			#add_state_claim = 683
+			#add_state_claim = 809
+			#add_state_claim = 466
+			add_war_support = 0.15
+			add_named_threat = { threat = 2 name = expand_our_confederation }
+		}
+
+	}
+
+	focus = {
+		id = GLF_call_the_warchiefs
+		icon = GFX_goal_GLF_call_the_warchiefs
+		x = 0
+		y = 1
+		relative_position_id = GLF_expand_our_confederation
+
+		cost = 10
+		prerequisite = { focus = GLF_expand_our_confederation }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = GLF_call_the_warchiefs_focus
+				days = 365
+			}
+		}
+
+	}
+
+	focus = {
+		id = GLF_assume_the_northern_throne
+		icon = GFX_focus_attack_canada
+		x = 0
+		y = 1
+		relative_position_id = GLF_call_the_warchiefs
+
+		available = {
+			NOT = { is_in_faction_with = CAN }
+		}
+
+		bypass = {
+
+		}
+
+		cost = 7.5
+		prerequisite = { focus = GLF_call_the_warchiefs }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = CAN
+				type = annex_everything
+				expire = 0
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = GLF_protect_the_new_ports
+		icon = GFX_goal_GLF_protect_the_new_ports
+		x = -2
+		y = 1
+		relative_position_id = GLF_assume_the_northern_throne
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cost = 10
+		prerequisite = { focus = GLF_assume_the_northern_throne }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = GLF_protect_new_ports_forts
+			468 = {
+				custom_effect_tooltip = GLF_protect_new_ports_fort
+				if = {
+					limit = { is_controlled_by = ROOT }
+					hidden_effect = {
+						add_building_construction = {
+							type = coastal_bunker
+							level = 4
+							province = 12149
+							instant_build = yes
+						}
+					}
+				}
+			}
+			465 = {
+				custom_effect_tooltip = GLF_protect_new_ports_fort
+				if = {
+					limit = { is_controlled_by = ROOT }
+					hidden_effect = {
+						add_building_construction = {
+							type = coastal_bunker
+							level = 4
+							province = 4285
+							instant_build = yes
+						}
+					}
+				}
+			}
+			464 = {
+				custom_effect_tooltip = GLF_protect_new_ports_fort
+				if = {
+					limit = { is_controlled_by = ROOT }
+					hidden_effect = {
+						add_building_construction = {
+							type = coastal_bunker
+							level = 4
+							province = 7361
+							instant_build = yes
+						}
+					}
+				}
+			}
+			332 = {
+				custom_effect_tooltip = GLF_protect_new_ports_fort
+				if = {
+					limit = { is_controlled_by = ROOT }
+					hidden_effect = {
+						add_building_construction = {
+							type = coastal_bunker
+							level = 4
+							province = 12503
+							instant_build = yes
+						}
+					}
+				}
+			}
+			331 = {
+				custom_effect_tooltip = GLF_protect_new_ports_fort
+				if = {
+					limit = { is_controlled_by = ROOT }
+					hidden_effect = {
+						add_building_construction = {
+							type = coastal_bunker
+							level = 4
+							province = 12505
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = GLF_the_cold_peace
+		icon = GFX_goal_GLF_the_cold_peace
+		x = 0
+		y = 1
+		relative_position_id = GLF_protect_the_new_ports
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cost = 10
+		prerequisite = { focus = GLF_protect_the_new_ports }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = GLF_the_cold_peace_tooltip
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = GLF_take_greenland
+		icon = GFX_goal_GLF_take_greenland
+		x = 0
+		y = 1
+		relative_position_id = GLF_assume_the_northern_throne
+
+		available = {
+			NOT = { is_in_faction_with = DEN }
+		}
+
+		bypass = {
+
+		}
+
+		cost = 7.5
+		prerequisite = { focus = GLF_assume_the_northern_throne }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = DEN
+				type = annex_everything
+				expire = 0
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = GLF_this_land_is_our_land
+		icon = GFX_goal_GLF_this_land_is_our_land
+		x = 2
+		y = 6
+		relative_position_id = GLF_international_war_parade
+
+		cost = 10
+		prerequisite = { focus = GLF_international_war_parade }
+		prerequisite = { focus = GLF_end_the_gentle_side focus = GLF_tribes_in_the_20th_century}
+		mutually_exclusive = { focus = GLF_strengthen_the_chief focus = GLF_invite_ambassadors}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = indoctrination_focus
+			#Gains the Indoctrination Modifier
+		}
+	}
+
+	focus = {
+		id = GLF_the_great_north
+		icon = GFX_goal_GLF_the_great_north
+		x = -2
+		y = 1
+		relative_position_id = GLF_this_land_is_our_land
+
+		cost = 10
+		prerequisite = { focus = GLF_this_land_is_our_land }
+		mutually_exclusive = { focus = GLF_return_to_isolation }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			create_faction = new_world_confederation_faction
+			hidden_effect = {
+				news_event = { hours = 6 id = news.214 }
+			}
+		}
+	}
+	
+	focus = {
+		id = GLF_return_to_isolation
+		icon = GFX_goal_GLF_return_to_isolation
+		x = 2
+		y = 1
+		relative_position_id = GLF_this_land_is_our_land
+
+		cost = 10
+		prerequisite = { focus = GLF_this_land_is_our_land }
+		mutually_exclusive = { focus = GLF_the_great_north }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_ideas = GLF_return_to_isolation_focus
+			add_ideas = closed_economy
+		}
+	}
+
+	focus = {
+		id = GLF_reject_the_old_world
+		icon = GFX_goal_GLF_reject_the_old_world
+		x = -1
+		y = 1
+		relative_position_id = GLF_return_to_isolation
+
+		cost = 10
+		
+		prerequisite = { focus = GLF_return_to_isolation }
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = GLF_reject_the_old_world_focus
+				days = 720
+			}
+		}
+	}
+	
+	focus = {
+		id = GLF_seize_foreign_assets
+		icon = GFX_goal_GLF_seize_foreign_assets
+		x = 1
+		y = 1
+		relative_position_id = GLF_return_to_isolation
+
+		cost = 10
+		prerequisite = { focus = GLF_return_to_isolation }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_ideas = GLF_seize_foreign_assets_focus
+		}
+	}
+	
+	focus = {
+		id = GLF_our_strong_boarders
+		icon = GFX_goal_GLF_our_strong_boarders
+		x = -1
+		y = 1
+		relative_position_id = GLF_seize_foreign_assets
+
+		cost = 10
+		prerequisite = { focus = GLF_seize_foreign_assets }
+		prerequisite = { focus = GLF_reject_the_old_world }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_ideas = GLF_strong_boarders
+		}
+	}
+	
+	focus = {
+		id = GLF_ideas_from_the_south
+		icon = GFX_goal_GLF_ideas_from_the_south
+		x = -1
+		y = 1
+		relative_position_id = GLF_the_great_north
+
+		cost = 7.5
+		prerequisite = { focus = GLF_the_great_north }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = democratic_influence
+				days = 720
+			}
+			#Increase in Democratic Support
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GLF_demo
+		}
+	}
+
+	focus = {
+		id = GLF_appease_the_us
+		icon = GFX_goal_GLF_appease_the_us
+		x = 1
+		y = 1
+		relative_position_id = GLF_the_great_north
+
+		cost = 7.5
+		prerequisite = { focus = GLF_the_great_north }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_opinion_modifier = { target = USA modifier = GLF_appease_the_us }
+			USA = { add_opinion_modifier = { target = ROOT modifier = GLF_appease_the_us } }
+		}
+	}
+
+	focus = {
+		id = GLF_new_world_ties
+		icon = GFX_goal_GLF_new_world_ties
+		x = -1
+		y = 1
+		relative_position_id = GLF_appease_the_us
+
+		cost = 10
+		prerequisite = { focus = GLF_appease_the_us }
+		prerequisite = { focus = GLF_ideas_from_the_south }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		available = {
+			democratic > 0.25
+			USA = {is_in_faction = no}
+		}
+
+		completion_reward = {
+			
+			USA = {
+				country_event = { id = glf.77 days = 2 }
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_furs_for_europe
+		icon = GFX_goal_GLF_furs_for_europe
+		x = -7
+		y = 1
+		relative_position_id = GLF_isolation_no_longer
+
+		cost = 5
+		prerequisite = { focus = GLF_isolation_no_longer }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_furs_focus
+			#Relations boost modifier
+		}
+	}
+
+	focus = {
+		id = GLF_negotiate_with_canada
+		icon = GFX_goal_GLF_negotiate_with_canada
+		x = 3
+		y = 3
+		relative_position_id = GLF_furs_for_europe
+
+		cost = 10
+		prerequisite = { focus = GLF_furs_for_europe}
+		
+		available = {
+			NOT={has_war_with = CAN}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			add_opinion_modifier = { target = CAN modifier = GLF_negotiate_with_canada }
+			CAN = { add_opinion_modifier = { target = ROOT modifier = GLF_negotiate_with_canada } }
+		}
+	}
+
+	focus = {
+		id = GLF_modify_the_deal
+		icon = GFX_goal_GLF_modify_the_deal
+		x = -1
+		y = 1
+		relative_position_id = GLF_negotiate_with_canada
+
+		cost = 7.5
+		prerequisite = { focus = GLF_negotiate_with_canada}
+		mutually_exclusive = { focus = GLF_end_the_deal}
+		
+		available = {
+			NOT={has_war_with = CAN}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = canadian_industry_influence
+				add_idea = canadian_industry_influence_2
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_expand_the_deal
+		icon = GFX_goal_GLF_expand_the_deal
+		x = 0
+		y = 1
+		relative_position_id = GLF_modify_the_deal
+
+		cost = 7.5
+		prerequisite = { focus = GLF_modify_the_deal}
+		
+		available = {
+			NOT={has_war_with = CAN}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = canadian_industry_influence_2
+				add_idea = canadian_industry_influence_3
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_end_the_deal
+		icon = GFX_goal_GLF_end_the_deal
+		x = 1
+		y = 1
+		relative_position_id = GLF_negotiate_with_canada
+		mutually_exclusive = { focus = GLF_modify_the_deal}
+
+		cost = 10
+		prerequisite = { focus = GLF_negotiate_with_canada}
+		
+		available = {
+			NOT={has_war_with = CAN}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+			add_opinion_modifier = { target = CAN modifier = GLF_end_the_deal }
+			CAN = { add_opinion_modifier = { target = ROOT modifier = GLF_end_the_deal } }
+
+			remove_ideas = canadian_industry_influence
+		}
+	}
+
+	focus = {
+		id = GLF_seek_reperations
+		icon = GFX_goal_GLF_seek_reperations
+		x = 0
+		y = 1
+		relative_position_id = GLF_end_the_deal
+
+		cost = 10
+		prerequisite = { focus = GLF_end_the_deal}
+		
+		available = {
+			NOT={has_war_with = CAN}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = GLF_seek_reperations_focus
+				days = 365
+			}
+		
+			CAN = {
+				add_timed_idea = {
+				idea = CAN_seek_reperations_focus
+				days = 365
+				}
+			}
+		
+			remove_opinion_modifier = { target = CAN modifier = GLF_negotiate_with_canada }
+			CAN = { remove_opinion_modifier = { target = ROOT modifier = GLF_negotiate_with_canada } }
+			
+		}
+	}
+
+	focus = {
+		id = GLF_strengthen_the_chief
+		icon = GFX_goal_GLF_strengthen_the_chief
+		x = 7
+		y = 6
+		relative_position_id = GLF_furs_for_europe
+
+		cost = 10
+		#prerequisite = { focus = GLF_furs_for_europe focus = GLF_international_war_parade}
+		prerequisite = { focus = GLF_international_war_parade}
+		mutually_exclusive = { focus = GLF_invite_ambassadors focus = GLF_this_land_is_our_land}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support	= 0.05
+			add_timed_idea = {
+				idea = GLF_authoritarianism_focus
+				days = 720
+			}
+			#Reduction in Democratic Support
+		}
+	}
+
+	focus = {
+		id = GLF_community_of_tribes
+		icon = GFX_goal_GLF_community_of_tribes
+		x = -1
+		y = 1
+		relative_position_id = GLF_strengthen_the_chief
+
+		cost = 5
+		prerequisite = { focus = GLF_strengthen_the_chief }
+
+		mutually_exclusive = { focus = GLF_settle_the_score }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = communist_influence
+				days = 720
+			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GLF_comm
+			#Increases Communist Support
+		}
+	}
+	
+	focus = {
+		id = GLF_the_detroit_soviet
+		icon = GFX_goal_GLF_the_detroit_soviet
+		x = 1
+		y = 2
+		relative_position_id = GLF_community_of_tribes
+
+		cost = 5
+		prerequisite = { focus = GLF_community_of_tribes }
+
+		mutually_exclusive = { focus = GLF_the_chicago_soviet }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			
+			393 = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	
+	focus = {
+		id = GLF_the_chicago_soviet
+		icon = GFX_goal_GLF_the_chicago_soviet
+		x = -1
+		y = 2
+		relative_position_id = GLF_community_of_tribes
+
+		cost = 5
+		prerequisite = { focus = GLF_community_of_tribes }
+
+		mutually_exclusive = { focus = GLF_the_detroit_soviet }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			
+			395 = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_the_great_lakes_revolution
+		icon = GFX_goal_GLF_the_great_lakes_revolution
+		x = 0
+		y = 4
+		relative_position_id = GLF_community_of_tribes
+
+		cost = 10
+		prerequisite = { focus = GLF_the_chicago_soviet focus = GLF_the_detroit_soviet}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			start_civil_war = {
+			 ruling_party = communism
+			 ideology = neutrality
+			 size = var:party_popularity@neutrality
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_soviet_invitation
+		icon = GFX_goal_GLF_soviet_invitation
+		x = 0
+		y = 1
+		relative_position_id = GLF_the_great_lakes_revolution
+
+		cost = 7.5
+		prerequisite = { focus = GLF_the_great_lakes_revolution }
+
+		available = {
+			communism > 0.25
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+			SOV = { country_event = { id = hu_russia.1 days = 1} }
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_new_world_communism
+		icon = GFX_goal_GLF_new_world_communism
+		x = 2
+		y = 1
+		relative_position_id = GLF_the_great_lakes_revolution
+
+		cost = 10
+		prerequisite = { focus = GLF_the_great_lakes_revolution }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = GLF_new_world_communism_tooltip
+		}
+	}
+	
+	focus = {
+		id = GLF_new_peoples_army
+		icon = GFX_goal_GLF_new_peoples_army
+		x = -2
+		y = 1
+		relative_position_id = GLF_the_great_lakes_revolution
+
+		cost = 5
+		prerequisite = { focus = GLF_the_great_lakes_revolution }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = GLF_new_peoples_army_tooltip
+			hidden_effect = {
+				load_oob = "GLF_communism"
+			}
+		}
+	}
+	
+	focus = {
+		id = GLF_call_for_soviet_generals
+		icon = GFX_goal_GLF_call_for_soviet_generals
+		x = 0
+		y = 1
+		relative_position_id = GLF_soviet_invitation
+
+		cost = 5
+		prerequisite = { focus = GLF_soviet_invitation }
+		
+		available = {
+			is_in_faction_with = SOV
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			army_experience = 20
+			create_corps_commander = {#male
+				name = "Iosif Apanasenko"
+				picture = "Portrait_GLF_iosif_apanasenko.dds"
+				traits = { harsh_leader cavalry_officer winter_specialist}
+				skill = 4
+
+				attack_skill = 3
+				defense_skill = 5
+				planning_skill = 2
+				logistics_skill = 4
+			}
+			create_corps_commander = {#male
+				name = "Maksim Purkayev"
+				picture = "Portrait_GLF_maksim_purkayev.dds"
+				traits = { brilliant_strategist harsh_leader old_guard  infantry_officer}
+				skill = 5
+
+				attack_skill = 3 
+				defense_skill = 5
+				planning_skill = 5
+				logistics_skill = 4
+			}
+			
+		}
+	}
+
+	focus = {
+		id = GLF_seduce_the_red_wolf
+		icon = GFX_goal_GLF_seduce_the_red_wolf
+		x = 0
+		y = 1
+		relative_position_id = GLF_community_of_tribes
+
+		cost = 10
+		prerequisite = { focus = GLF_community_of_tribes }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = ivan_dmitrievich_papanin
+		}
+	}
+
+
+	focus = {
+		id = GLF_settle_the_score
+		icon = GFX_goal_GLF_settle_the_score
+		x = 3
+		y = 1
+		relative_position_id = GLF_strengthen_the_chief
+
+		cost = 5
+		prerequisite = { focus = GLF_strengthen_the_chief }
+		mutually_exclusive = { focus = GLF_community_of_tribes }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = fascist_influence
+				days = 720
+			}
+			#Increases Fascist Support
+		}
+	}
+	
+	focus = {
+		id = GLF_speak_with_the_silver_legion
+		icon = GFX_goal_GLF_speak_with_the_silver_legion
+		x = 0
+		y = 1
+		relative_position_id = GLF_settle_the_score
+
+		cost = 5
+		prerequisite = { focus = GLF_settle_the_score }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = -0.05
+			}
+			
+			USA = {
+				add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = -0.05
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_german_invitation
+		icon = GFX_goal_GLF_german_invitation
+		x = 0
+		y = 1
+		relative_position_id = GLF_speak_with_the_silver_legion
+
+		cost = 10
+		prerequisite = { focus = GLF_speak_with_the_silver_legion }
+		
+		available = {
+			fascism > 0.25
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			GER = { country_event = { id = hu_germany.1 days = 1} }
+		}
+	}
+	
+	focus = {
+		id = GLF_german_sub_cooperation
+		icon = GFX_goal_GLF_german_sub_cooperation
+		x = -1
+		y = 1
+		relative_position_id = GLF_german_invitation
+
+		cost = 10
+		prerequisite = { focus = GLF_german_invitation }
+
+		available = {
+			is_in_faction_with = GER
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_tech_bonus = {
+				ahead_reduction = 1
+				uses = 1
+				category = ss_tech
+			}
+			GER = {
+				add_tech_bonus = {
+					ahead_reduction = 1
+					uses = 1
+					category = ss_tech
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_tirpitz_plan_promise
+		icon = GFX_goal_GLF_tirpitz_plan_promise
+		x = 0
+		y = 2
+		relative_position_id = GLF_german_invitation
+
+		cost = 10
+		prerequisite = { focus = GLF_german_invitation }
+
+		available = {
+			is_in_faction_with = GER
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			GER = { country_event = { id = hu_germany.2 } }
+		}
+	}
+	
+	focus = {
+		id = GLF_german_tank_cooperation
+		icon = GFX_goal_GLF_german_tank_cooperation
+		x = 1
+		y = 1
+		relative_position_id = GLF_german_invitation
+
+		cost = 10
+		prerequisite = { focus = GLF_german_invitation }
+
+		available = {
+			is_in_faction_with = GER
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_tech_bonus = {
+				ahead_reduction = 1
+				uses = 1
+				category = cat_light_armor
+			}
+			GER = {
+				add_tech_bonus = {
+					ahead_reduction = 1
+					uses = 1
+					category = cat_light_armor
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_invite_ambassadors
+		icon = GFX_goal_GLF_invite_ambassadors
+		x = 0
+		y = 6
+		relative_position_id = GLF_furs_for_europe
+
+		cost = 10
+		prerequisite = { focus = GLF_furs_for_europe }
+		mutually_exclusive = { focus = GLF_strengthen_the_chief focus = GLF_this_land_is_our_land}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 120
+
+			add_opinion_modifier = { target = ENG modifier = GLF_invite_ambassadors }
+			ENG = { add_opinion_modifier = { target = ROOT modifier = GLF_invite_ambassadors } }
+
+			add_opinion_modifier = { target = FRA modifier = GLF_invite_ambassadors }
+			FRA = { add_opinion_modifier = { target = ROOT modifier = GLF_invite_ambassadors } }
+
+			add_opinion_modifier = { target = USA modifier = GLF_invite_ambassadors }
+			USA = { add_opinion_modifier = { target = ROOT modifier = GLF_invite_ambassadors } }
+
+			add_opinion_modifier = { target = CAN modifier = GLF_invite_ambassadors }
+			CAN = { add_opinion_modifier = { target = ROOT modifier = GLF_invite_ambassadors } }
+
+			add_opinion_modifier = { target = HOL modifier = GLF_invite_ambassadors }
+			HOL = { add_opinion_modifier = { target = ROOT modifier = GLF_invite_ambassadors } }
+
+			add_opinion_modifier = { target = BEL modifier = GLF_invite_ambassadors }
+			BEL = { add_opinion_modifier = { target = ROOT modifier = GLF_invite_ambassadors } }
+		}
+	}
+
+	focus = {
+		id = GLF_invite_foreign_tribes
+		icon = GFX_goal_GLF_invite_foreign_tribes
+		x = 4
+		y = 2
+		relative_position_id = GLF_invite_ambassadors
+
+		cost = 10
+		prerequisite = { focus = GLF_invite_ambassadors }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_incorperate_foreign_tribes_focus
+		}
+	}
+
+	focus = {
+		id = GLF_british_portage
+		icon = GFX_goal_GLF_british_portage
+		x = 0
+		y = 1
+		relative_position_id = GLF_invite_ambassadors
+
+		cost = 5
+		prerequisite = { focus = GLF_invite_ambassadors }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = democratic_influence
+				days = 720
+			}
+			#Increase in Democratic Support
+		}
+	}
+
+	focus = {
+		id = GLF_save_the_colonizers
+		icon = GFX_goal_GLF_save_the_colonizers
+		x = 0
+		y = 1
+		relative_position_id = GLF_british_portage
+
+		cost = 10
+		prerequisite = { focus = GLF_british_portage }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			ENG = { country_event = { id = hu_britain.1 days = 1} }
+		}
+	}
+
+
+	focus = {
+		id = GLF_international_shawnee_volunteers
+		icon = GFX_goal_GLF_international_shawnee_volunteers
+		x = 2
+		y = 1
+		relative_position_id = GLF_invite_ambassadors
+
+		cost = 10
+		prerequisite = { focus = GLF_invite_ambassadors }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_rule = { can_send_volunteers = yes }
+			add_political_power = 25
+			#As per generic
+		}
+	}
+
+	focus = {
+		id = GLF_great_lakes_guardians
+		icon = GFX_goal_GLF_great_lakes_guardians
+		x = 0
+		y = 1
+		relative_position_id = GLF_international_shawnee_volunteers
+
+		cost = 10
+		prerequisite = { focus = GLF_international_shawnee_volunteers }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = volunteer_corps_focus
+			#As Per Generic Tree
+		}
+	}
+
+	####################################
+	#### INTERNAL POLITICAL SECTION ####
+	####################################
+
+	focus = {
+		id = GLF_rally_the_lake_chiefs
+		icon = GFX_goal_GLF_rally_the_lake_chiefs
+		x = 28
+		y = 0
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GLF_afferm_the_gentle_side
+		icon = GFX_goal_GLF_afferm_the_gentle_side
+		x = -2
+		y = 1
+		relative_position_id = GLF_rally_the_lake_chiefs
+
+		cost = 7.5
+		prerequisite = { focus = GLF_rally_the_lake_chiefs }
+		mutually_exclusive = { focus = GLF_concessions_to_the_hawks }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = GLF_support_our_scholars
+		icon = GFX_goal_GLF_support_our_scholars
+		x = -1
+		y = 1
+		relative_position_id = GLF_afferm_the_gentle_side
+
+		cost = 10
+		prerequisite = { focus = GLF_afferm_the_gentle_side }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_support_our_scholars_focus
+		}
+	}
+	
+	focus = {
+		id = GLF_support_our_worshipers
+		icon = GFX_goal_GLF_support_our_worshipers
+		x = 1
+		y = 1
+		relative_position_id = GLF_afferm_the_gentle_side
+
+		cost = 10
+		prerequisite = { focus = GLF_afferm_the_gentle_side }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = GLF_the_new_world_institute
+		icon = GFX_goal_GLF_the_new_world_institute
+		x = 1
+		y = 1
+		relative_position_id = GLF_support_our_scholars
+
+		cost = 10
+		prerequisite = { focus = GLF_support_our_scholars focus = GLF_support_our_worshipers }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+
+	focus = {
+		id = GLF_the_trial_of_nixkamich
+		icon = GFX_goal_GLF_the_trial_of_nixkamich
+		x = 3
+		y = 2
+		relative_position_id = GLF_support_our_scholars
+
+		cost = 10
+		prerequisite = { focus = GLF_the_new_world_institute focus = GLF_free_nixkamich_tree}
+		mutually_exclusive = { focus = GLF_no_crime_done }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = GLF_free_nixkamich }
+				GLF = { country_event = { id = glf.15  days = 1 }}
+				else = {
+					if = {
+						limit = { has_idea = GLF_martyred_nixkamich }
+						GLF = { country_event = { id = glf.17 }}
+						else = {
+							GLF = { country_event = { id = glf.16 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+	focus = {
+		id = GLF_end_hawkism
+		icon = GFX_goal_GLF_end_hawkism
+		x = -2
+		y = 1
+		relative_position_id = GLF_the_trial_of_nixkamich
+
+		cost = 10
+		prerequisite = { focus = GLF_the_trial_of_nixkamich }
+		mutually_exclusive = { focus = GLF_re-form_the_aayaash }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_end_hawkism_focus
+		}
+	}
+
+	focus = {
+		id = GLF_tribes_in_the_20th_century
+		icon = GFX_goal_GLF_tribes_in_the_20th_century
+		x = 0
+		y = 1
+		relative_position_id = GLF_end_hawkism
+
+		cost = 10
+		prerequisite = { focus = GLF_end_hawkism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas {
+				remove_idea = GLF_end_hawkism_focus
+				add_idea = GLF_end_hawkism2_focus
+			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GLF_sw
+			
+		}
+	}
+
+	focus = {
+		id = GLF_concessions_to_the_hawks
+		icon = GFX_goal_GLF_concessions_to_the_hawks
+		x = 2
+		y = 1
+		relative_position_id = GLF_rally_the_lake_chiefs
+		cost = 7.5
+		prerequisite = { focus = GLF_rally_the_lake_chiefs }
+		mutually_exclusive = { focus = GLF_afferm_the_gentle_side }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+			swap_ideas {
+				remove_idea = resurgence_of_hawkism
+				add_idea = resurgence_of_hawkism2
+			}
+			
+			add_war_support = 0.05
+			
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_support_our_soldiers
+		icon = GFX_goal_GLF_support_our_soldiers
+		x = -1
+		y = 1
+		relative_position_id = GLF_concessions_to_the_hawks
+
+		cost = 10
+		prerequisite = { focus = GLF_concessions_to_the_hawks }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_support_our_soldiers_focus
+		}
+	}
+	
+	focus = {
+		id = GLF_support_our_workers
+		icon = GFX_goal_GLF_support_our_workers
+		x = 1
+		y = 1
+		relative_position_id = GLF_concessions_to_the_hawks
+
+		cost = 10
+		prerequisite = { focus = GLF_concessions_to_the_hawks }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_support_our_workers_focus
+		}
+	}
+
+	focus = {
+		id = GLF_free_nixkamich_tree
+		icon = GFX_goal_GLF_free_nixkamich
+		x = 1
+		y = 1
+		relative_position_id = GLF_support_our_soldiers
+
+		cost = 5
+		prerequisite = { focus = GLF_support_our_soldiers  focus = GLF_support_our_workers }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		bypass = {
+			has_idea = GLF_free_nixkamich
+		}
+	
+		completion_reward = {
+			if = {
+				limit = { country_exists = CAN }
+				GLF = { country_event = { id = glf.13  days = 1}}
+				else = {
+					GLF = { country_event = { id = glf.100 days = 1}}
+				}	
+			}
+		}
+	}
+	
+	focus = {
+		id = GLF_no_crime_done
+		icon = GFX_goal_GLF_no_crime_done
+		x = 0
+		y = 1
+		relative_position_id = GLF_free_nixkamich_tree
+
+		cost = 1
+		prerequisite = { focus = GLF_free_nixkamich_tree}
+		mutually_exclusive = { focus = GLF_the_trial_of_nixkamich }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		bypass = {
+			OR = {
+				has_idea = GLF_convicted_nixkamich
+				has_idea = GLF_executed_nixkamich
+			}
+		}
+
+		completion_reward = {
+			add_stability = -0.10
+		}
+	}
+
+	focus = {
+		id = GLF_re-form_the_aayaash
+		icon = GFX_goal_GLF_re-form_the_aayaash
+		x = 0
+		y = 1
+		relative_position_id = GLF_no_crime_done
+
+		cost = 10
+		prerequisite = { focus = GLF_no_crime_done focus = GLF_the_trial_of_nixkamich}
+		mutually_exclusive = { focus = GLF_end_hawkism }
+		
+		available = {
+			AND = {
+				NOT = {has_idea = GLF_convicted_nixkamich}
+				NOT = {has_idea = GLF_executed_nixkamich}
+			} 
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+			set_politics = {
+				ruling_party = fascism
+			}
+			swap_ideas = {
+				remove_idea = resurgence_of_hawkism
+				remove_idea = resurgence_of_hawkism2
+				add_idea = resurgence_of_hawkism3
+			}
+			add_stability = -0.15
+		}
+	}
+
+	focus = {
+		id = GLF_appoint_nixkamich
+		icon = GFX_goal_GLF_appoint_nixkamich
+		x = 2
+		y = 1
+		relative_position_id = GLF_re-form_the_aayaash
+
+		cost = 7.5
+		prerequisite = { focus = GLF_re-form_the_aayaash }
+		mutually_exclusive = { focus = GLF_appoint_honovi}
+
+		available = {
+			AND = {
+				NOT = {has_idea = GLF_martyred_nixkamich}
+				NOT = {has_idea = GLF_executed_nixkamich}
+			} 
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_ideas = GLF_free_nixkamich
+			create_country_leader = {
+				name = "Nixkamich"
+				desc = ""
+				picture = "greatlakesconfederationleaderfasc.dds"
+
+				ideology = fascism_ideology
+				traits = {
+					the_rage_of_the_tribes
+				}
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_appoint_honovi
+		icon = GFX_goal_GLF_appoint_honovi
+		x = 4
+		y = 1
+		relative_position_id = GLF_re-form_the_aayaash
+
+		cost = 7.5
+		prerequisite = { focus = GLF_re-form_the_aayaash}
+		mutually_exclusive = { focus = GLF_appoint_nixkamich}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_country_leader = {
+				name = "Honovi"
+				desc = ""
+				picture = "greatlakesconfederationleaderfasc2.dds"
+
+				ideology = fascism_ideology
+				traits = {
+					legendary_aviator
+				}
+			}
+			
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_end_the_gentle_side
+		icon = GFX_goal_GLF_end_the_gentle_side
+		x = 0
+		y = 1
+		relative_position_id = GLF_re-form_the_aayaash
+
+		cost = 10
+		prerequisite = { focus = GLF_re-form_the_aayaash}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.3
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.15
+			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GLF_fe
+		}
+	}
+
+	focus = {
+		id = GLF_revisit_the_treaties
+		icon = GFX_goal_GLF_revisit_the_treaties
+		x = 0
+		y = 2
+		relative_position_id = GLF_end_the_gentle_side
+
+		cost = 15
+		prerequisite = { focus = GLF_end_the_gentle_side}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_state_core = 373
+			add_state_core = 360
+			add_state_core = 362
+			add_state_core = 369
+			add_state_core = 807
+			
+			add_named_threat = { threat = 4 name = GLF_revisit_the_treaties }
+		}
+	}
+
+	focus = {
+		id = GLF_the_hawk_versus_the_eagle
+		icon = GFX_goal_GLF_the_hawk_versus_the_eagle
+		x = 0
+		y = 1
+		relative_position_id = GLF_revisit_the_treaties
+
+		cost = 7.5
+		prerequisite = { focus = GLF_revisit_the_treaties}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = USA
+				type = annex_everything
+				expire = 0
+			}
+		}
+	}
+
+	
+	############################
+	#### INDUSTRIAL SECTION ####
+	############################
+
+	focus = {
+		id = GLF_great_lakes_industrial_council
+		icon = GFX_goal_GLF_great_lakes_industrial_council
+		x = -2
+		y = 2
+		relative_position_id = GLF_end_the_gentle_side
+		
+		cost = 5
+		prerequisite = { focus = GLF_end_the_gentle_side focus = GLF_tribes_in_the_20th_century }
+
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
+
+		ai_will_do = {
+			factor = 3
+			}
+	}
+
+	focus = {
+		id = GLF_industrial_lake_projects
+		icon = GFX_goal_GLF_industrial_lake_projects
+		x = 0
+		y = 2
+		relative_position_id = GLF_great_lakes_industrial_council
+
+		cost = 5
+		prerequisite = { focus = GLF_great_lakes_industrial_council }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 1
+				category = construction_tech
+			}
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 1
+				category = excavation_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_indstrialize_lake_ontario
+		icon = GFX_goal_GLF_indstrialize_lake_ontario
+		x = 0
+		y = 1
+		relative_position_id = GLF_industrial_lake_projects
+
+		cost = 10
+		prerequisite = { focus = GLF_industrial_lake_projects }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			276 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_stability = -0.05
+		}
+	}
+
+	focus = {
+		id = GLF_ontario_pathways
+		icon = GFX_goal_GLF_ontario_pathways
+		x = 0
+		y = 1
+		relative_position_id = GLF_indstrialize_lake_ontario
+
+		cost = 7.5
+		prerequisite = { focus = GLF_indstrialize_lake_ontario }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			276 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+		}
+	}
+
+	focus = {
+		id = GLF_indstrialize_lake_erie
+		icon = GFX_goal_GLF_indstrialize_lake_erie
+		x = 2
+		y = 1
+		relative_position_id = GLF_industrial_lake_projects
+
+		cost = 10
+		prerequisite = { focus = GLF_industrial_lake_projects }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			261 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_stability = -0.05
+		}
+	}
+
+	focus = {
+		id = GLF_ohio_aluminum
+		icon = GFX_goal_GLF_ohio_aluminum
+		x = 0
+		y = 1
+		relative_position_id = GLF_indstrialize_lake_erie
+
+		cost = 7.5
+		prerequisite = { focus = GLF_indstrialize_lake_erie }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = aluminium
+				amount = 10
+				state = 261
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_indstrialize_lake_huron
+		icon = GFX_goal_GLF_indstrialize_lake_huron
+		x = 4
+		y = 1
+		relative_position_id = GLF_industrial_lake_projects
+
+		cost = 10
+		prerequisite = { focus = GLF_industrial_lake_projects }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			393 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_stability = -0.05
+		}
+	}
+
+	focus = {
+		id = GLF_michigan_research_institute
+		icon = GFX_goal_GLF_michigan_research_institute
+		x = 0
+		y = 1
+		relative_position_id = GLF_indstrialize_lake_huron
+
+		cost = 10
+		prerequisite = { focus = GLF_indstrialize_lake_huron }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+
+	focus = {
+		id = GLF_indstrialize_lake_michigan
+		icon = GFX_goal_GLF_indstrialize_lake_michigan
+		x = 6
+		y = 1
+		relative_position_id = GLF_industrial_lake_projects
+
+		cost = 10
+		prerequisite = { focus = GLF_industrial_lake_projects }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			394 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_stability = -0.05
+		}
+	}
+
+	focus = {
+		id = GLF_repair_sacred_ground
+		icon = GFX_goal_GLF_repair_sacred_ground
+		x = 0
+		y = 1
+		relative_position_id = GLF_indstrialize_lake_michigan
+
+		cost = 10
+		prerequisite = { focus = GLF_indstrialize_lake_michigan }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_repair_sacred_ground_focus
+		}
+	}
+
+	focus = {
+		id = GLF_indstrialize_lake_superior
+		icon = GFX_goal_GLF_indstrialize_lake_superior
+		x = 8
+		y = 1
+		relative_position_id = GLF_industrial_lake_projects
+
+		cost = 10
+		prerequisite = { focus = GLF_industrial_lake_projects }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			391 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+			add_stability = -0.1
+		}
+	}
+	
+	focus = {
+		id = GLF_center_of_america
+		icon = GFX_goal_GLF_center_of_america
+		x = 0
+		y = 2
+		relative_position_id = GLF_indstrialize_lake_superior
+
+		cost = 7.5
+		prerequisite = { focus = GLF_indstrialize_lake_superior }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			391 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = air_base
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+			395 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = air_base
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+			276 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = air_base
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+		}
+	}
+
+	focus = {
+		id = GLF_minnesota_natural_resources_institute
+		icon = GFX_goal_GLF_minnesota_natural_resources_institute
+		x = 0
+		y = 1
+		relative_position_id = GLF_center_of_america
+
+		cost = 10
+		prerequisite = { focus = GLF_center_of_america }
+		prerequisite = { focus = GLF_great_lakes_circuit focus = GLF_save_the_land }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_research_slot = 1
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_great_lakes_circuit
+		icon = GFX_goal_GLF_great_lakes_circuit
+		x = 1
+		y = 1
+		relative_position_id = GLF_ontario_pathways
+
+		cost = 10
+		prerequisite = { focus = GLF_ohio_aluminum }
+		prerequisite = { focus = GLF_ontario_pathways }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			682 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+			391 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+			393 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+			261 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+		}
+
+
+	}
+	
+	focus = {
+		id = GLF_save_the_land
+		icon = GFX_goal_GLF_save_the_land
+		x = 1
+		y = 1
+		relative_position_id = GLF_michigan_research_institute
+
+		cost = 5
+		prerequisite = { focus = GLF_michigan_research_institute }
+		prerequisite = { focus = GLF_repair_sacred_ground }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = GLF_save_the_land_tooltip
+		}
+	}
+
+	focus = {
+		id = GLF_animikiikaa_project
+		icon = GFX_goal_GLF_animikiikaa_project
+		x = 0
+		y = 1
+		relative_position_id = GLF_minnesota_natural_resources_institute
+
+		cost = 10
+		prerequisite = { focus = GLF_minnesota_natural_resources_institute }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = nuclear
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = nuclear
+			}
+		}
+	}
+
+	######################
+	#### ARMY SECTION ####
+	######################
+
+	focus = {
+		id = GLF_warrior_spirit
+		icon = GFX_goal_GLF_warrior_spirit
+		x = 41
+		y = 0
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_manpower = 100000
+		}
+	}
+	
+	focus = {
+		id = GLF_code_talkers
+		icon = GFX_goal_GLF_code_talkers
+		x = 0
+		y = 1
+		relative_position_id = GLF_warrior_spirit
+
+		cost = 3
+		prerequisite = { focus = GLF_warrior_spirit}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+					bonus = 2.0
+					uses = 2
+					category = encryption_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_forest_warriors
+		icon = GFX_goal_GLF_forest_warriors
+		x = -3
+		y = 1
+		relative_position_id = GLF_warrior_spirit
+
+		cost = 5
+		prerequisite = { focus = GLF_warrior_spirit}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_forest_warriors_focus
+		}
+	}
+
+	focus = {
+		id = GLF_strike_fast
+		icon = GFX_goal_GLF_strike_fast
+		x = -2
+		y = 1
+		relative_position_id = GLF_forest_warriors
+		mutually_exclusive = { focus = GLF_strike_smart focus=GLF_strike_hard}
+
+		cost = 7.5
+		prerequisite = { focus = GLF_forest_warriors}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = motorized_equipment
+				
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_detroit_auto
+		icon = GFX_goal_GLF_detroit_auto
+		x = 0
+		y = 1
+		relative_position_id = GLF_strike_fast
+
+		cost = 10
+		prerequisite = { focus = GLF_strike_fast}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 5000
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_light_tank_tactics
+		icon = GFX_goal_GLF_light_tank_tactics
+		x = 0
+		y = 1
+		relative_position_id = GLF_detroit_auto
+
+		cost = 10
+		prerequisite = { focus = GLF_detroit_auto}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 2
+				category = cat_light_armor
+			}
+			add_equipment_to_stockpile = {
+				type = light_tank_equipment
+				amount = 300
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_swift_like_the_tide
+		icon = GFX_goal_GLF_swift_like_the_tide
+		x = 0
+		y = 1
+		relative_position_id = GLF_light_tank_tactics
+
+		cost = 10
+		prerequisite = { focus = GLF_light_tank_tactics}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_swift_like_the_tide_focus
+		}
+	}
+
+	focus = {
+		id = GLF_strike_smart
+		icon = GFX_goal_GLF_strike_smart
+		x = 0
+		y = 1
+		relative_position_id = GLF_forest_warriors
+
+		cost = 7.5
+		prerequisite = { focus = GLF_forest_warriors}
+		mutually_exclusive = { focus = GLF_strike_fast focus=GLF_strike_hard}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_new_ottawa_generals
+		icon = GFX_goal_GLF_new_ottawa_generals
+		x = 0
+		y = 1
+		relative_position_id = GLF_strike_smart
+
+		cost = 10
+		prerequisite = { focus = GLF_strike_smart}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_field_marshal = { #male
+				name = "Wishe"
+				picture = "Portrait_GLF_General_no_feather.dds"
+				traits = {  defensive_doctrine brilliant_strategist career_officer}
+				skill = 5
+
+				attack_skill = 5
+				defense_skill = 5
+				planning_skill = 4
+				logistics_skill = 2
+			}
+			create_corps_commander = {#male
+				name = "Iostha"
+				picture = "Portrait_GLF_General_purple.dds"
+				traits = { brilliant_strategist harsh_leader}
+				skill = 5
+
+				attack_skill = 6 
+				defense_skill = 5
+				planning_skill = 2
+				logistics_skill = 3
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_connect_the_warbands
+		icon = GFX_goal_GLF_connect_the_warbands
+		x = 0
+		y = 1
+		relative_position_id = GLF_new_ottawa_generals
+
+		cost = 10
+		prerequisite = { focus = GLF_new_ottawa_generals}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 2
+				category = signal_company_tech
+				
+			}
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 1
+				category = radar_tech
+				
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_examine_foreign_tactics
+		icon = GFX_goal_GLF_examine_foreign_tactics
+		x = 0
+		y = 1
+		relative_position_id = GLF_connect_the_warbands
+
+		cost = 10
+		prerequisite = { focus = GLF_connect_the_warbands}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_examine_foreign_tactics_focus
+		}
+	}
+
+	focus = {
+		id = GLF_strike_hard
+		icon = GFX_goal_GLF_strike_hard
+		x = 2
+		y = 1
+		relative_position_id = GLF_forest_warriors
+		prerequisite = { focus = GLF_forest_warriors}
+
+		cost = 7.5
+		mutually_exclusive = { focus = GLF_strike_fast focus=GLF_strike_smart}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 50000
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_stronger_small_arms
+		icon = GFX_goal_GLF_stronger_small_arms
+		x = 0
+		y = 1
+		relative_position_id = GLF_strike_hard
+
+		cost = 10
+		prerequisite = { focus = GLF_strike_hard}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_great_north_guns
+		icon = GFX_goal_GLF_great_north_guns
+		x = 0
+		y = 1
+		relative_position_id = GLF_stronger_small_arms
+
+		cost = 10
+		prerequisite = { focus = GLF_stronger_small_arms}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 2
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_fight_shell_for_shell
+		icon = GFX_goal_GLF_fight_shell_for_shell
+		x = 0
+		y = 1
+		relative_position_id = GLF_great_north_guns
+
+		cost = 10
+		prerequisite = { focus = GLF_great_north_guns}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = tungsten
+				amount = 10
+				state = 393
+			}
+			add_ideas = GLF_fight_shell_for_shell_focus
+		}
+	}
+
+	focus = {
+		id = GLF_bgwajinini
+		icon = GFX_goal_GLF_bgwajinini
+		x = 0
+		y = 1
+		relative_position_id = GLF_examine_foreign_tactics
+
+		cost = 7.5
+		prerequisite = { focus = GLF_swift_like_the_tide focus = GLF_examine_foreign_tactics focus = GLF_fight_shell_for_shell}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GLF_forest_warriors_focus
+				add_idea = GLF_forest_warriors2_focus
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_water_lynx
+		icon = GFX_goal_GLF_water_lynx
+		x = -2
+		y = 1
+		relative_position_id = GLF_bgwajinini
+
+		cost = 7.5
+		prerequisite = { focus = GLF_bgwajinini}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_water_lynx_focus
+		}
+	}
+
+	focus = {
+		id = GLF_wiingdoo_hunters
+		icon = GFX_goal_GLF_wiingdoo_hunters
+		x = 0
+		y = 1
+		relative_position_id = GLF_bgwajinini
+
+		cost = 7.5
+		prerequisite = { focus = GLF_bgwajinini}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_wiingdoo_hunters_focus
+		}
+	}
+
+	focus = {
+		id = GLF_thunderers
+		icon = GFX_goal_GLF_thunderers
+		x = 2
+		y = 1
+		relative_position_id = GLF_bgwajinini
+
+		cost = 7.5
+		prerequisite = { focus = GLF_bgwajinini}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_thunderers_focus
+		}
+	}
+
+	focus = {
+		id = GLF_sky_warriors
+		icon = GFX_goal_GLF_sky_warriors
+		x = 3
+		y = 1
+		relative_position_id = GLF_warrior_spirit
+
+		cost = 5
+		prerequisite = { focus = GLF_warrior_spirit}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 2
+				category = air_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_chaos_from_above
+		icon = GFX_goal_GLF_chaos_from_above
+		x = -2
+		y = 1
+		relative_position_id = GLF_sky_warriors
+
+		cost = 10
+		prerequisite = { focus = GLF_sky_warriors}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = CAS_equipment
+				amount = 200
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_close_warband_support
+		icon = GFX_goal_GLF_close_warband_support
+		x = 0
+		y = 1
+		relative_position_id = GLF_chaos_from_above
+
+		cost = 7.5
+		prerequisite = { focus = GLF_chaos_from_above}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 3.0
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_invent_the_thunderbird
+		icon = GFX_goal_GLF_invent_the_thunderbird
+		x = 0
+		y = 1
+		relative_position_id = GLF_sky_warriors
+
+		cost = 10
+		prerequisite = { focus = GLF_sky_warriors}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			air_experience = 50
+			set_technology = { heavy_fighter1 = 1 } 
+		}
+	}
+
+	focus = {
+		id = GLF_improve_the_thunderbird
+		icon = GFX_goal_GLF_improve_the_thunderbird
+		x = 0
+		y = 1
+		relative_position_id = GLF_invent_the_thunderbird
+
+		cost = 7.5
+		prerequisite = { focus = GLF_invent_the_thunderbird}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				ahead_reduction = 2
+				uses = 1
+				category = cat_heavy_fighter
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_great_lake_aces
+		icon = GFX_goal_GLF_great_lake_aces
+		x = 2
+		y = 1
+		relative_position_id = GLF_sky_warriors
+
+		cost = 10
+		prerequisite = { focus = GLF_sky_warriors}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GLF_great_lake_aces_focus
+		}
+	}
+
+	focus = {
+		id = GLF_carrier_practice
+		icon = GFX_goal_GLF_carrier_practice
+		x = 0
+		y = 1
+		relative_position_id = GLF_great_lake_aces
+
+		cost = 7.5
+		prerequisite = { focus = GLF_great_lake_aces}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2.0
+				uses = 3
+				category = naval_air
+			}
+		}
+	}
+
+	focus = {
+		id = GLF_great_lakes_airshow
+		icon = GFX_goal_GLF_great_lakes_airshow
+		x = 0
+		y = 1
+		relative_position_id = GLF_improve_the_thunderbird
+
+		cost = 5
+		prerequisite = { focus = GLF_close_warband_support focus = GLF_improve_the_thunderbird focus = GLF_carrier_practice}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			GLF={ country_event = { id = glf.98 }}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GLF_s3
+		}
+	}
+}

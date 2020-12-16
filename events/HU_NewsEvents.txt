@@ -1,0 +1,136 @@
+﻿###########################
+# HU News Events
+###########################
+
+add_namespace = hu_news
+
+# Great Lakes Confederation Lakes Fair
+news_event = {
+	id = hu_news.1
+	title = hu_news.1.t
+	desc = hu_news.1.d
+	picture = GFX_news_event_lakes_fair
+
+	major = yes
+
+	is_triggered_only = yes
+
+	fire_for_sender = no
+
+	option = {
+		name = hu_news.1.a
+	}
+}
+
+# Great Lakes Confederation Joins Allies
+news_event = {
+	id = hu_news.2
+	title = hu_news.2.t
+	picture = GFX_news_event_churchill_degaulle
+	desc = hu_news.2.d
+
+	major = yes
+
+	is_triggered_only = yes
+
+	#We stand together.
+	option = {
+		name = hu_news.2.a
+		trigger = {
+			OR = {
+				tag = ENG
+				tag = GLF
+			}
+		}
+	}
+
+	#They are preparing for the worst.
+	option = {
+		name = hu_news.2.b
+		trigger = {
+			GLF = {
+				has_war = no
+			}
+			NOT = {
+				OR = {
+					tag = GLF
+					tag = ENG
+					tag = GER
+				}
+			}
+		}
+	}
+	#Banding together like cornered rats.
+	option = {
+		name = hu_news.2.c
+		trigger = {
+			OR = {
+				tag = GER
+				has_war_with = GLF
+			}
+		}
+	}
+
+	#Britain has thrown in their lot.
+	option = {
+		name = hu_news.2.e
+		trigger = {
+			GLF = {
+				has_war = yes
+			}
+			NOT = {
+				has_war_with = GLF
+			}
+			NOT = {
+				OR = {
+					tag = GLF
+					tag = ENG
+					tag = GER
+				}
+			}
+		}
+	}
+}
+
+# Great Lakes Confederation denied join allies
+news_event = {
+	id = hu_news.3
+	title = hu_news.3.t
+	picture = GFX_news_event_churchill_degaulle
+	desc = news.3.d
+
+	major = yes
+
+	is_triggered_only = yes
+
+	fire_for_sender = no
+
+	#They should have asked more nicely.
+	option = {
+		name = hu_news.3.a
+		trigger = {
+			tag = ENG
+		}
+	}
+
+	#Our old enemies stand divided.
+	option = {
+		name = hu_news.3.b
+		trigger = {
+			tag = GER
+		}
+	}
+
+	#A dark day for the old allies.
+	option = {
+		name = hu_news.3.c
+		trigger = {
+			NOT = {
+				OR = {
+					tag = ENG
+					tag = GER
+				}
+			}
+		}
+	}
+}

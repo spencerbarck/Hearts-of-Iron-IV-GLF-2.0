@@ -1,0 +1,38 @@
+﻿###########################
+# Great Lakes Confederation Events
+###########################
+
+add_namespace = glf
+
+# GLF Start
+country_event = {
+	id = glf.1
+	title = glf.1.title
+	desc = glf.1.d
+	picture = GFX_report_event_great_lakes_confederation
+	
+	#is_triggered_only = yes
+
+	trigger = {
+		original_tag  = GLF
+		date > 1936.1.2
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { # ancestors
+		name = glf.1.a
+		ai_chance = { factor = 90 }
+		add_stability = 0.1
+		
+	}
+	option = { # future
+		name = glf.1.b
+		ai_chance = { factor = 10 }
+		add_political_power = 50
+	}
+}

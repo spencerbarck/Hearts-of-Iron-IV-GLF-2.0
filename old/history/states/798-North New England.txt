@@ -1,0 +1,33 @@
+state={
+	id=798
+	name="STATE_798"
+
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+			12459 = {
+				naval_base = 3
+
+			}
+		}
+		add_core_of = GLF
+		victory_points = {
+			12459 20 
+		}
+	}
+
+	provinces={
+		1282 1338 1619 4287 6719 7462 7629 10247 10318 10481 11662 12202 12221 12459 
+	}
+	manpower=1680942
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,97 @@
+﻿l_english:
+
+#GLF Starting ideas
+ canadian_industry_influence:0 "Canadian Industry Influence"
+ canadian_industry_influence_desc:0 "After the dark cheifs betrayal of the entante during the great war The Great Lakes Confederation signed a treaty with the Canadian government allowing their industry to operate in our lands. This has lead to many tribes believing that the Confederation is weakening as Canadian companies take steel and other resources that rightully belong to the people who live on the land."
+ resurgence_of_hawkism:0 "Resurgence of Hawkism"
+ resurgence_of_hawkism_desc:0 "Some of the more reactionary tribes of The Confederation are beginning to see a resurgance of Hawkism, an ideology started by the dark cheif in the 1920s. Hawkism proclaims that the tribes must go to war with Canada and the United States to take back lands that were wrongfully claimed."
+ whispers_from_winter_woods:0 "Whispers from Winter Woods"
+ whispers_from_winter_woods_desc:0 "The armies of The Great Lakes Confederation are known for fighting weeks on end in the harshest conditions. The native people of The Great Lakes will fight to their last breath to defend their homes."
+ landlocked_lakes:0 "Landlocked Lakes"
+ landlocked_lakes_desc:0 "The Confederation is landlocked, this makes it difficult to be part of the interconnected world of the 20th century."
+ 
+#End GLF Starting ideas
+
+#GLF focus ideas
+
+ canadian_industry_influence_2:0 "Cooperative Canadian Industry"
+ canadian_industry_influence_3:0 "Assimilated Canadian Industry"
+ 
+ resurgence_of_hawkism:0 "Resurgence of Hawkism"
+ resurgence_of_hawkism2:0 "Appeased Hawkism"
+ resurgence_of_hawkism3:0 "Organized Hawkism"
+ 
+ GLF_war_parade_focus:0 "War Parades"
+ GLF_furs_focus:0 "Increased Fur Trade"
+ 
+ GLF_seek_reperations_focus:0 "Canadian Reparations"
+ 
+ CAN_seek_reperations_focus:0 "Reparations to The Great lakes"
+ 
+ GLF_authoritarianism_focus:0 "Strengthen the Chief"
+ 
+ GLF_incorperate_foreign_tribes_focus:0 "Incorperate Foreign Tribes"
+ 
+ GLF_call_the_warchiefs_focus:0 "Coordinated Warbands"
+ 
+ GLF_the_great_portage_focus:0 "The Great Portage"
+ 
+ GLF_reject_the_old_world_focus:0 "Reject the Old World"
+ 
+ GLF_support_our_scholars_focus:0 "Support our Scholars"
+ 
+ GLF_support_our_soldiers_focus:0 "Support our Soldiers"
+ 
+ GLF_support_our_workers_focus:0 "Support our Workers"
+ 
+ GLF_end_hawkism_focus:0 "Hawkism Disavowed"
+ 
+ GLF_end_hawkism2_focus:0 "20th Century Tribes"
+ 
+ GLF_free_nixkamich:0 "Free Nixkamich"
+ 
+ GLF_martyred_nixkamich:0 "Martyred Nixkamich"
+ 
+ GLF_executed_nixkamich:0 "Executed Nixkamich"
+ 
+ GLF_convicted_nixkamich:0 "Convicted Nixkamich"
+ 
+ GLF_pardoned_nixkamich:0 "Pardoned Nixkamich"
+ 
+ GLF_seize_foreign_assets_focus:0 "Seized Foreign Assets"
+ 
+ GLF_return_to_isolation_focus:0 "Strong Isolation"
+ 
+ GLF_repair_sacred_ground_focus:0 "Repair Sacred Ground"
+ 
+ GLF_forest_warriors_focus:0 "Forest Warriors"
+ 
+ GLF_forest_warriors2_focus:0 "Bgwajinini"
+ 
+ GLF_swift_like_the_tide_focus:0 "Swift like the Tide"
+ 
+ GLF_examine_foreign_tactics_focus:0 "Examine Foreign Tactics"
+ 
+ GLF_fight_shell_for_shell_focus:0 "Fight Shell for Shell"
+ 
+ GLF_thunderers_focus:0 "Thunderers"
+ 
+ GLF_water_lynx_focus:0 "Water Lynx"
+ 
+ GLF_wiingdoo_hunters_focus:0 "Wiingidoo Incarnate"
+ 
+ GLF_great_lake_aces_focus:0 "Great Lakes Aces"
+ 
+ USA_lakes_communism_spread:0 "Lakes Communism Spread"
+ 
+ GLF_quebec_capital:0 "Quebec Capital"
+ 
+ GLF_chicago_capital:0 "Chicago Capital"
+ 
+ GLF_detroit_capital:0 "Detroit Reaffermed"
+ 
+ GLF_strong_boarders:0 "Strong Borders"
+ 
+ GLF_builders_blamed:0 "Builders Blamed"
+
+#End GLF Focus ideas

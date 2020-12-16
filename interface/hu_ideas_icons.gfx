@@ -1,0 +1,58 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_GLF_canadian_industry_influence"
+		texturefile = "gfx/interface/ideas/GLF_canadian_industry_influence.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GLF_free_nixkamich"
+		texturefile = "gfx/interface/ideas/GLF_free_nixkamich.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GLF_martyred_nixkamich"
+		texturefile = "gfx/interface/ideas/GLF_martyred_nixkamich.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GLF_executed_nixkamich"
+		texturefile = "gfx/interface/ideas/GLF_executed_nixkamich.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GLF_convicted_nixkamich"
+		texturefile = "gfx/interface/ideas/GLF_convicted_nixkamich.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GLF_pardoned_nixkamich"
+		texturefile = "gfx/interface/ideas/GLF_pardoned_nixkamich.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GLF_resurgence_of_hawkism"
+		texturefile = "gfx/interface/ideas/GLF_resurgence_of_hawkism.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GLF_landlocked_lakes"
+		texturefile = "gfx/interface/ideas/GLF_landlocked_lakes.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GLF_whispers_from_winter_woods"
+		texturefile = "gfx/interface/ideas/GLF_whispers_from_winter_woods.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GLF_furs_for_europe"
+		texturefile = "gfx/interface/ideas/GLF_furs_for_europe.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GLF_return_to_isolation"
+		texturefile = "gfx/interface/ideas/GLF_return_to_isolation.dds"	
+	}
+	
+}

@@ -1,0 +1,24 @@
+﻿###########################
+# HU News Events
+###########################
+
+add_namespace = glf_news
+
+# Great Lakes Confederation Lakes Fair
+news_event = {
+	id = glf_news.1
+	title = glf_news.1.t
+	desc = glf_news.1.d
+	picture = GFX_news_event_lakes_fair
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	fire_for_sender = no
+	
+	option = {
+		name = glf_news.1.a
+	}
+}
+

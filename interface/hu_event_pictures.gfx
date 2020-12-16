@@ -1,0 +1,208 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_report_event_great_lakes_confederation"
+		texturefile = "gfx/event_pictures/report_event_great_lakes_confederation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_operation_dark_feather"
+		texturefile = "gfx/event_pictures/report_event_operation_dark_feather.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_operation_dark_feather_failure"
+		texturefile = "gfx/event_pictures/report_event_operation_dark_feather_failure.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_operation_dark_feather_success"
+		texturefile = "gfx/event_pictures/report_event_operation_dark_feather_success.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_the_chief_and_the_radio"
+		texturefile = "gfx/event_pictures/report_event_the_chief_and_the_radio.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_trial_of_nixkamich"
+		texturefile = "gfx/event_pictures/report_event_trial_of_nixkamich.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_canada_agrees_moosonee"
+		texturefile = "gfx/event_pictures/report_event_canada_agrees_moosonee.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_lakes_fair"
+		texturefile = "gfx/event_pictures/news_event_lakes_fair.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_usa_agrees_maine"
+		texturefile = "gfx/event_pictures/report_event_usa_agrees_maine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_russia_accepts_GLF"
+		texturefile = "gfx/event_pictures/report_event_russia_accepts_GLF.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_germany_accepts_GLF"
+		texturefile = "gfx/event_pictures/report_event_germany_accepts_GLF.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_usa_accepts_GLF"
+		texturefile = "gfx/event_pictures/report_event_usa_accepts_GLF.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_canda_campers_lost"
+		texturefile = "gfx/event_pictures/report_event_canda_campers_lost.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_canda_campers_found"
+		texturefile = "gfx/event_pictures/report_event_canda_campers_found.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_boy_found"
+		texturefile = "gfx/event_pictures/report_event_boy_found.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_detroit_auto"
+		texturefile = "gfx/event_pictures/report_event_detroit_auto.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_ship_race"
+		texturefile = "gfx/event_pictures/report_event_ship_race.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_relocate_usa"
+		texturefile = "gfx/event_pictures/report_event_relocate_usa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_relocate_canada"
+		texturefile = "gfx/event_pictures/report_event_relocate_canada.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_hawkist_canada"
+		texturefile = "gfx/event_pictures/report_event_hawkist_canada.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_hawkist_usa"
+		texturefile = "gfx/event_pictures/report_event_hawkist_usa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_sturgion_sinking"
+		texturefile = "gfx/event_pictures/report_event_sturgion_sinking.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_spain_send"
+		texturefile = "gfx/event_pictures/report_event_spain_send.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_spain_arrive"
+		texturefile = "gfx/event_pictures/report_event_spain_arrive.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_ethiopia_arrive"
+		texturefile = "gfx/event_pictures/report_event_ethiopia_arrive.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_ethiopia_return"
+		texturefile = "gfx/event_pictures/report_event_ethiopia_return.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_great_lakes_airshow"
+		texturefile = "gfx/event_pictures/report_event_great_lakes_airshow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_honovi"
+		texturefile = "gfx/event_pictures/report_event_honovi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_yellow_dirt"
+		texturefile = "gfx/event_pictures/report_event_yellow_dirt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_national_american_inian"
+		texturefile = "gfx/event_pictures/report_event_national_american_inian.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_charles_curtis"
+		texturefile = "gfx/event_pictures/report_event_charles_curtis.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_cold_peace_start"
+		texturefile = "gfx/event_pictures/report_event_cold_peace_start.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_cold_peace_end"
+		texturefile = "gfx/event_pictures/report_event_cold_peace_end.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_britan_accepts_GLF"
+		texturefile = "gfx/event_pictures/report_event_britan_accepts_GLF.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_bowh_dead"
+		texturefile = "gfx/event_pictures/report_event_bowh_dead.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_north_shore"
+		texturefile = "gfx/event_pictures/report_event_north_shore.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_bugonaygeshig_dies"
+		texturefile = "gfx/event_pictures/report_event_bugonaygeshig_dies.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_niagara_falls_bridge_collapse"
+		texturefile = "gfx/event_pictures/report_event_niagara_falls_bridge_collapse.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_new_england_hurricane"
+		texturefile = "gfx/event_pictures/report_event_new_england_hurricane.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_laker_olympics"
+		texturefile = "gfx/event_pictures/report_event_laker_olympics.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_GLF_prophetstown_unrest"
+		texturefile = "gfx/event_pictures/report_event_GLF_prophetstown_unrest.dds"
+	}
+	
+}

@@ -1,0 +1,384 @@
+﻿l_english:
+
+  GLF_protect_new_ports_forts:0 "Adds §Y4 Coastal Forts§! in controlled Canadian ports.\n"
+  GLF_protect_new_ports_fort:0 "Adds §Y4 Coastal Forts§!.\n"
+ 
+# Naval section
+  
+  GLF_our_path_to_the_sea:0 "Our path to the sea"
+  GLF_our_path_to_the_sea_desc:0 "The Confederation has a proud history of shipbulding and sea travel but the Canadians will not allow ships of war to travel the Saint Lawrence river. If a path to the sea for the Confederation is found we can improve our economy and start creating a navy."
+ 
+  GLF_moose_river_for_guarantees:0 "Moose River for Guarantees"
+  GLF_moose_river_for_guarantees_desc:0 "The Moose River area is largely uninhabited and only used by traders and travelers. We should propose a deal with the Canadians where in exchange for the area we will agree to have friendlier relations."
+  
+  GLF_settle_moosonee:0 "Settle Moosonee"
+  GLF_settle_moosonee_desc:0 "The town of Moosonee is on the coast of the Hudson bay. It has a very small population and could not support the massive construction projects required to make it a good port. We can give citizens incentives to settle the area and make it more habitable."
+  
+  GLF_the_great_port_of_moosonee:0 "The Great port of Moosonee"
+  GLF_the_great_port_of_moosonee_desc:0 "Mooseonee is now a developed area that can support a large port. The inhabitants of Mooseonee will undergo one of the largest projects our Confederation has ever seen and will create a massive port."
+  
+  GLF_s_illinois_for_n_new_england:0 "South Illinois for North New England"
+  GLF_s_illinois_for_n_new_england_desc:0 "During the great war the confederation re-took territory north of the Mississippi. We can propose a deal with the United States where in exchange for our territory in South Illinois they give us a coastal region in New England."
+   
+  GLF_settle_n_new_england:0 "Settle North New England"
+  GLF_settle_n_new_england_desc:0 "Our new land on the coast is populated mostly by former Americans. We can settle some members of nearby tribes there to get more support for our industry."
+  
+  GLF_east_coast_docks:0 "East Coast Docks"
+  GLF_east_coast_docks_desc:0 "The new settlers of the east coast territory are ready to work. The region has lots of shoreline for docks to be built. These new docks will help expand our presence in the Atlantic."
+  
+  GLF_the_great_portage:0 "The Great Portage"
+  GLF_the_great_portage_desc:0 "The Confederation has many dockyards on the Great Lakes but these dockyards would be better suited next to the ocean. The movement of these docks will be a serious undertaking but will allow us to produce more ships."
+  
+  GLF_move_shipyards_to_canadian_coast:0 "Move Shipyards to Canadian coast"
+  GLF_move_shipyards_to_canadian_coast_desc:0 "Our territory on the former Canadian Atlantic coast is a better location for dockyards compared to our Lake docks."
+  
+  GLF_move_shipyards_to_american_coast:0 "Move Shipyards to American coast"
+  GLF_move_shipyards_to_american_coast_desc:0 "Our territory on the former American Atlantic coast is a better location for dockyards compared to our Lake docks."
+  
+  GLF_repurpose_trade_ships:0 "Repurpose Trade Ships"
+  GLF_repurpose_trade_ships_desc:0 "Over the years our lake dockyards have built many great trade ships. Repurposing these trade ships to ships of war will strengthen our navy. We will have to use our influence to convince the owners of the ships to give them over."
+  GLF_repurpose_trade_ships_tooltip:0 "Unlocks Repurpose Trade Ships Decisions"
+   
+#End naval section
+  
+#International section
+
+  GLF_isolation_no_longer:0 "Isolation no longer"
+  GLF_isolation_no_longer_desc:0 "Tribes in the Confederation have always had limited contact with Canadians and Americans but we have kept our distance. If we show our greatness to the world they will respect us."
+  
+  GLF_international_war_parade:0 "International War Parades"
+  GLF_international_war_parade_desc:0 "For years there have been traveling circuses that employ Native Americans. These circuses sometimes do not pay respect to tradition and paint these people in a bad light. The Confederation can authorize International War Parades that are run by Native Americans and demonstrate traditional Native American values while also showing the strength of the Native warrior."
+  
+  GLF_furs_for_europe:0 "More Furs for Europe"
+  GLF_furs_for_europe_desc:0 "The American Fur trade was once a booming industry but after the Confederation isolated itself. If we open up the Fur trade again we can improve our relations with European nations."
+  
+  GLF_negotiate_with_canada:0 "Negotiate with Canada"
+  GLF_negotiate_with_canada_desc:0 "The deal with Canada allows Canadian industry to operate in our territory. The deal was made to appease the Canadians after the Great War. The Confederation does not get anything from this deal and it is time we renegotiate it's terms."
+  
+  GLF_modify_the_deal:0 "Modify the Deal"
+  GLF_modify_the_deal:0 "When the treaty with Canada was signed we had no leverage but now we can add amendments to the treaty that allows us to prevent Canadian industry from operating in certain sacred areas."
+  
+  GLF_expand_the_deal:0 "Expand the Deal"
+  GLF_expand_the_deal_desc:0 "Adding a cooperation amendment to the treaty will allow our industry to learn new techniques from the Canadian industries and improve our industrial output."
+  
+  GLF_end_the_deal:0 "End the Deal"
+  GLF_end_the_deal_desc:0 "The treaty with Canada has allowed some of our most sacred land to be destroyed. The Canadian industries must be sent away at once, this treaty should be torn to shreds."
+  
+  GLF_seek_reperations:0 "Seek Reperations"
+  GLF_seek_reperations_desc:0 "For decades our resources have been taken from us. We are entitled to getting some of those resources back. This will please the tribes and help strengthen the Confederation."
+  
+  GLF_invite_ambassadors:0 "Invite Ambassadors"
+  GLF_invite_ambassadors_desc:0 "The outside world is very connected. If we invite ambassadors from Europe and America to come stay in our land we will improve our relations with these powers. Perhaps an alliance could form between the Confederation and the Allied powers."
+  
+  GLF_strengthen_the_chief:0 "Strengthen the Chief"
+  GLF_strengthen_the_chief_desc:0 "As we learn more about the Old World we hear stories of different forms of government. In Germany and Russia we hear of powerful leaders who can use their power to help the people. Perhaps we should look into these ideas."
+  
+  GLF_this_land_is_our_land:0 "This Land is our Land"
+  GLF_this_land_is_our_land_desc:0 "The nations of the world are banding together into factions. Our Confederation knows the power of unity but we will not join a faction created by others. We have been betrayed before!"
+  
+  GLF_expand_our_confederation:0 "Expand our Confederation"
+  GLF_expand_our_confederation_desc:0 "There are many tribes still living in Canada and the United States. We should entertain the possibility of expanding our Confederation to include the possibility of incorporating these tribes if another war should break out."
+  
+  GLF_call_the_warchiefs:0 "Call the Warchiefs"
+  GLF_call_the_warchiefs_desc:0 "The Confederation and Canada have been at odds for a while. To prepare for war we must call the Warchiefs. With all the tribes together we can lay out a strategic plan."
+  
+  GLF_assume_the_northern_throne:0 "Assume the Northern Throne"
+  GLF_assume_the_northern_throne_desc:0 "Nixkamich was reckless when he declared war on the United States and Canada during the Great War but he knew that Canada would always be our enemy. The Tribes of the Quebec and Saint Lawrence areas support us, we may have to fight the English and their Allies but our Warriors are far superior in this climate."
+  
+  GLF_protect_the_new_ports:0 "Protect the New Ports"
+  GLF_protect_the_new_ports_desc:0 "The new ports we have taken are an important part of the region. If anybody wants to take back this land by sea they must have these ports to resupply their forces. If we build coastal forts we can secure our hold on the area."
+  
+  GLF_the_cold_peace:0 "The Cold Peace"
+  GLF_the_cold_peace_desc:0 "We have defeated the Canadians but Britain and its allies still fight us. Britain has other problems and they do not want to fight a long war. If we hold onto our land in Canada long enough the allies will agree to give us Canada."
+  GLF_the_cold_peace_tooltip:0 "Unlocks Cold Peace Decisions"
+  
+  GLF_take_greenland:0 "Take Greenland"
+  GLF_take_greenland_desc:0 "There are tribes in Greenland that wish to join the confederation but they are under the rule of Denmark. We can cross the salt waters and incorporate these tribes."
+  
+  GLF_community_of_tribes:0 "Community of Tribes"
+  GLF_community_of_tribes_desc: "The people and tribes have always looked out for each other. Perhaps the ideals of community should be more incorporated into our system of government."
+  
+  GLF_soviet_invitation:0 "Soviet Invitation"
+  GLF_soviet_invitation_desc: "The Soviet Union may be on the opposite side of the world from us but they understand the power of unity. Our tribalism will transform into communism and we will join the Comintern."
+  
+  GLF_new_world_communism:0 "New World Communism"
+  GLF_new_world_communism_desc:0 "Our neighbors to the south have not yet accepted the ideas of community and true unity. We are in a good position to spread these ideas."
+  GLF_new_world_communism_tooltip:0 "Unlocks Spread Communism to the United States Decisions"
+  
+  GLF_the_great_lakes_revolution:0 "The Great Lakes Revolution"
+  GLF_the_great_lakes_revolution_desc:0 "The workers of the Confederation deserve the world. When the tribes industrialized the Great Lakes in the late 19th century workers were robbed as dangerous factories with horrible working conditions were built. It is time that we make a change. Some of the tribes will not side with us but our supporters are strong and the future is ours!"
+  
+  GLF_seduce_the_red_wolf:0 "Seduce the Red Wolf"
+  GLF_seduce_the_red_wolf_desc:0 "Admiral Ivan Dmitrievich Papanin is an explorer and radical Bolshevik. During the civil war he ordered the execution of thousands of soldiers. He has shown great interest in the Confederation. His organizational skills are great and with enough coursing we can get him to join our armed forces."
+  
+  GLF_settle_the_score:0 "Settle the Score"
+  GLF_settle_the_score_desc:0 "The Hawkism ideology follows the idea that the Confederation was created to bring the tribes together for a stronger military. With strong united warbands we can seek vengeance for the years of disrespect and violence from the south."
+  
+  GLF_german_invitation:0 "German Invitation"
+  GLF_german_invitation_desc:0 "If we wish to stand a chance against the United States we need allies. While we do not agree with everything the Axis stands for we do share a common enemy."
+  
+  GLF_tirpitz_plan_promise:0 "Tirpitz plan promise"
+  GLF_tirpitz_plan_promise_desc:0 "We have spoken to our German allies and they have come up with a plan to invade the United States. We can offer these German troops a staging point for the invasion in exchange for promises that tribes will get old lands returned to them."
+  
+  GLF_invite_foreign_tribes:0 "Invite Foreign Tribes"
+  GLF_invite_foreign_tribes_desc:0 "Canada and the United States have been sending displaced tribes to the borders of the Confederation for some time now. Extending a formal invitation to these tribes will give us more manpower and bring these tribes under our protection."
+  
+  GLF_british_portage:0 "British Portage"
+  GLF_british_portage_desc:0 "Traditionally a portage was where furs and food were traded. These portages lead to the spread of ideas and new connections between tribes. A portage across Britain will improve our relations with the English."
+  
+  GLF_save_the_colonizers:0 "Save the Colonizers"
+  GLF_save_the_colonizers_desc:0 "As darkness spreads across Europe the Axis powers threaten to conquer the British isles. While we don’t owe anything to the British empire it is in our best interests to protect them. If we let Britain fall perhaps one day the Axis will cross the seas and conquer us."
+ 
+  GLF_international_shawnee_volunteers:0 "International Shawnee Volunteers"
+  GLF_international_shawnee_volunteers_desc:0 "The warriors of the Shawnee tribe are known for their ferocity. If members of the tribe wish to fight overseas and show the strength of the Confederation then who are we to stop them."
+  
+  GLF_great_lakes_guardians:0 "Great Lakes Guardians"
+  GLF_great_lakes_guardians_desc:0 "As wars overseas threaten peace worldwide the Confederation has a duty to protect those who can not protect themselves."
+  
+  GLF_the_great_north:0 "The Great North"
+  GLF_the_great_north_desc:0 "During the Colonization of North America all the tribes of the Confederation faced an existential threat. The tribes came together and their unity made them strong. A greater Confederation beyond the borders of the Great Lakes is needed in these dark times."
+  
+  GLF_reject_the_old_world:0 "Reject the Old World"
+  GLF_reject_the_old_world_desc:0 "Our form of government works for us. The ideas we have seen from Europe may work for them but our confederation has no space for the ideologies of the Allies or the Communists."
+  
+  GLF_return_to_isolation:0 "Return to Isolation"
+  GLF_return_to_isolation_desc:0 "Ever since we opened our borders we have seen disrespect and a refusal to acknowledge our independence as a Confederation. The tribes demand a return to the old ways. Our economy will be weakened but the Confederation will strengthen."
+  
+  GLF_seize_foreign_assets:0 "Seize Foreign Assets"
+  GLF_seize_foreign_assets_desc:0 "After we have closed our borders there are still some foreign commerce operating inside our lands. If we seize these assets we will send a message that we are a sovereign nation and our borders are to be respected."
+  
+  GLF_our_strong_boarders:0 "Our Strong Borders"
+  GLF_our_strong_boarders_desc:0 "The tribes of the Confederation have seen time and time again that forgin powers will try to find a way to gain profit from our lands. We will continue to strengthen our borders and prevent further violations."
+
+  GLF_ideas_from_the_south:0 "Ideas from the south"
+  GLF_ideas_from_the_south_desc:0 "Our faction is our own but if we wish to gain allies we should entertain the possibility of making our government more like theirs."
+  
+  GLF_appease_the_us:0 "Appease the United States"
+  GLF_appease_the_us_desc:0 "As the United States pushed westward many tribes had to fight for their survival and most of them lost. We will never forget our past but for our faction to achieve prosperity we must look to the greatest power in the Americas and ask for an alliance."
+  
+  GLF_new_world_ties:0 "New World Ties"
+  GLF_new_world_ties_desc:0 "The greatest power in the Americas, the land of the free and the home of the brave. We share one thing in common, we belong to the new world, and together we can achieve prosperity in these dark times."
+ 
+#End international section
+
+#Internal politics section
+
+  GLF_rally_the_lake_chiefs:0 "Rally the Lake Chiefs"
+  GLF_rally_the_lake_chiefs_desc:0 "The Great Lakes Confederation is made up of dozens of tribes, each one has it's own agenda and ideals. It is time to rally the Lake Chiefs and advance togeather as a confederation."
+ 
+  GLF_afferm_the_gentle_side:0 "Afferm the Gental Side"
+  GLF_afferm_the_gentle_side_desc:0 "Chief Kah-ge-ga-gah-bowh saved the Confederation when he took power during the Great War. He made peace with the Candians and the United States using an ideology he calls the Gentle Side. The Gentle side states that the Confederation was not formed to make war but to prosper together peacefully."
+  
+  GLF_support_our_scholars:0 "Support our Scholars"
+  GLF_support_our_scholars_desc:0 "Across the tribes there are those who invent, create, and discover. As a Confederation we support these people and give them incentives to make new breakthroughs that will make the Confederation a technological power."
+  
+  GLF_the_new_world_institute:0 "The New World Institute"
+  GLF_the_new_world_institute_desc:0 "The powers of the Old World have discovered many things but here in the new one we have a different perspective that allows us to think beyond the limits put forth by the old world. We should found a great institute in our capital that allows scientists from all across the new world to collaborate and discover."
+  
+  GLF_the_trial_of_nixkamich:0 "The Trial of Nixkamich"
+  GLF_the_trial_of_nixkamich_desc:0 "When the Great Lakes Confederation made peace with Canada part of the agreement stated that chief Nixkamich would be held in prison by the Canadians. He was never given a trial. If Nixkamich is found guilty of crime the Confederation can once and for all condemn Hawkism, but if he is found innocent then Hawkists will spring up in every tribe. The leader of the Confederation will have the final say."
+  
+  GLF_end_hawkism:0 "End Hawkism"
+  GLF_end_hawkism_desc:0 "Our place in the 20th century is not war, it is unity. An ideology based solely on revenge has little to stand on. Many across the tribes still harbor hatred in their hearts for our neighbors but the Gentle Side will prevail and this hatred will not manifest itself in the form of unneeded violence."
+  
+  GLF_tribes_in_the_20th_century:0 "Tribes of the 20th Century"
+  GLF_tribes_in_the_20th_century_desc:0 "We have made it. Our internal struggle is over and we can continue to prosper as a united Confederation of tribes. Our differences may have led to conflict and division but through the debate and discourse we have come out stronger"
+  
+  GLF_concessions_to_the_hawks:0 "Concessions to the Hawks"
+  GLF_concessions_to_the_hawks_desc:0 "The Hawkists believe that the Confederation was made to protect the tribes through unity in warfare. Perhaps in these times of tension and darkness Hawkism is our only way to survive."
+  
+  GLF_support_our_soldiers:0 "Support our Soldiers"
+  GLF_support_our_soldiers_desc:0 "The bravest and greatest members of our Confederation will always be our soldiers. It is time we gave back to these men and women who keep us safe. By supporting our soldiers we will have a stronger fighting force."
+  
+  GLF_free_nixkamich_tree:0 "Free Nixkamich"
+  GLF_free_nixkamich_tree_desc:0 "Our high command has discovered the location of the prison that chief Nixkamich is being kept in. They have proposed Operation Dark Feather, an operation that will free Nixkamich. The operation will involve dozens of special forces operatives crossing our border and infiltrating the prison."
+  
+  GLF_no_crime_done:0 "No Crime Done"
+  GLF_no_crime_done_desc:0 "Nixkamich is not a criminal. Is it a crime to try to take back what belongs to you? Perhaps by the laws of the colonisers he is an aggressor but their laws have no power here and if they want to give him a trial they should come and try to take him."
+  
+  GLF_re-form_the_aayaash:0 "Re-form the Aayaash"
+  GLF_re-form_the_aayaash_desc:0 "In the 1920s when Hawkism was first founded it was spread by an organization called the Aayaash. Named after a hero from legend, the Aayaash would go around to all the tribes and make sure that the people of the tribes were willing to fight for survival. It is time we bring back this organization and make sure that our Confederation is not too gentle."
+  
+  GLF_appoint_nixkamich:0 "Appoint Nixkamich"
+  GLF_appoint_nixkamich_desc:0 "Some call him the dark chief, some call him traitor, some call him criminal but he fights for the tibes. His family was killed when he was a child, the only survivors were him and his brother. His brother was full of sadness but he was full of anger, his brother chose to try to survive but Nixkamich chose to fight. The tribes once called on him to protect us and now once more we can call him leader."
+  
+  GLF_appoint_honovi:0 "Appoint Honovi"
+  GLF_appoint_honovi_desc:0 "She is the daughter of the dark chief. Our most famous aviator Honovi is known as the emerald skull, she flys circles around other pilots in her green fighter plane. She is still young but her time in the Air Force has made her a great leader. The Confederation needs new blood to stay alive and keep soaring into the skies."
+  
+  GLF_end_the_gentle_side:0 "End the Gentle Side"
+  GLF_end_the_gentle_side_desc:0 "Kah-ge-ga-gah-bowh may have made peace in the Great War but at what cost. His way of diplomacy and government have made us weak and as the rest of the world looks to exploit us it is time we ended this weakness."
+  
+  GLF_revisit_the_treaties:0 "Revisit the Treaties"
+  GLF_revisit_the_treaties_desc:0 "When America was colonised we were able to hold onto our territories around the great lakes but we lost much of our land. Other tribes throughout the content were not so lucky and were completely driven out with unfair treaties. These treaties should be revisited and the land should be returned to its rightful owners."
+  
+  GLF_the_hawk_versus_the_eagle:0 "The Hawk versus the Eagle"
+  GLF_the_hawk_versus_the_eagle_desc:0 "Our people fought the people of the British colonies before they were even independent. Our rivalry will continue for they have prospered on the land that rightfully belongs to us. We will take back the land and show the United States that we are not to be disrespected."
+
+  GLF_support_our_workers:0 "Support our Workers"
+  GLF_support_our_workers_desc:0 "The industrialization of the Confederation has propelled our society into the modern age. If we wish to continue to be great our industry must keep up with the rest of the world. We should create more factory jobs to help expand our growing military output."
+  
+  GLF_support_our_worshipers:0 "Support our Worshipers"
+  GLF_support_our_worshipers_desc:0 "The gentle side is not just forgin policy, it states that every tribe within the Confederation has freedom to practice what they want. By supporting more places of worship throughout the Confederation we can further unite our people."
+
+  GLF_the_detroit_soviet:0 "The Detroit Soviet"
+  GLF_the_detroit_soviet_desc:0 "The city of Detroit has become one of the strongest industrial zones in the Confederation but it’s workers have seen none of the profits. It is time for an organization to look out for the workers, we should look to the Russians as an example and start a Detroit Soviet."
+  
+  GLF_the_chicago_soviet:0 "The Chicago Soviet"
+  GLF_the_chicago_soviet_desc:0 "The city of Chicago is a massive city with a thriving port, the workers of the port work long hours and have dangerous working conditions. It is time for an organization to look out for the workers, we should look to the Russians as an example and start a Chicago Soviet."
+  
+  GLF_new_peoples_army:0 "New People's Army"
+  GLF_new_peoples_army_desc:0 "The Great Lakes revolution has filled the hearts of the working class with national pride. These new worker warriors wish to defend their new country from those who wish to take advantage of the worker. The new people's army is formed from passionate worker volunteers who may be inexperienced but with proper training they can become a force to be reckoned with."
+  
+  GLF_call_for_soviet_generals:0 "Call for Soviet Generals"
+  GLF_call_for_soviet_generals_desc:0 "Now that the confederation has a strong relationship with the Soviet Union we can ask for their help. Two generals from the Russian far east front have been chosen to help our armies become more modern and organized."
+  
+  GLF_speak_with_the_silver_legion:0 "Speak with the Silver Legion"
+  GLF_speak_with_the_silver_legion_desc:0 "There are those who share our ideas in the United States, the Silver Legion of America does not have much power but if we work together we can further spread the ideas of nationalism. We should arrange radio broadcasts where the Legion can speak about the importance of patriotism."
+  
+  GLF_german_sub_cooperation:0 "German Sub Cooperation"
+  GLF_german_sub_cooperation_desc:0 "Now that we are in the Axis we can collaborate and share our technologies. The German U-Boats are renowned for their ability to hunt convoys undetected. We can share our designs and create stronger submarine designs."
+  
+  GLF_german_tank_cooperation:0 "German Tank Cooperation"
+  GLF_german_tank_cooperation_desc:0 "Now that we are in the Axis we can collaborate and share our technologies. German tanks are famous for their speed and strength, the Confederation and Germany can cooperate and create stronger faster tanks."
+  
+  
+
+#End internal politics section
+
+#Industrial section
+
+  GLF_great_lakes_industrial_council:0 "Great lakes Industrial Council"
+  GLF_great_lakes_industrial_council_desc:0 "Representatives from the tribes sometimes gather at private events in Detroit to exchange new industrial methods and manufacturing techniques. Making an official industrial council will increase the efficiency of industry across the Confederation."
+  
+  GLF_industrial_lake_projects:0 "Industrial Lake Projects"
+  GLF_industrial_lake_projects_desc:0 "The five great lakes have remained largely untouched by industry. These beautiful sources of fresh water define our Confederation but if we are to progress and compete with our neighbors we need to build more industry."
+  
+  GLF_indstrialize_lake_ontario:0 "Industrialize Lake Ontario"
+  GLF_indstrialize_lake_ontario_desc:0 "Lake Ontario is the smallest of the great lakes but it’s position closest to the Atlantic and next to the Saint Lawrence river makes it a hub for trade."
+  
+  GLF_ontario_pathways:0 "Ontario Pathways"
+  GLF_ontario_pathways_desc:0 "Trade in the lake Ontario area is still done largely by foot and by boat. It is time we improved the infrastructure of the area and make it a modern day rendezvous point."
+  
+  GLF_indstrialize_lake_erie:0 "Industialize Lake Erie"
+  GLF_indstrialize_lake_erie_desc:0 "Lake Erie was named after the Erielhonan tribe who once lived in the area. The lake is the gateway to Detroit and dozens of tribes count on it for fish."
+  
+  GLF_ohio_aluminum:0 "Ohio Aluminum"
+  GLF_ohio_aluminum_desc:0 "The tribes of the Ohio area have found rich deposits of bauxite. This rock can be used to make aluminum, our Confederation has seen the power of aluminum when biplanes from the United States strafed our forces during the Great War. This region should be further excavated."
+  
+  GLF_indstrialize_lake_huron:0 "Industrialize Lake Huron"
+  GLF_indstrialize_lake_huron_desc: "Lake Huron was named after one of our strongest tribes and has been a gathering place for our people since long before the confederation. Its central location provides many strong points of defence."
+  
+  GLF_michigan_research_institute:0 "Michigan Research Institute"
+  GLF_michigan_research_institute_desc:0 "As our lakes continue to industrialize we should be sure we are aware of the effect it is having on the health of the local ecosystem. Studying the land may bring us scientific breakthroughs that can help every member of the Confederation."
+  
+  GLF_indstrialize_lake_michigan:0 "Industialize Lake Mchigan"
+  GLF_indstrialize_lake_michigan_desc:0 "Lake Michigan is the home of the great city of Chicago and provides clean water to millions."
+  
+  GLF_repair_sacred_ground:0 "Repair Sacred Ground"
+  GLF_repair_sacred_ground_desc:0 "When industry was added to Lake Michigan a foolish industrialist built a road over a sacred forest of the Ho-Chunk tribe. This land must be brought back to the way it was."
+  
+  GLF_indstrialize_lake_superior:0 "Industialize Lake Superior"
+  GLF_indstrialize_lake_superior_desc:0 "Lake Superior is our largest lake and the largest body of freshwater in the world. It has more water than all the other lakes combined and even the frigid cold of northern winter doesn't freeze it. This lake is a monument to the majesty of nature."
+  
+  GLF_center_of_america:0 "Center of America"
+  GLF_center_of_america_desc:0 "Our Confederation lies in a strategic and economic sweet spot. If we build more airfields we can fully utilize this strategic position."
+  
+  GLF_minnesota_natural_resources_institute:0 "Minnesota Natural Resources Institute"
+  GLF_minnesota_natural_resources_institute_desc:0 "The earth beneath our feet is unique. Around the shores of our lakes there are incredible geological phenomena at work. It is imperative that we further research these rocks and find ways to use natural resources in ways that keep the land safe."
+  
+  GLF_great_lakes_circuit:0 "Great Lakes Circuit"
+  GLF_great_lakes_circuit_desc:0 "It can take months to travel around the Great Lakes. We must improve our infrastructure in the more remote parts of our Confederation and make travel easier."
+  
+  GLF_save_the_land:0 "Save the Land"
+  GLF_save_the_land_desc:0 "As our tribes advance industrially many sacred locations have been trampled over by greedy industrialists. If we take measures to remove infrastructure that is ruining sacred lands we will appease the tribes."
+  GLF_save_the_land_tooltip:0 "Unlocks Land Restoration Decisions"
+  
+  GLF_animikiikaa_project:0 "Animikiikaa Project"
+  GLF_animikiikaa_project_desc:0 "Our brightest scientists have discovered a power so strong that it could destroy all of creation itself. We should find ways to use this to help the Confederation but we also must be sure to use this power sparingly."
+
+#End industrial section
+
+# Army/airforce section
+ 
+ GLF_warrior_spirit:0 "Warrior Spirit"
+ GLF_warrior_spirit_desc:0 "The Great Lakes Confederation did not survive the European western expansion with diplomacy alone. Several strategic and tactical miracles combined with the intense fighting spirit of the tribes prevented the United States from settling the lands we now live in."
+ 
+ GLF_forest_warriors:0 "Forest Warriors"
+ GLF_forest_warriors_desc:0 "Our ancestors and our ancestors ancestors lived in these lands. We know these woods and lakes very well and any enemy who wishes to trespass on our land will spend their last days cold and alone in the dark of the forest."
+ 
+ GLF_strike_fast:0 "Strike Fast"
+ GLF_strike_fast_desc:0 "Nixkamich was a controversial figure but his tactics and strategy lead to several victories over the much larger nations of Canada and The United States. His tactics included fast moving troops that overwhelmed the enemy from all sides. If we are to continue to be a military power we must learn from his victories."
+ 
+ GLF_detroit_auto:0 "Detroit Auto"
+ GLF_detroit_auto_desc:0 "Detroit was once a modest trading post and meeting point. It has now become a powerful city famous for its car factories. As speed becomes more and more important when it comes to warfare it is paramount that our troops and supplies can stay on the move."
+ 
+ GLF_light_tank_tactics:0 "Light Tank Tactics"
+ GLF_light_tank_tactics_desc:0 "Our territory is not ideal for tank warfare and we have not put much stock in these lumbering behemoths. Perhaps if small more nimble designs are made they can be used to surprise our opponents."
+ 
+ GLF_swift_like_the_tide:0 "Swift as The North Wind"
+ GLF_swift_like_the_tide_desc:0 "The quickest wolf gets the first meal. Cavalry, motorized infantry, and tanks are all fast forms of warfare but for the Confederation to truly honor the genius of Nixkamich all of our forces must be swift and unstoppable."
+ 
+ GLF_strike_smart:0 "Strike Smart"
+ GLF_strike_smart_desc:0 "During the war of 1812 the Confederation was tested by aggression from the Americans south of us. These attacks were poorly conceived. Chief Tecumseh outsmarted the Americans and staged a counterattack that further secured our presence in the region for decades. We should continue his legacy of military genius."
+ 
+ GLF_new_ottawa_generals:0 "New Ottawa Generals"
+ GLF_new_ottawa_generals_desc:0 "When the Confederation re-captured the Ottawa region many tribes were re-incorporated into the Confederation. These new members have offered their best and brightest generals to command the Laker forces."
+ 
+ GLF_connect_the_warbands:0 "Connect The Warbands"
+ GLF_connect_the_warbands_desc:0 "The armies of the Confederation are organized into warbands. These warbands often operate independently and are composed of warriors from the same tribe. With the power of the radio we can improve cooperation between the warbands."
+ 
+ GLF_examine_foreign_tactics:0 "Examine Foreign Tactics"
+ GLF_examine_foreign_tactics_desc:0 "For centuries the tribes of the Confederation have used tactics of guerrilla warfare to fend off advances from the Europeans. Now that we have had a chance to breathe, we should look to these Europeans and see how they are adapting to modern warfare."
+ 
+ GLF_strike_hard:0 "Strike Hard"
+ GLF_strike_hard_desc:0 "During the American revolution Confederation chief Joseph Brant had several military successes fighting alongside the British. Even though the British lost the war the newly formed United States of America had learned to feat Brants combination of large scale strikes and organized marksman. To continue to show strength we must make sure our forces are well equipped."
+ 
+ GLF_stronger_small_arms:0 "Stronger Small Arms"
+ GLF_stronger_small_arms_desc:0 "The manufacture of arms was once a solely European affair but after the industrial growth of the Confederation in the late 19th century companies like Muskrat manufacture quality firearms for the armies of the Confederation. We must make sure our warriors have weapons that can compete with the Canadians and Americans."
+ 
+ GLF_great_north_guns:0 "Great North Guns"
+ GLF_great_north_guns_desc:0 "Our people once feared the indestructible forts of the Colonies and the British man-o-wars with their decks of gargantuan cannons but now we have guns of our own."
+ 
+ GLF_fight_shell_for_shell:0 "Fight Shell for Shell"
+ GLF_fight_shell_for_shell_desc:0 "During the Great war we achieved great victories. Our enemies try to downplay these successes by saying they were caught by surprise and if there was a true fight we would not have the staying power. These foes will learn of our resolve and they will not be hearing thunder when they move against us they will hear the shroud of our artillery."
+ 
+ GLF_bgwajinini:0 "Bgwajinini"
+ GLF_bgwajinini_desc:0 "Bgwajinini are magical creatures that live in the forest. They are known for their tricks and are mostly kind but if they are disrespected they become spirits of vengeance that use their trickery to curse those who wronged them."
+ 
+ GLF_water_lynx:0 "Water Lynx"
+ GLF_water_lynx_desc:0 "Water Lynx are enormous beasts that live beneath lakes. They are incredibly strong creatures that grab unsuspecting swimmers and drown them."
+ 
+ GLF_wiingdoo_hunters:0 "Wiindigoo Incarnate"
+ GLF_wiingdoo_hunters_desc:0 "The Wiingdoo are malevolent spirits that inhabit the bodies of humans. These large horrific beings roam the woods in search of people to eat or possess. They are deformed, bloody, rotting monsters that fear none."
+ 
+ GLF_thunderers:0 "Thunderers"
+ GLF_thunderers_desc:0 "Thunderers are the children of gods that fly in the sky. Lighting and thunder follow them everywhere they go."
+ 
+ GLF_sky_warriors:0 "Sky Warriors"
+ GLF_sky_warriors_desc:0 "The power of warplanes is still new to us but their effectiveness is obvious. Some of the few defeats that we suffered during the Great war were due to biplanes catching our forces in the open and slowing their advances. It is important we continue to develop air force capabilities."
+ 
+ GLF_chaos_from_above:0 "Chaos From Above"
+ GLF_chaos_from_above_desc:0 "Close air support offers a new way to strike fear into the hearts of our enemies as we attack them from above."
+ 
+ GLF_close_warband_support:0 "Close Warband Support"
+ GLF_close_warband_support_desc:0 "Our warbands will be even more devastating if we provide them with strong integrated support from accurate bombers."
+ 
+ GLF_invent_the_thunderbird:0 "Invent The Thunderbird"
+ GLF_invent_the_thunderbird_desc:0 "The Thunderbird is named after an enormous supernatural bird from mythology. The heavy fighter is able to maneuver faster, strike harder and survive longer than any of our other aircraft. The Thunderbird also offers incredible range stretching across many of the Great Lakes."
+ 
+ GLF_improve_the_thunderbird:0 "Improve The Thunderbird"
+ GLF_improve_the_thunderbird_desc:0 "The Thunderbird was a great success and now with further modification it can truly become a titan of the skies."
+ 
+ GLF_great_lake_aces:0 "Great lakes Aces"
+ GLF_great_lake_aces_desc:0 "Some of our most well known citizens are our aces. The daughter of Nixkhamich, Honovi has fought in many wars overseas and has honed her skills. We should encourage our pilots to be the best they can be."
+ 
+ GLF_carrier_practice:0 "Carrier Practice"
+ GLF_carrier_practice_desc:0 "The Great Lakes offer a great training ground for naval aircraft. Exercises can simulate conditions in the Pacific and Atlantic, perhaps in the future our aces will have to operate in these theaters."
+ 
+ GLF_great_lakes_airshow:0 "Great Lakes Airshow"
+ GLF_great_lakes_airshow_desc:0 "It is important that we celebrate our great achievements in aviation and our great highly skilled pilots. The Great Lakes air show will be a place to witness the excellence of the tribes and the Confederation."
+ 
+ GLF_code_talkers:0 "Code Talkers"
+ GLF_code_talkers_desc:0 "The people living in the Confederation speak dozens of different languages some of which belong to drastically different language groups. If our sensitive military information is encrypted using lesser known languages our enemies will have a very hard time decrypting it."
+ 
+# End Army/airforce section

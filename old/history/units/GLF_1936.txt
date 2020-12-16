@@ -1,0 +1,145 @@
+﻿division_template = {
+	name = "Lake Warriors"		
+
+	division_names_group = CAN_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Lake Hoard"
+
+	division_names_group = CAN_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Armored-Assult"
+
+	division_names_group = CAN_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	
+	division= {	
+		name = "Lake Warriors"
+		location = 9450 
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "2 Lake Warriors"
+		location = 9450
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "3 Lake Warriors"
+		location = 1595
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "4 Lake Warriors"
+		location = 1866
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "5 Lake Warriors"
+		location = 6710
+		division_template = "Lake Hoard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "6 Lake Warriors"
+		location = 6710
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "7 Lake Warriors"
+		location = 6710
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "8 Lake Warriors"
+		location = 11654
+		division_template = "Lake Hoard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "9 Lake Warriors"
+		location = 11654
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "10 Lake Warriors"
+		location = 3778
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "11 Lake Warriors"
+		location = 3778
+		division_template = "Lake Warriors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+}
+
+### No notable air forces ###
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GLF"
+		}
+		requested_factories = 1
+		progress = 0.89
+		efficiency = 100
+	}
+}

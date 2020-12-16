@@ -1,0 +1,600 @@
+spriteTypes = {	
+
+	####naval section
+
+	SpriteType = {
+		name = "GFX_goal_GLF_our_path_to_the_sea"
+		texturefile = "gfx/interface/goals/focus_GLF_our_path_to_the_sea.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_moose_river_for_guarantees"
+		texturefile = "gfx/interface/goals/focus_GLF_moose_river_for_guarantees.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_settle_moosonee"
+		texturefile = "gfx/interface/goals/focus_GLF_settle_moosonee.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_the_great_port_of_moosonee"
+		texturefile = "gfx/interface/goals/focus_GLF_the_great_port_of_moosonee.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_s_illinois_for_n_new_england"
+		texturefile = "gfx/interface/goals/focus_GLF_s_illinois_for_n_new_england.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_settle_n_new_england"
+		texturefile = "gfx/interface/goals/focus_GLF_settle_n_new_england.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_east_coast_docks"
+		texturefile = "gfx/interface/goals/focus_GLF_east_coast_docks.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_the_great_portage"
+		texturefile = "gfx/interface/goals/focus_GLF_the_great_portage.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_move_shipyards_to_canadian_coast"
+		texturefile = "gfx/interface/goals/focus_GLF_move_shipyards_to_canadian_coast.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_move_shipyards_to_american_coast"
+		texturefile = "gfx/interface/goals/focus_GLF_move_shipyards_to_american_coast.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_repurpose_trade_ships"
+		texturefile = "gfx/interface/goals/focus_GLF_repurpose_trade_ships.dds"			
+	}
+	
+	####End naval section 
+	
+	####International section
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_international_war_parade"
+		texturefile = "gfx/interface/goals/focus_GLF_international_war_parade.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_furs_for_europe"
+		texturefile = "gfx/interface/goals/focus_GLF_furs_for_europe.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_negotiate_with_canada"
+		texturefile = "gfx/interface/goals/focus_GLF_negotiate_with_canada.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_invite_ambassadors"
+		texturefile = "gfx/interface/goals/focus_GLF_invite_ambassadors.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_strengthen_the_chief"
+		texturefile = "gfx/interface/goals/focus_GLF_strengthen_the_chief.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_this_land_is_our_land"
+		texturefile = "gfx/interface/goals/focus_GLF_this_land_is_our_land.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_modify_the_deal"
+		texturefile = "gfx/interface/goals/focus_GLF_modify_the_deal.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_expand_the_deal"
+		texturefile = "gfx/interface/goals/focus_GLF_expand_the_deal.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_end_the_deal"
+		texturefile = "gfx/interface/goals/focus_GLF_end_the_deal.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_seek_reperations"
+		texturefile = "gfx/interface/goals/focus_GLF_seek_reperations.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_expand_our_confederation"
+		texturefile = "gfx/interface/goals/focus_GLF_expand_our_confederation.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_call_the_warchiefs"
+		texturefile = "gfx/interface/goals/focus_GLF_call_the_warchiefs.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_protect_the_new_ports"
+		texturefile = "gfx/interface/goals/focus_GLF_protect_the_new_ports.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_the_cold_peace"
+		texturefile = "gfx/interface/goals/focus_GLF_the_cold_peace.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_take_greenland"
+		texturefile = "gfx/interface/goals/focus_GLF_take_greenland.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_take_greenland"
+		texturefile = "gfx/interface/goals/focus_GLF_take_greenland.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_community_of_tribes"
+		texturefile = "gfx/interface/goals/focus_GLF_community_of_tribes.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_soviet_invitation"
+		texturefile = "gfx/interface/goals/focus_GLF_soviet_invitation.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_new_world_communism"
+		texturefile = "gfx/interface/goals/focus_GLF_new_world_communism.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_seduce_the_red_wolf"
+		texturefile = "gfx/interface/goals/focus_GLF_seduce_the_red_wolf.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_settle_the_score"
+		texturefile = "gfx/interface/goals/focus_GLF_settle_the_score.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_german_invitation"
+		texturefile = "gfx/interface/goals/focus_GLF_german_invitation.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_tirpitz_plan_promise"
+		texturefile = "gfx/interface/goals/focus_GLF_tirpitz_plan_promise.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_invite_foreign_tribes"
+		texturefile = "gfx/interface/goals/focus_GLF_invite_foreign_tribes.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_british_portage"
+		texturefile = "gfx/interface/goals/focus_GLF_british_portage.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_save_the_colonizers"
+		texturefile = "gfx/interface/goals/focus_GLF_save_the_colonizers.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_international_shawnee_volunteers"
+		texturefile = "gfx/interface/goals/focus_GLF_international_shawnee_volunteers.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_great_lakes_guardians"
+		texturefile = "gfx/interface/goals/focus_GLF_great_lakes_guardians.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_the_great_north"
+		texturefile = "gfx/interface/goals/focus_GLF_the_great_north.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_reject_the_old_world"
+		texturefile = "gfx/interface/goals/focus_GLF_reject_the_old_world.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_return_to_isolation"
+		texturefile = "gfx/interface/goals/focus_GLF_return_to_isolation.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_seize_foreign_assets"
+		texturefile = "gfx/interface/goals/focus_GLF_seize_foreign_assets.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_our_strong_boarders"
+		texturefile = "gfx/interface/goals/focus_GLF_our_strong_boarders.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_ideas_from_the_south"
+		texturefile = "gfx/interface/goals/focus_GLF_ideas_from_the_south.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_appease_the_us"
+		texturefile = "gfx/interface/goals/focus_GLF_appease_the_us.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_new_world_ties"
+		texturefile = "gfx/interface/goals/focus_GLF_new_world_ties.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_afferm_the_gentle_side"
+		texturefile = "gfx/interface/goals/focus_GLF_afferm_the_gentle_side.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_support_our_scholars"
+		texturefile = "gfx/interface/goals/focus_GLF_support_our_scholars.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_the_new_world_institute"
+		texturefile = "gfx/interface/goals/focus_GLF_the_new_world_institute.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_the_trial_of_nixkamich"
+		texturefile = "gfx/interface/goals/focus_GLF_the_trial_of_nixkamich.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_end_hawkism"
+		texturefile = "gfx/interface/goals/focus_GLF_end_hawkism.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_tribes_in_the_20th_century"
+		texturefile = "gfx/interface/goals/focus_GLF_tribes_in_the_20th_century.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_concessions_to_the_hawks"
+		texturefile = "gfx/interface/goals/focus_GLF_concessions_to_the_hawks.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_support_our_soldiers"
+		texturefile = "gfx/interface/goals/focus_GLF_support_our_soldiers.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_free_nixkamich"
+		texturefile = "gfx/interface/goals/focus_GLF_free_nixkamich.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_no_crime_done"
+		texturefile = "gfx/interface/goals/focus_GLF_no_crime_done.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_re-form_the_aayaash"
+		texturefile = "gfx/interface/goals/focus_GLF_re-form_the_aayaash.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_appoint_nixkamich"
+		texturefile = "gfx/interface/goals/focus_GLF_appoint_nixkamich.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_appoint_honovi"
+		texturefile = "gfx/interface/goals/focus_GLF_appoint_honovi.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_end_the_gentle_side"
+		texturefile = "gfx/interface/goals/focus_GLF_end_the_gentle_side.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_revisit_the_treaties"
+		texturefile = "gfx/interface/goals/focus_GLF_revisit_the_treaties.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_the_hawk_versus_the_eagle"
+		texturefile = "gfx/interface/goals/focus_GLF_the_hawk_versus_the_eagle.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_great_lakes_industrial_council"
+		texturefile = "gfx/interface/goals/focus_GLF_great_lakes_industrial_council.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_industrial_lake_projects"
+		texturefile = "gfx/interface/goals/focus_GLF_industrial_lake_projects.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_indstrialize_lake_ontario"
+		texturefile = "gfx/interface/goals/focus_GLF_indstrialize_lake_ontario.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_ontario_pathways"
+		texturefile = "gfx/interface/goals/focus_GLF_ontario_pathways.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_indstrialize_lake_erie"
+		texturefile = "gfx/interface/goals/focus_GLF_indstrialize_lake_erie.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_ohio_aluminum"
+		texturefile = "gfx/interface/goals/focus_GLF_ohio_aluminum.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_indstrialize_lake_huron"
+		texturefile = "gfx/interface/goals/focus_GLF_indstrialize_lake_huron.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_michigan_research_institute"
+		texturefile = "gfx/interface/goals/focus_GLF_michigan_research_institute.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_indstrialize_lake_michigan"
+		texturefile = "gfx/interface/goals/focus_GLF_indstrialize_lake_michigan.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_repair_sacred_ground"
+		texturefile = "gfx/interface/goals/focus_GLF_repair_sacred_ground.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_indstrialize_lake_superior"
+		texturefile = "gfx/interface/goals/focus_GLF_indstrialize_lake_superior.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_center_of_america"
+		texturefile = "gfx/interface/goals/focus_GLF_center_of_america.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_minnesota_natural_resources_institute"
+		texturefile = "gfx/interface/goals/focus_GLF_minnesota_natural_resources_institute.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_great_lakes_circuit"
+		texturefile = "gfx/interface/goals/focus_GLF_great_lakes_circuit.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_save_the_land"
+		texturefile = "gfx/interface/goals/focus_GLF_save_the_land.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_animikiikaa_project"
+		texturefile = "gfx/interface/goals/focus_GLF_animikiikaa_project.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_isolation_no_longer"
+		texturefile = "gfx/interface/goals/focus_GLF_isolation_no_longer.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_rally_the_lake_chiefs"
+		texturefile = "gfx/interface/goals/focus_GLF_rally_the_lake_chiefs.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_our_path_to_the_sea"
+		texturefile = "gfx/interface/goals/focus_GLF_our_path_to_the_sea.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_warrior_spirit"
+		texturefile = "gfx/interface/goals/focus_GLF_warrior_spirit.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_forest_warriors"
+		texturefile = "gfx/interface/goals/focus_GLF_forest_warriors.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_strike_fast"
+		texturefile = "gfx/interface/goals/focus_GLF_strike_fast.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_detroit_auto"
+		texturefile = "gfx/interface/goals/focus_GLF_detroit_auto.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_light_tank_tactics"
+		texturefile = "gfx/interface/goals/focus_GLF_light_tank_tactics.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_swift_like_the_tide"
+		texturefile = "gfx/interface/goals/focus_GLF_swift_like_the_tide.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_strike_smart"
+		texturefile = "gfx/interface/goals/focus_GLF_strike_smart.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_new_ottawa_generals"
+		texturefile = "gfx/interface/goals/focus_GLF_new_ottawa_generals.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_connect_the_warbands"
+		texturefile = "gfx/interface/goals/focus_GLF_connect_the_warbands.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_examine_foreign_tactics"
+		texturefile = "gfx/interface/goals/focus_GLF_examine_foreign_tactics.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_strike_hard"
+		texturefile = "gfx/interface/goals/focus_GLF_strike_hard.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_stronger_small_arms"
+		texturefile = "gfx/interface/goals/focus_GLF_stronger_small_arms.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_great_north_guns"
+		texturefile = "gfx/interface/goals/focus_GLF_great_north_guns.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_fight_shell_for_shell"
+		texturefile = "gfx/interface/goals/focus_GLF_fight_shell_for_shell.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_bgwajinini"
+		texturefile = "gfx/interface/goals/focus_GLF_bgwajinini.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_water_lynx"
+		texturefile = "gfx/interface/goals/focus_GLF_water_lynx.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_wiingdoo_hunters"
+		texturefile = "gfx/interface/goals/focus_GLF_wiingdoo_hunters.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_thunderers"
+		texturefile = "gfx/interface/goals/focus_GLF_thunderers.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_sky_warriors"
+		texturefile = "gfx/interface/goals/focus_GLF_sky_warriors.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_chaos_from_above"
+		texturefile = "gfx/interface/goals/focus_GLF_chaos_from_above.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_close_warband_support"
+		texturefile = "gfx/interface/goals/focus_GLF_close_warband_support.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_invent_the_thunderbird"
+		texturefile = "gfx/interface/goals/focus_GLF_invent_the_thunderbird.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_improve_the_thunderbird"
+		texturefile = "gfx/interface/goals/focus_GLF_improve_the_thunderbird.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_great_lake_aces"
+		texturefile = "gfx/interface/goals/focus_GLF_great_lake_aces.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_carrier_practice"
+		texturefile = "gfx/interface/goals/focus_GLF_carrier_practice.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_great_lakes_airshow"
+		texturefile = "gfx/interface/goals/focus_GLF_great_lakes_airshow.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_the_great_lakes_revolution"
+		texturefile = "gfx/interface/goals/focus_GLF_the_great_lakes_revolution.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_support_our_workers"
+		texturefile = "gfx/interface/goals/focus_GLF_support_our_workers.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_support_our_worshipers"
+		texturefile = "gfx/interface/goals/focus_GLF_support_our_worshipers.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GLF_code_talkers"
+		texturefile = "gfx/interface/goals/focus_GLF_code_talkers.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GLF_the_detroit_soviet"
+		texturefile = "gfx/interface/goals/focus_GLF_the_detroit_soviet.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GLF_the_chicago_soviet"
+		texturefile = "gfx/interface/goals/focus_GLF_the_chicago_soviet.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GLF_new_peoples_army"
+		texturefile = "gfx/interface/goals/focus_GLF_new_peoples_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GLF_call_for_soviet_generals"
+		texturefile = "gfx/interface/goals/focus_GLF_call_for_soviet_generals.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GLF_speak_with_the_silver_legion"
+		texturefile = "gfx/interface/goals/focus_GLF_speak_with_the_silver_legion.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GLF_german_sub_cooperation"
+		texturefile = "gfx/interface/goals/focus_GLF_german_sub_cooperation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GLF_german_tank_cooperation"
+		texturefile = "gfx/interface/goals/focus_GLF_german_tank_cooperation.dds"
+	}
+}#endoffile
