@@ -904,7 +904,7 @@ ideas = {
 			}
 		}
 		
-		GLF_detroit_capital = {
+		GLF_prophetstown_capital = {
 		
 			allowed = {
 				original_tag = GLF
@@ -922,8 +922,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.1
 				political_power_gain = 0.1
-				motorized_attack_factor = 0.15
-				motorized_defence_factor = 0.15
+				MONTHLY_POPULATION = 0.5
 			}
 		}
 		
@@ -958,6 +957,23 @@ ideas = {
 
 			modifier = {
 				production_speed_buildings_factor = -0.05
+			}
+		}
+		
+		GLF_pickawillany_legacy = {
+		#huron
+		
+			allowed = {
+				original_tag = GLF
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_local_self_management
+
+			modifier = {
+				resistance_target = -0.10
 			}
 		}
 	}

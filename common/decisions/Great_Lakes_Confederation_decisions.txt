@@ -1507,7 +1507,7 @@ GLF_great_north_confederation_decisions = {
 		}
 	}
 	
-	GLF_reafferm_detroit_as_the_capital = {
+	GLF_reafferm_prophetstown_as_the_capital = {
 
 		icon = GFX_decision_eng_trade_unions_demand
 		fire_only_once = yes	
@@ -1530,7 +1530,7 @@ GLF_great_north_confederation_decisions = {
 		}
 		
 		remove_effect = {
-			add_ideas = GLF_detroit_capital
+			add_ideas = GLF_prophetstown_capital
 		}
 		ai_will_do = {
 			factor = 0
@@ -1691,12 +1691,27 @@ GLF_visit_tribes_decisions = {
 
 	GLF_visit_the_shawnee_tribe= {
 
-		icon = generic_form_nation
+		icon = GLF_visit_the_shawnee_tribe
 		fire_only_once = yes	
 		
-		available = {
+		available = {	
+			controls_state = 261
 		}
+		
+		visible = {
+			NOT={has_country_flag = GLF_visit}
+		}
+		
 		complete_effect = {
+			set_country_flag = GLF_visit
+		}
+		
+		days_remove = 120
+		remove_effect = {
+			add_offsite_building = {
+				type = arms_factory level = 1
+			}
+			clr_country_flag = GLF_visit
 		}
 			
 		cost = 0
@@ -1706,14 +1721,30 @@ GLF_visit_tribes_decisions = {
 		}
 	}
 	
-	GLF_visit_the_huron_tribe= {
-
-		icon = generic_form_nation
+	GLF_visit_the_wyandot_tribe= {
+	#huron
+		icon = GLF_visit_the_wyandot_tribe
 		fire_only_once = yes	
 		
 		available = {
+			controls_state = 276
 		}
+		
+		visible = {
+			NOT={has_country_flag = GLF_visit}
+		}
+		
 		complete_effect = {
+			set_country_flag = GLF_visit
+		}
+		
+		days_remove = 120
+		remove_effect = {
+		
+			add_offsite_building = {
+				type = dockyard level = 1
+			}
+			clr_country_flag = GLF_visit
 		}
 			
 		cost = 0
@@ -1725,12 +1756,26 @@ GLF_visit_tribes_decisions = {
 	
 	GLF_visit_the_haudenosaunee= {
 
-		icon = generic_form_nation
+		icon = GLF_visit_the_haudenosaunee
 		fire_only_once = yes	
 		
-		available = {
+		available = {	
+			controls_state = 276
 		}
+		
+		visible = {
+			NOT={has_country_flag = GLF_visit}
+		}
+		
 		complete_effect = {
+			set_country_flag = GLF_visit
+		}
+		
+		days_remove = 120
+		remove_effect = {
+			add_threat = 3
+			add_manpower = 50000
+			clr_country_flag = GLF_visit
 		}
 			
 		cost = 0
@@ -1742,12 +1787,31 @@ GLF_visit_tribes_decisions = {
 	
 	GLF_visit_the_ojibwe_tribe= {
 
-		icon = generic_form_nation
+		icon = GLF_visit_the_ojibwe_tribe
 		fire_only_once = yes	
 		
-		available = {
+		available = {	
+			controls_state = 682
+			controls_state = 391
 		}
+		
+		visible = {
+			NOT={has_country_flag = GLF_visit}
+		}
+		
 		complete_effect = {
+			set_country_flag = GLF_visit
+		}
+		
+		days_remove = 120
+		remove_effect = {
+			682 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			391 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			clr_country_flag = GLF_visit
 		}
 			
 		cost = 0
@@ -1758,13 +1822,31 @@ GLF_visit_tribes_decisions = {
 	}
 	
 	GLF_visit_the_potawatomi_tribe= {
+	#keepers of the flame
 
-		icon = generic_form_nation
+		icon = GLF_visit_the_potawatomi_tribe
 		fire_only_once = yes	
 		
-		available = {
+		available = {	
+			controls_state = 393
 		}
+		
+		visible = {
+			NOT={has_country_flag = GLF_visit}
+		}
+		
 		complete_effect = {
+			set_country_flag = GLF_visit
+		}
+		
+		days_remove = 120
+		remove_effect = {
+			add_resource = {
+				type = oil
+				amount = 10
+				state = 393
+			}
+			clr_country_flag = GLF_visit
 		}
 			
 		cost = 0
@@ -1776,49 +1858,105 @@ GLF_visit_tribes_decisions = {
 	
 	GLF_visit_the_ottawa_tribe= {
 
-		icon = generic_form_nation
+		icon = GLF_visit_the_ottawa_tribe
 		fire_only_once = yes	
 		
-		available = {
+		available = {	
+			controls_state = 682
 		}
+		
+		visible = {
+			NOT={has_country_flag = GLF_visit}
+		}
+		
 		complete_effect = {
+			set_country_flag = GLF_visit
 		}
-			
-		cost = 0
 		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	GLF_visit_the_illinois_tribe= {
-
-		icon = generic_form_nation
-		fire_only_once = yes	
-		
-		available = {
-		}
+		days_remove = 120
 		remove_effect = {
-			air_experience = 10
+			add_ideas = GLF_pickawillany_legacy
+			clr_country_flag = GLF_visit
 		}
 			
 		cost = 0
-		
-		days_remove = 45
 		
 		ai_will_do = {
 			factor = 0
 		}
 	}
 	
-	GLF_visit_the_fox_tribe= {
+	GLF_visit_the_illinois= {
 
-		icon = generic_form_nation
+		icon = GLF_visit_the_illinois
 		fire_only_once = yes	
 		
-		available = {
+		available = {	
+			controls_state = 395
 		}
+		
+		visible = {
+			NOT={has_country_flag = GLF_visit}
+		}
+		
 		complete_effect = {
+			set_country_flag = GLF_visit
+		}
+		
+		days_remove = 120
+		remove_effect = {
+		
+			if = {
+				limit = {
+					controls_state = 807
+				}
+				add_state_core = 807
+				else = {
+					395 = {
+						add_building_construction = {
+							type = infrastructure
+							level = 3
+							instant_build = yes
+						}
+					}
+				}
+			}
+			clr_country_flag = GLF_visit
+		}
+			
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_visit_the_fox_and_sac_tribe= {
+
+		icon = GLF_visit_the_fox_and_sac_tribe
+		fire_only_once = yes	
+		
+		available = {	
+			controls_state = 393
+		}
+		
+		visible = {
+			NOT={has_country_flag = GLF_visit}
+		}
+		
+		complete_effect = {
+			set_country_flag = GLF_visit
+		}
+		
+		days_remove = 120
+		remove_effect = {
+			navy_experience = 10
+			add_tech_bonus = {
+				bonus = 2
+				uses = 1
+				category = naval_equipment
+			}
+			clr_country_flag = GLF_visit
 		}
 			
 		cost = 0
@@ -1830,12 +1968,96 @@ GLF_visit_tribes_decisions = {
 	
 	GLF_visit_the_miami_tribe= {
 
-		icon = generic_form_nation
+		icon = GLF_visit_the_miami_tribe
 		fire_only_once = yes	
 		
-		available = {
+		available = {	
+			controls_state = 810
 		}
+		
+		visible = {
+			NOT={has_country_flag = GLF_visit}
+		}
+		
 		complete_effect = {
+			set_country_flag = GLF_visit
+		}
+		
+		days_remove = 60
+		remove_effect = {
+			add_political_power = 50
+			clr_country_flag = GLF_visit
+		}
+			
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_visit_the_ho_chuck_tribe= {
+
+		icon = GLF_visit_the_ho_chuck_tribe
+		fire_only_once = yes	
+		
+		available = {	
+			controls_state = 394
+		}
+		
+		visible = {
+			NOT={has_country_flag = GLF_visit}
+		}
+		
+		complete_effect = {
+			set_country_flag = GLF_visit
+		}
+		
+		days_remove = 120
+		remove_effect = {
+			air_experience = 10
+			add_ace = {
+				name = "Win Kah"
+				surname = "Pigeon"
+				callsign = "Trickster"
+				type = fighter_genius
+				is_female = yes
+			}
+			clr_country_flag = GLF_visit
+		}
+			
+		cost = 0
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	GLF_visit_the_atirhagenrat_tribe= {
+	#neutral
+
+		icon = GLF_visit_the_atirhagenrat_tribe
+		fire_only_once = yes	
+		
+		available = {	
+			controls_state = 276
+		}
+		
+		visible = {
+			NOT={has_country_flag = GLF_visit}
+		}
+		
+		complete_effect = {
+			set_country_flag = GLF_visit
+		}
+		
+		days_remove = 120
+		remove_effect = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+			clr_country_flag = GLF_visit
 		}
 			
 		cost = 0

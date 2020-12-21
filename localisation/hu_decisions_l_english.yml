@@ -73,9 +73,47 @@
  GLF_form_the_great_north_confederation:0 "Form The Great North Confederation"
  GLF_relocate_capital_to_quebec:0 "Relocate Capital to Quebec"
  GLF_relocate_capital_to_chicago:0 "Relocate Capital to Chicago"
- GLF_reafferm_detroit_as_the_capital:0 "Reafferm Detroit as the Capital"
+ GLF_reafferm_prophetstown_as_the_capital:0 "Reafferm Detroit as the Capital"
  GLF_incorperate_quebec_tribes:0 "Incorperate Quebec tribes"
  GLF_incorperate_british_columbia_tribes:0 "Incorperate British Columbia tribes"
  GLF_incorperate_middle_canada_tribes:0 "Incorperate Middle Canada tribes"
  GLF_incorperate_Saint_Lawrence_tribes:0 "Incorperate Saint Lawrence tribes"
  GLF_incorperate_nova_scotia_tribes:0 "Incorperate Nova Scotia tribes"
+ 
+ GLF_visit_tribes_decisions:0 "Visit the tribes"
+ 
+ GLF_visit_tribes_decisions_desc:0 "The Confederation is largely a decentralized group of tribes. Each tribe chooses their own chief using whatever process they wish. These chiefs coordinate with each other and elect a chief of the Confederation. It is important to maintain unity among these tribes as each one has different customs and traditions. It has become common practice for the chief of the Confederation to go on long trips to visit the various tribes of the Confederation and tour their lands."
+
+ GLF_visit_the_shawnee_tribe:0 "Visit the Shawnee Tribe"
+ GLF_visit_the_shawnee_tribe_desc:0 "Also called Shaawanwaki the Shawnee tribe was home to the founding leader of the tribe war chief Tecumseh."
+ 
+ GLF_visit_the_wyandot_tribe:0 "Visit the Wyandot Tribe"
+ GLF_visit_the_wyandot_tribe_desc:0 "Also called Huron the Wyandot tribe were some of the first to trade with the Europeans along the Great Lakes."
+ 
+ GLF_visit_the_haudenosaunee:0 "Visit the Haudenosaunee"
+ GLF_visit_the_haudenosaunee_desc:0 "Also called Iroquois the Haudenosaunee Confederation started their confederation long before The Great Lakes Confederation."
+ 
+ GLF_visit_the_ojibwe_tribe:0 "Visit the Ojibwe Tribe"
+ GLF_visit_the_ojibwe_tribe_desc:0 "Also called Chippewa the Ojibwe are the home tribe of the last three chiefs of the Confederation."
+ 
+ GLF_visit_the_potawatomi_tribe:0 "Visit the Potawatomi Tribe"
+ GLF_visit_the_potawatomi_tribe_desc:0 "Also called Neshnabé they are the keepers of the fire."
+ 
+ GLF_visit_the_ottawa_tribe:0 "Visit the Odawa Tribe"
+ GLF_visit_the_ottawa_tribe_desc:0 "Also called Ottawa the Odawa fought in the Beavers wars against the Haudenosaunee when the Europeans arrived."
+ 
+ GLF_visit_the_illinois:0 "Visit the Illinois"
+ GLF_visit_the_illinois_desc:0 "Also called Illiniwek the Illinois Confederation were once a large nation and are now a Confederation of separate tribes."
+ 
+ GLF_visit_the_fox_and_sac_tribe:0 "Visit the Fox and Sac Tribes"
+ GLF_visit_the_fox_and_sac_tribe_desc:0 "Also called Thakiwaki the Sac and Fox Tribes have become the guardians of Detroit."
+ 
+ GLF_visit_the_miami_tribe:0 "Visit the Miami Tribe"
+ GLF_visit_the_miami_tribe_desc:0 "Also called Myaamiaki the Miami tribe hold the capital city of Prophetstown and have become accomplished politicians."
+ 
+ GLF_visit_the_ho_chuck_tribe:0 "Visit the Ho Chuck Tribe"
+ GLF_visit_the_ho_chuck_tribe_desc:0 "Also known as the Winnebago the Ho Chuck have become the economic powerhouse of the Confederation."
+ 
+ GLF_visit_the_atirhagenrat_tribe:0 "Visit the Atirhagenrat Tribe"
+ GLF_visit_the_atirhagenrat_tribe_desc:0 "Also known as the Neutral the Atirhagenrat have remained peaceful and prefer to stay out of conflicts."
+

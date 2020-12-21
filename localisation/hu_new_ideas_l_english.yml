@@ -88,10 +88,12 @@
  
  GLF_chicago_capital:0 "Chicago Capital"
  
- GLF_detroit_capital:0 "Detroit Reaffermed"
+ GLF_prophetstown_capital:0 "Prophetstown Reaffermed"
  
  GLF_strong_boarders:0 "Strong Borders"
  
  GLF_builders_blamed:0 "Builders Blamed"
+ 
+ GLF_pickawillany_legacy:0 "Pickawillany Legacy"
 
 #End GLF Focus ideas

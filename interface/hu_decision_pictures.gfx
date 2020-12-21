@@ -19,4 +19,71 @@ spriteTypes = {
 		name = "GFX_decision_category_save_land"
 		texturefile = "gfx/interface/decisions/decision_cat_save_land.dds"	
 	}
+	
+	SpriteType = {
+		name = "GFX_decision_category_save_land"
+		texturefile = "gfx/interface/decisions/decision_cat_save_land.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_category_GLF_visit_tribes_icon"
+		texturefile = "gfx/interface/decisions/decision_category_GLF_visit_tribes.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_GLF_visit_the_fox_and_sac_tribe"
+		texturefile = "gfx/interface/decisions/decision_GLF_visit_the_fox_and_sac_tribe.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_GLF_visit_the_ojibwe_tribe"
+		texturefile = "gfx/interface/decisions/decision_GLF_visit_the_ojibwe_tribe.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_GLF_visit_the_miami_tribe"
+		texturefile = "gfx/interface/decisions/decision_GLF_visit_the_miami_tribe.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_GLF_visit_the_haudenosaunee"
+		texturefile = "gfx/interface/decisions/decision_GLF_visit_the_haudenosaunee.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_GLF_visit_the_shawnee_tribe"
+		texturefile = "gfx/interface/decisions/decision_GLF_visit_the_shawnee_tribe.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_GLF_visit_the_wyandot_tribe"
+		texturefile = "gfx/interface/decisions/decision_GLF_visit_the_wyandot_tribe.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_GLF_visit_the_illinois"
+		texturefile = "gfx/interface/decisions/decision_GLF_visit_the_illinois.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_GLF_visit_the_ho_chuck_tribe"
+		texturefile = "gfx/interface/decisions/decision_GLF_visit_the_ho_chuck_tribe.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_GLF_visit_the_potawatomi_tribe"
+		texturefile = "gfx/interface/decisions/decision_GLF_visit_the_potawatomi_tribe.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_GLF_visit_the_ottawa_tribe"
+		texturefile = "gfx/interface/decisions/decision_GLF_visit_the_ottawa_tribe.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_GLF_visit_the_atirhagenrat_tribe"
+		texturefile = "gfx/interface/decisions/decision_GLF_visit_the_atirhagenrat_tribe.dds"	
+	}
+	
+	
 }

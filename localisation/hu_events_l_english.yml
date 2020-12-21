@@ -90,7 +90,7 @@
  glf.4.a:0 "It was never theirs to give in the first place"
  
  glf.5.t:0 "US agrees to trade North New England for South Illinois"
- glf.5.d:0 "American Senators arrived in Detroit today to finalize the terms of land trade. The region south of the Mississippi was occupied by our forces during the Great war. While this land will be missed, the new land we are receiving is in the new England region. The entire state of Maine along with sections of New Hampshire and Vermont will be ours. This mutually beneficial trade marks an improvement in U.S-Laker relations."
+ glf.5.d:0 "American Senators arrived in Prophetstown today to finalize the terms of land trade. The region south of the Mississippi was occupied by our forces during the Great war. While this land will be missed, the new land we are receiving is in the new England region. The entire state of Maine along with sections of New Hampshire and Vermont will be ours. This mutually beneficial trade marks an improvement in U.S-Laker relations."
  glf.5.a:0 "This new land is a boon for the Confederation"
  
  glf.6.t:0 "US refuses the trade"
@@ -98,7 +98,7 @@
  glf.6.a:0 "Perhapse we should continue south"
  
  glf.7.title:0 "Russia accepts ally request"
- glf.7.d:0 "Our offer to join the Comintern has been accepted by the Soviet Union. Workers throughout the tribes are rejoicing and plans are already being made by the Detroit Soviet to hold annual May day parades. Some tribal chiefs are hesitant to accept the new regulations that come with our membership but those who try to stop the future may be trampled by it."
+ glf.7.d:0 "Our offer to join the Comintern has been accepted by the Soviet Union. Workers throughout the tribes are rejoicing and plans are already being made by Great Lakes Soviets to hold annual May day parades. Some tribal chiefs are hesitant to accept the new regulations that come with our membership but those who try to stop the future may be trampled by it."
  glf.7.a:0 "We may be across the world from each other but we are united"
  
  glf.8.title:0 "Russia refuses ally request"
@@ -106,7 +106,7 @@
  glf.8.a:0 "Perhapse we should help the people in our own way"
  
  glf.9.title:0 "Germany accepts ally request"
- glf.9.d:0 "German minister of forgin affairs Herr Von Ribbentrop arrived in Detroit today bringing great news. The German Reich has accepted our membership into the Axis powers. The Confederation may not share the same values as the Axis but we have the same enemies, together we will triumph. Maybe once all of our foes are gone we can evaluate Hitler's regime."
+ glf.9.d:0 "German minister of forgin affairs Herr Von Ribbentrop arrived in Prophetstown today bringing great news. The German Reich has accepted our membership into the Axis powers. The Confederation may not share the same values as the Axis but we have the same enemies, together we will triumph. Maybe once all of our foes are gone we can evaluate Hitler's regime."
  glf.9.a:0 "Our enemies should fear our combined strength"
  
  glf.10.title:0 "Germany refuses ally request"
@@ -124,7 +124,7 @@
  glf.18.c:0 "This matter does not concern us"
  
  glf.93.title:0 "Lost Canadians found"
- glf.93.d:0 "Today the bodies of several Candaians were found in the boundary waters. The bodies were found on sacred Chippawa ground. It appears that the Canadians were confronted by some members of the Chippewa tribe and a firefight ensued. It is unclear which side started firing first. The bodies have been returned to the Candians but the body of the teenager Jacques Dextrax has not been found. An investigation into the matter has been opened to try to find the tribesmen who did this. The Canadians have thanked us for our cooperation and understand that these men should not have been where they were."
+ glf.93.d:0 "Today the bodies of several Candaians were found in the boundary waters. The bodies were found on sacred Chippawa ground. It appears that the Canadians were confronted by some members of the Chippewa tribe and a firefight ensued. It is unclear which side started firing first. The bodies have been returned to the Canadaians but the body of the teenager Jacques Dextrax has not been found. An investigation into the matter has been opened to try to find the tribesmen who did this. The Canadians have thanked us for our cooperation and understand that these men should not have been where they were."
  glf.93.a:0 "At least now we know their fates"
  
  glf.92.title:0 "Lost Canadian boy turned man of the tribes"
@@ -216,7 +216,7 @@
  glf.33.b:0 "He might be up to something"
  
  glf.34.title:0 "Begin the Queen Charlotte Islands Conference"
- glf.34.d:0 "The Queen Charlotte Islands also known as Haida Gwaii are the last occupied lands of the Candian government, and they will be where Canada’s fate is sealed. Here on these islands the Confederation offers it’s terms to the British. We offer peace in exchange for what is rightfully ours. We claim the lands of the dominion of Canada and the region of Labrador. The Allies are tired of fighting for lands that are not theirs and we do not wish for more bloodshed. We believe our terms to be fair and if the Allies wish to continue the way then so be it."
+ glf.34.d:0 "The Queen Charlotte Islands also known as Haida Gwaii are the last occupied lands of the Candian government, and they will be where Canada’s fate is sealed. Here on these islands the Confederation offers it’s terms to the British. We offer peace in exchange for what is rightfully ours. We claim the lands of the dominion of Canada and the region of Labrador. The Allies are tired of fighting for lands that are not theirs and we do not wish for more bloodshed. We believe our terms to be fair and if the Allies wish to continue the war then so be it."
  glf.34.a:0 "They are tired of this war"
  
  glf.35.title:0 "Give up Canada?"
@@ -249,7 +249,7 @@
  glf.102.a:0 "He belongs at home"
  
  glf.103.t:0 "The Chief visits the North Shore"
- glf.103.d:0 "Today Kah-ge-ga-gah-bowh embarks on a tour of the North Shore of Lake Superior. On his tour the Chief will start his journey in the port city of Duluth and make his way up through Minnesota. After a brief stop at the Boundary waters and the headwaters of the Mississippi Kah-ge-ga-gah-bowh will conclude his journey by going by Canoe down the Kaministiquia river to Thunder Bay where he will take a ship back to Detroit. On his journey Kah-ge-ga-gah-bowh will meet with moderate tribes and attempt to get new converts to the gentle side."
+ glf.103.d:0 "Today Kah-ge-ga-gah-bowh embarks on a tour of the North Shore of Lake Superior. On his tour the Chief will start his journey in the port city of Duluth and make his way up through Minnesota. After a brief stop at the Boundary waters and the headwaters of the Mississippi Kah-ge-ga-gah-bowh will conclude his journey by going by Canoe down the Kaministiquia river to Thunder Bay where he will take a ship back to Chicago. On his journey Kah-ge-ga-gah-bowh will meet with moderate tribes and attempt to get new converts to the gentle side."
  glf.103.a:0 "His Tour should be great"
  
  glf.104.t:0 "Kah-ge-ga-gah-bowh narrowly avoids Assassinated!"

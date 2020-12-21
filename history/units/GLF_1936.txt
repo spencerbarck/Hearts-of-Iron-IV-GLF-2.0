@@ -81,7 +81,7 @@ units = {
 	}
 	division= {	
 		name = "Kiilhswa Alenia"
-		location = 6710
+		location = 4437
 		division_template = "Lake Warriors"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -89,7 +89,7 @@ units = {
 	}
 	division= {	
 		name = "Wɒrɪə"
-		location = 6710
+		location = 4437
 		division_template = "Lake Warriors"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
