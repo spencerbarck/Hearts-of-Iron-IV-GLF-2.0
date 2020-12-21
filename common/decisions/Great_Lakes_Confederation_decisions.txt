@@ -1487,8 +1487,8 @@ GLF_great_north_confederation_decisions = {
 		}
 		
 		visible = {
-			has_cosmetic_tag = GNC_TRIBES
-			NOT={has_country_flag = moved_capital}
+			#has_cosmetic_tag = GNC_TRIBES
+			#NOT={has_country_flag = moved_capital}
 		}
 		
 		days_remove = 30

@@ -1351,8 +1351,6 @@ country_event = {
 	desc = glf.103.d
 	picture = GFX_report_event_north_shore
 	
-	is_triggered_only = yes
-	
 	trigger = {
 		original_tag = GLF
 		date > 1939.10.5
@@ -1434,8 +1432,6 @@ country_event = {
 	desc = glf.106.d
 	picture = GFX_report_event_bowh_dead
 	
-	is_triggered_only = yes
-	
 	trigger = {
 		original_tag  = GLF
 		date > 1943.10.5
@@ -1471,8 +1467,6 @@ country_event = {
 	desc = glf.107.d
 	picture = GFX_report_event_bugonaygeshig_dies
 	
-	is_triggered_only = yes
-	
 	trigger = {
 		original_tag  = GLF
 		date > 1937.1.5
@@ -1491,8 +1485,6 @@ country_event = {
 	title = glf.108.t
 	desc = glf.108.d
 	picture = GFX_report_event_niagara_falls_bridge_collapse
-	
-	is_triggered_only = yes
 	
 	trigger = {
 		original_tag  = GLF
@@ -1536,8 +1528,6 @@ country_event = {
 	title = glf.109.t
 	desc = glf.109.d
 	picture = GFX_report_event_new_england_hurricane
-	
-	is_triggered_only = yes
 	
 	trigger = {
 		original_tag  = GLF
@@ -1602,8 +1592,6 @@ country_event = {
 	desc = glf.110.d
 	picture = GFX_report_event_laker_olympics
 	
-	is_triggered_only = yes
-	
 	trigger = {
 		original_tag  = GLF
 		date > 1936.8.18
@@ -1632,11 +1620,9 @@ country_event = {
 	desc = glf.111.d
 	picture = GFX_report_event_GLF_prophetstown_unrest
 	
-	is_triggered_only = yes
-	
 	trigger = {
 		original_tag  = GLF
-		fascism > 0.50
+		fascism > 0.5
 		NOT = {has_government = fascism}
 	}
 
@@ -1651,6 +1637,17 @@ country_event = {
 			type = infantry_equipment
 			amount = -10000
 		}
+		hidden_effect = {
+		IF = {
+			limit = {NOT={has_country_flag = moved_capital}}
+			GLF = {
+				country_event = { id = glf.112 days = 1 }
+			}
+		}
+		GLF = {
+			country_event = { id = glf.113 days = 10 }
+		}
+		}
 	}
 	
 	#Let the Hawkists rule Prophetstown
@@ -1662,7 +1659,66 @@ country_event = {
 			ideology = fascism
 			popularity = 0.10
 		}
+		hidden_effect = {
+		IF = {
+			limit = {NOT={has_country_flag = moved_capital}}
+			GLF = {
+				country_event = { id = glf.112 days = 1 }
+			}
+		}
+		GLF = {
+			country_event = { id = glf.113 days = 10 }
+		}
+		}
 		
 	}
 		
 }
+
+#Prophetstown No longer safe
+country_event = {
+	id = glf.112
+	title = glf.112.t
+	desc = glf.112.d
+	picture = GFX_report_event_GLF_prophetstown_unrest
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag  = GLF
+	}
+	
+	option = {
+		name = glf.112.a
+		set_capital = 393
+		set_country_flag = detroit_capital
+	}
+}
+
+#Unrest in Prophetstown ends
+country_event = {
+	id = glf.113
+	title = glf.113.t
+	desc = glf.113.d
+	picture = GFX_report_event_GLF_prophetstown_unrest
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag  = GLF
+	}
+	
+	option = {
+		name = glf.113.a
+		IF = {
+			limit = {has_country_flag = detroit_capital}
+			set_capital = 810
+		}
+		add_state_core = 810
+	}
+}
+	

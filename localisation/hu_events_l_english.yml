@@ -287,5 +287,10 @@
  glf.111.a:0 "Send in Soldiers"
  glf.111.b:0 "Let Hawkists Rule Prophetstown"
  
+ glf.112.t:0 "Prophetstown No longer safe"
+ glf.112.d:0 "As unrest in Prophetstown continues many chiefs and politicians have refused to travel to the city. The capital can no longer be viable so the chiefs must meet somewhere else. Many have already begun to convene and sign laws in the city of Detroit. The city is not ideal for this and certainly does not have as much historical significance as Prophetstown but it’s central location on the Great Lakes makes it good for at least a temporary capital."
+ glf.112.a:0 "Prophetstown continues to burn"
  
- 
+ glf.113.t:0 "Unrest in Prophetstown Ends"
+ glf.113.d:0 "After over a year the city of Prophetstown has been reduced as the tribal police have restored order to many of the neighborhoods. It still remains uncertain how many have died initial estimates are in the hundredths, the people of Confederation have begun to call the time of unrest the Prophetstown sunset."
+ glf.113.a:0 "Maybe one day the city will heal"
