@@ -621,10 +621,10 @@
 		completion_reward = {
 			custom_effect_tooltip = GLF_protect_new_ports_forts
 			468 = {
-				custom_effect_tooltip = GLF_protect_new_ports_fort
 				if = {
 					limit = { is_controlled_by = ROOT }
 					hidden_effect = {
+						custom_effect_tooltip = GLF_protect_new_ports_fort
 						add_building_construction = {
 							type = coastal_bunker
 							level = 4
@@ -635,10 +635,10 @@
 				}
 			}
 			465 = {
-				custom_effect_tooltip = GLF_protect_new_ports_fort
 				if = {
 					limit = { is_controlled_by = ROOT }
 					hidden_effect = {
+						custom_effect_tooltip = GLF_protect_new_ports_fort
 						add_building_construction = {
 							type = coastal_bunker
 							level = 4
@@ -649,10 +649,10 @@
 				}
 			}
 			464 = {
-				custom_effect_tooltip = GLF_protect_new_ports_fort
 				if = {
 					limit = { is_controlled_by = ROOT }
 					hidden_effect = {
+						custom_effect_tooltip = GLF_protect_new_ports_fort
 						add_building_construction = {
 							type = coastal_bunker
 							level = 4
@@ -663,10 +663,10 @@
 				}
 			}
 			332 = {
-				custom_effect_tooltip = GLF_protect_new_ports_fort
 				if = {
 					limit = { is_controlled_by = ROOT }
 					hidden_effect = {
+						custom_effect_tooltip = GLF_protect_new_ports_fort
 						add_building_construction = {
 							type = coastal_bunker
 							level = 4
@@ -677,10 +677,10 @@
 				}
 			}
 			331 = {
-				custom_effect_tooltip = GLF_protect_new_ports_fort
 				if = {
 					limit = { is_controlled_by = ROOT }
 					hidden_effect = {
+						custom_effect_tooltip = GLF_protect_new_ports_fort
 						add_building_construction = {
 							type = coastal_bunker
 							level = 4
@@ -1291,9 +1291,13 @@
 
 		cost = 7.5
 		prerequisite = { focus = GLF_the_great_lakes_revolution }
+		
+		bypass = {
+			is_in_faction_with = SOV
+		}
 
 		available = {
-			communism > 0.25
+			communism > 0.30
 		}
 
 		cancel_if_invalid = yes
