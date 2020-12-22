@@ -961,7 +961,6 @@ ideas = {
 		}
 		
 		GLF_pickawillany_legacy = {
-		#huron
 		
 			allowed = {
 				original_tag = GLF
@@ -974,6 +973,22 @@ ideas = {
 
 			modifier = {
 				resistance_target = -0.10
+			}
+		}
+		
+		GLF_give_me_your_tired = {
+		
+			allowed = {
+				original_tag = GLF
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+
+			modifier = {
+				monthly_population = 0.15
 			}
 		}
 	}

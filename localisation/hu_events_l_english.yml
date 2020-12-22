@@ -151,6 +151,7 @@
  glf.21.d:0 "Today caravans of trucks and buses arrived unexpectedly in cities along the border between the United States and the Confederation. The caravans stopped and let out thousands of Apache people before quickly driving away. This is not the first time this has happened, several times throughout the history of the Confederation the United States have relocated tribes from their land to ours. Many United States officials believe it is best for these people to live in the Confederation rather than reservations in U.S occupied lands. The Confederation is a haven for these displaced people but this is not their true home and everytime we accept them it gives the United States more of a mandate to displace tribes."
  glf.21.a:0 "We shall accept them like gifts"
  glf.21.b:0 "They should live in their land"
+ glf.21.c:0 "Give me your tired, your poor, Your huddled masses yearning to breathe free"
  
  glf.94.title:0 "Canada sends tribes to our borders"
  glf.94.d:0 "Canadian troops arrived at the northern border of the Confederation today with thousands of Ktunaxa people following them. These people have been moved from their lands in British Columbia by the Canadians. The troops have asked us to take them in. It would be good to help these people in need but if we take them in perhaps the Canadians will send more tribes our way."
@@ -294,3 +295,7 @@
  glf.113.t:0 "Unrest in Prophetstown Ends"
  glf.113.d:0 "After over a year the city of Prophetstown has been reduced as the tribal police have restored order to many of the neighborhoods. It still remains uncertain how many have died initial estimates are in the hundredths, the people of Confederation have begun to call the time of unrest the Prophetstown sunset."
  glf.113.a:0 "Maybe one day the city will heal"
+ 
+ glf.114.t:0 "The Chief opens the boarders of the Confederation"
+ glf.114.d:0 "In an international address today the Chief of the Confederation addressed the recent forced migration of people to the Great Lakes. The Chief told the world to give us your tired, your poor, your huddled masses yearning to breathe free. The Chief said this in defiance of his advisors who warned him that such a statement would insult the United States and make the tribal relocation issue known globally."
+ glf.114.a:0 "The United States has failed these people but we will not"

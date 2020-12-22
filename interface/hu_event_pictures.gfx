@@ -205,4 +205,14 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_GLF_prophetstown_unrest.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_report_event_GLF_give_me_your_tired"
+		texturefile = "gfx/event_pictures/report_event_GLF_give_me_your_tired.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_GLF_unrest_ends"
+		texturefile = "gfx/event_pictures/report_event_GLF_unrest_ends.dds"
+	}
+	
 }

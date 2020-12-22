@@ -706,14 +706,25 @@ country_event = {
 	option = { # accept them
 		name = glf.21.a
 		ai_chance = { factor = 20 }
-		add_political_power = -15
+		add_political_power = -30
 		add_manpower = 7500
 	}
 	
 	option = { # do not accept them
 		name = glf.21.b
-		ai_chance = { factor = 80 }
-		add_political_power = -5
+		ai_chance = { factor = 60 }
+		add_political_power = -15
+	}
+	
+	option = { #give me your tired
+		name = glf.21.c
+		ai_chance = { factor = 20 }
+		add_stability = -0.05
+		add_political_power = -15
+		add_manpower = 7500
+		GLF = {
+			country_event = { id = glf.114 days = 2}
+		}
 	}
 }
 
@@ -742,6 +753,7 @@ country_event = {
 
 	option = { # accept them
 		name = glf.94.a
+		
 		ai_chance = { factor = 20 }
 		add_political_power = -15
 		add_manpower = 7500
@@ -750,6 +762,11 @@ country_event = {
 	option = { # do not accept them
 		name = glf.94.b
 		ai_chance = { factor = 80 }
+		
+		trigger = {
+			NOT = {GLF={NOT={has_country_flag = GLF_give_me_your_tired}}}
+		}
+		
 		add_political_power = -5
 	}
 }
@@ -1702,7 +1719,7 @@ country_event = {
 	id = glf.113
 	title = glf.113.t
 	desc = glf.113.d
-	picture = GFX_report_event_GLF_prophetstown_unrest
+	picture = GFX_report_event_GLF_unrest_ends
 	
 	fire_only_once = yes
 	
@@ -1719,6 +1736,28 @@ country_event = {
 			set_capital = 810
 		}
 		add_state_core = 810
+	}
+}
+
+#Cheif opens boarders
+country_event = {
+	id = glf.114
+	title = glf.114.t
+	desc = glf.114.d
+	picture = GFX_report_event_GLF_give_me_your_tired
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag  = GLF
+	}
+	
+	option = {
+		name = glf.114.a
+		add_ideas = GLF_give_me_your_tired
+		set_country_flag = GLF_give_me_your_tired
 	}
 }
 	
