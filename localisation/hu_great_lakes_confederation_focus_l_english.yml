@@ -83,7 +83,7 @@
   GLF_call_the_warchiefs_desc:0 "The Confederation and Canada have been at odds for a while. To prepare for war we must call the Warchiefs. With all the tribes together we can lay out a strategic plan."
   
   GLF_assume_the_northern_throne:0 "Assume the Northern Throne"
-  GLF_assume_the_northern_throne_desc:0 "Nixkamich was reckless when he declared war on the United States and Canada during the Great War but he knew that Canada would always be our enemy. The Tribes of the Quebec and Saint Lawrence areas support us, we may have to fight the English and their Allies but our Warriors are far superior in this climate."
+  GLF_assume_the_northern_throne_desc:0 "Ishkode was reckless when he declared war on the United States and Canada during the Great War but he knew that Canada would always be our enemy. The Tribes of the Quebec and Saint Lawrence areas support us, we may have to fight the English and their Allies but our Warriors are far superior in this climate."
   
   GLF_protect_the_new_ports:0 "Protect the New Ports"
   GLF_protect_the_new_ports_desc:0 "The new ports we have taken are an important part of the region. If anybody wants to take back this land by sea they must have these ports to resupply their forces. If we build coastal forts we can secure our hold on the area."
@@ -175,8 +175,8 @@
   GLF_the_new_world_institute:0 "The New World Institute"
   GLF_the_new_world_institute_desc:0 "The powers of the Old World have discovered many things but here in the new one we have a different perspective that allows us to think beyond the limits put forth by the old world. We should found a great institute in our capital that allows scientists from all across the new world to collaborate and discover."
   
-  GLF_the_trial_of_nixkamich:0 "The Trial of Nixkamich"
-  GLF_the_trial_of_nixkamich_desc:0 "When the Great Lakes Confederation made peace with Canada part of the agreement stated that chief Nixkamich would be held in prison by the Canadians. He was never given a trial. If Nixkamich is found guilty of crime the Confederation can once and for all condemn Hawkism, but if he is found innocent then Hawkists will spring up in every tribe. The leader of the Confederation will have the final say."
+  GLF_the_trial_of_ishkode:0 "The Trial of Ishkode"
+  GLF_the_trial_of_ishkode_desc:0 "When the Great Lakes Confederation made peace with Canada part of the agreement stated that chief Ishkode would be held in prison by the Canadians. He was never given a trial. If Ishkode is found guilty of crime the Confederation can once and for all condemn Hawkism, but if he is found innocent then Hawkists will spring up in every tribe. The leader of the Confederation will have the final say."
   
   GLF_end_hawkism:0 "End Hawkism"
   GLF_end_hawkism_desc:0 "Our place in the 20th century is not war, it is unity. An ideology based solely on revenge has little to stand on. Many across the tribes still harbor hatred in their hearts for our neighbors but the Gentle Side will prevail and this hatred will not manifest itself in the form of unneeded violence."
@@ -190,17 +190,17 @@
   GLF_support_our_soldiers:0 "Support our Soldiers"
   GLF_support_our_soldiers_desc:0 "The bravest and greatest members of our Confederation will always be our soldiers. It is time we gave back to these men and women who keep us safe. By supporting our soldiers we will have a stronger fighting force."
   
-  GLF_free_nixkamich_tree:0 "Free Nixkamich"
-  GLF_free_nixkamich_tree_desc:0 "Our high command has discovered the location of the prison that chief Nixkamich is being kept in. They have proposed Operation Dark Feather, an operation that will free Nixkamich. The operation will involve dozens of special forces operatives crossing our border and infiltrating the prison."
+  GLF_free_ishkode_tree:0 "Free Ishkode"
+  GLF_free_ishkode_tree_desc:0 "Our high command has discovered the location of the prison that chief Ishkode is being kept in. They have proposed Operation Dark Feather, an operation that will free Ishkode. The operation will involve dozens of special forces operatives crossing our border and infiltrating the prison."
   
   GLF_no_crime_done:0 "No Crime Done"
-  GLF_no_crime_done_desc:0 "Nixkamich is not a criminal. Is it a crime to try to take back what belongs to you? Perhaps by the laws of the colonisers he is an aggressor but their laws have no power here and if they want to give him a trial they should come and try to take him."
+  GLF_no_crime_done_desc:0 "Ishkode is not a criminal. Is it a crime to try to take back what belongs to you? Perhaps by the laws of the colonisers he is an aggressor but their laws have no power here and if they want to give him a trial they should come and try to take him."
   
   GLF_re-form_the_aayaash:0 "Re-form the Aayaash"
   GLF_re-form_the_aayaash_desc:0 "In the 1920s when Hawkism was first founded it was spread by an organization called the Aayaash. Named after a hero from legend, the Aayaash would go around to all the tribes and make sure that the people of the tribes were willing to fight for survival. It is time we bring back this organization and make sure that our Confederation is not too gentle."
   
-  GLF_appoint_nixkamich:0 "Appoint Nixkamich"
-  GLF_appoint_nixkamich_desc:0 "Some call him the dark chief, some call him traitor, some call him criminal but he fights for the tibes. His family was killed when he was a child, the only survivors were him and his brother. His brother was full of sadness but he was full of anger, his brother chose to try to survive but Nixkamich chose to fight. The tribes once called on him to protect us and now once more we can call him leader."
+  GLF_appoint_ishkode:0 "Appoint Ishkode"
+  GLF_appoint_ishkode_desc:0 "Some call him the dark chief, some call him traitor, some call him criminal but he fights for the tibes. His family was killed when he was a child, the only survivors were him and his brother. His brother was full of sadness but he was full of anger, his brother chose to try to survive but Ishkode chose to fight. The tribes once called on him to protect us and now once more we can call him leader."
   
   GLF_appoint_honovi:0 "Appoint Honovi"
   GLF_appoint_honovi_desc:0 "She is the daughter of the dark chief. Our most famous aviator Honovi is known as the emerald skull, she flys circles around other pilots in her green fighter plane. She is still young but her time in the Air Force has made her a great leader. The Confederation needs new blood to stay alive and keep soaring into the skies."
@@ -307,7 +307,7 @@
  GLF_forest_warriors_desc:0 "Our ancestors and our ancestors ancestors lived in these lands. We know these woods and lakes very well and any enemy who wishes to trespass on our land will spend their last days cold and alone in the dark of the forest."
  
  GLF_strike_fast:0 "Strike Fast"
- GLF_strike_fast_desc:0 "Nixkamich was a controversial figure but his tactics and strategy lead to several victories over the much larger nations of Canada and The United States. His tactics included fast moving troops that overwhelmed the enemy from all sides. If we are to continue to be a military power we must learn from his victories."
+ GLF_strike_fast_desc:0 "Ishkode was a controversial figure but his tactics and strategy lead to several victories over the much larger nations of Canada and The United States. His tactics included fast moving troops that overwhelmed the enemy from all sides. If we are to continue to be a military power we must learn from his victories."
  
  GLF_detroit_auto:0 "Detroit Auto"
  GLF_detroit_auto_desc:0 "Detroit was once a modest trading post and meeting point. It has now become a powerful city famous for its car factories. As speed becomes more and more important when it comes to warfare it is paramount that our troops and supplies can stay on the move."
@@ -316,7 +316,7 @@
  GLF_light_tank_tactics_desc:0 "Our territory is not ideal for tank warfare and we have not put much stock in these lumbering behemoths. Perhaps if small more nimble designs are made they can be used to surprise our opponents."
  
  GLF_swift_like_the_tide:0 "Swift as The North Wind"
- GLF_swift_like_the_tide_desc:0 "The quickest wolf gets the first meal. Cavalry, motorized infantry, and tanks are all fast forms of warfare but for the Confederation to truly honor the genius of Nixkamich all of our forces must be swift and unstoppable."
+ GLF_swift_like_the_tide_desc:0 "The quickest wolf gets the first meal. Cavalry, motorized infantry, and tanks are all fast forms of warfare but for the Confederation to truly honor the genius of Ishkode all of our forces must be swift and unstoppable."
  
  GLF_strike_smart:0 "Strike Smart"
  GLF_strike_smart_desc:0 "During the war of 1812 the Confederation was tested by aggression from the Americans south of us. These attacks were poorly conceived. Chief Tecumseh outsmarted the Americans and staged a counterattack that further secured our presence in the region for decades. We should continue his legacy of military genius."
@@ -370,7 +370,7 @@
  GLF_improve_the_thunderbird_desc:0 "The Thunderbird was a great success and now with further modification it can truly become a titan of the skies."
  
  GLF_great_lake_aces:0 "Great lakes Aces"
- GLF_great_lake_aces_desc:0 "Some of our most well known citizens are our aces. The daughter of Nixkhamich, Honovi has fought in many wars overseas and has honed her skills. We should encourage our pilots to be the best they can be."
+ GLF_great_lake_aces_desc:0 "Some of our most well known citizens are our aces. The daughter of Ishkode, Honovi has fought in many wars overseas and has honed her skills. We should encourage our pilots to be the best they can be."
  
  GLF_carrier_practice:0 "Carrier Practice"
  GLF_carrier_practice_desc:0 "The Great Lakes offer a great training ground for naval aircraft. Exercises can simulate conditions in the Pacific and Atlantic, perhaps in the future our aces will have to operate in these theaters."

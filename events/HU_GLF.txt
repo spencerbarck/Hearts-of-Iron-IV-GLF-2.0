@@ -358,7 +358,7 @@ country_event = {
 	option = {
 		name = glf.14.a
 		GLF = {
-			add_ideas = GLF_free_nixkamich
+			add_ideas = GLF_free_ishkode
 		}
 	}
 }
@@ -375,7 +375,7 @@ country_event = {
 	option = {
 		name = glf.66.a
 		GLF = {
-			add_ideas = GLF_martyred_nixkamich
+			add_ideas = GLF_martyred_ishkode
 		}
 	}
 }
@@ -385,7 +385,7 @@ country_event = {
 	id = glf.15
 	title = glf.15.t
 	desc = glf.15.d
-	picture = GFX_report_event_trial_of_nixkamich
+	picture = GFX_report_event_trial_of_ishkode
 	
 	is_triggered_only = yes
 
@@ -394,8 +394,8 @@ country_event = {
 		GLF = {
 			remove_ideas = resurgence_of_hawkism
 			remove_ideas = resurgence_of_hawkism2
-			remove_ideas = GLF_free_nixkamich
-			add_ideas = GLF_convicted_nixkamich
+			remove_ideas = GLF_free_ishkode
+			add_ideas = GLF_convicted_ishkode
 		}
 	}
 	option = {#executed
@@ -403,8 +403,8 @@ country_event = {
 		GLF = {
 			remove_ideas = resurgence_of_hawkism
 			remove_ideas = resurgence_of_hawkism2
-			remove_ideas = GLF_free_nixkamich
-			add_ideas = GLF_executed_nixkamich
+			remove_ideas = GLF_free_ishkode
+			add_ideas = GLF_executed_ishkode
 		}
 	}
 	option = {#pardoned
@@ -412,7 +412,7 @@ country_event = {
 		GLF = {
 			remove_ideas = resurgence_of_hawkism
 			remove_ideas = resurgence_of_hawkism2
-			add_ideas = GLF_pardoned_nixkamich
+			add_ideas = GLF_pardoned_ishkode
 		}
 	}
 }
@@ -422,7 +422,7 @@ country_event = {
 	id = glf.16
 	title = glf.16.t
 	desc = glf.16.d
-	picture = GFX_report_event_trial_of_nixkamich
+	picture = GFX_report_event_trial_of_ishkode
 	
 	is_triggered_only = yes
 
@@ -431,7 +431,7 @@ country_event = {
 		GLF = {
 			remove_ideas = resurgence_of_hawkism
 			remove_ideas = resurgence_of_hawkism2
-			add_ideas = GLF_convicted_nixkamich		
+			add_ideas = GLF_convicted_ishkode		
 		}
 	}
 	option = {#pardoned
@@ -439,7 +439,7 @@ country_event = {
 		GLF = {
 			remove_ideas = resurgence_of_hawkism
 			remove_ideas = resurgence_of_hawkism2
-			add_ideas = GLF_pardoned_nixkamich		
+			add_ideas = GLF_pardoned_ishkode		
 		}
 	}
 }
@@ -449,7 +449,7 @@ country_event = {
 	id = glf.17
 	title = glf.17.t
 	desc = glf.17.d
-	picture = GFX_report_event_trial_of_nixkamich
+	picture = GFX_report_event_trial_of_ishkode
 	
 	is_triggered_only = yes
 
@@ -458,8 +458,8 @@ country_event = {
 		GLF = {
 			remove_ideas = resurgence_of_hawkism
 			remove_ideas = resurgence_of_hawkism2
-			remove_ideas = GLF_martyred_nixkamich
-			add_ideas = GLF_convicted_nixkamich		
+			remove_ideas = GLF_martyred_ishkode
+			add_ideas = GLF_convicted_ishkode		
 		}
 	}
 	option = {#pardoned
@@ -467,7 +467,7 @@ country_event = {
 		GLF = {
 			remove_ideas = resurgence_of_hawkism
 			remove_ideas = resurgence_of_hawkism2
-			add_ideas = GLF_pardoned_nixkamich		
+			add_ideas = GLF_pardoned_ishkode		
 		}
 	}
 }
@@ -764,7 +764,7 @@ country_event = {
 		ai_chance = { factor = 80 }
 		
 		trigger = {
-			NOT = {GLF={NOT={has_country_flag = GLF_give_me_your_tired}}}
+			GLF={NOT={has_country_flag = GLF_give_me_your_tired}}
 		}
 		
 		add_political_power = -5
@@ -1327,14 +1327,14 @@ country_event = {
 		original_tag  = GLF
 		NOT{country_exists = ENG}
 		NOT{country_exists = CAN}
-		GLF = {NOT={has_completed_focus = GLF_free_nixkamich_tree}
-			   NOT={has_idea = GLF_convicted_nixkamich}}
+		GLF = {NOT={has_completed_focus = GLF_free_ishkode_tree}
+			   NOT={has_idea = GLF_convicted_ishkode}}
 	}
 
 	fire_only_once = yes
 	option = {
 		name = glf.101.a
-		add_ideas = GLF_free_nixkamich
+		add_ideas = GLF_free_ishkode
 	}
 }
 
@@ -1351,8 +1351,8 @@ country_event = {
 		original_tag  = GLF
 		NOT{country_exists = ENG}
 		NOT{country_exists = CAN}
-		GLF = {NOT={has_completed_focus = GLF_free_nixkamich_tree}
-			has_idea = GLF_convicted_nixkamich}
+		GLF = {NOT={has_completed_focus = GLF_free_ishkode_tree}
+			has_idea = GLF_convicted_ishkode}
 	}
 
 	fire_only_once = yes

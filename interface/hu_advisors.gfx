@@ -26,8 +26,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_advisor_nixkamich"
-		texturefile = "gfx/interface/advisors/advisor_nixkamich.dds"
+		name = "GFX_idea_advisor_ishkode"
+		texturefile = "gfx/interface/advisors/advisor_ishkode.dds"
 	}
 	
 	spriteType = {

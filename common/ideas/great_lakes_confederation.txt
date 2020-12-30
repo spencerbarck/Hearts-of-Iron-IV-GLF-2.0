@@ -485,7 +485,7 @@ ideas = {
 			}
 		}
 		
-		GLF_free_nixkamich = {
+		GLF_free_ishkode = {
 
 			allowed = {
 				original_tag = GLF
@@ -498,7 +498,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GLF_free_nixkamich
+			picture = GLF_free_ishkode
 
 			modifier = {
 				offensive_war_stability_factor = 0.3
@@ -506,7 +506,7 @@ ideas = {
 			}
 		}
 		
-		GLF_martyred_nixkamich = {
+		GLF_martyred_ishkode = {
 
 			allowed = {
 				original_tag = GLF
@@ -519,7 +519,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GLF_martyred_nixkamich
+			picture = GLF_martyred_ishkode
 
 			modifier = {
 				war_support_factor = 0.10
@@ -527,7 +527,7 @@ ideas = {
 			}
 		}
 		
-		GLF_executed_nixkamich = {
+		GLF_executed_ishkode = {
 
 			allowed = {
 				original_tag = GLF
@@ -540,14 +540,14 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GLF_executed_nixkamich
+			picture = GLF_executed_ishkode
 
 			modifier = {
 				stability_factor = -0.10
 			}
 		}
 		
-		GLF_convicted_nixkamich = {
+		GLF_convicted_ishkode = {
 
 			allowed = {
 				original_tag = GLF
@@ -560,7 +560,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GLF_convicted_nixkamich
+			picture = GLF_convicted_ishkode
 
 			modifier = {
 				stability_factor = -0.05
@@ -568,7 +568,7 @@ ideas = {
 			}
 		}
 		
-		GLF_pardoned_nixkamich = {
+		GLF_pardoned_ishkode = {
 
 			allowed = {
 				original_tag = GLF
@@ -581,7 +581,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GLF_pardoned_nixkamich
+			picture = GLF_pardoned_ishkode
 
 			modifier = {
 				stability_factor = 0.05
@@ -1191,7 +1191,7 @@ ideas = {
 		
 		GLF_ao3 = {
 			
-			picture = advisor_nixkamich
+			picture = advisor_ishkode
 			
 			allowed = {
 				original_tag = GLF
@@ -1199,9 +1199,9 @@ ideas = {
 			
 			available = {
 				OR = {
-					has_idea = GLF_free_nixkamich
+					has_idea = GLF_free_ishkode
 					has_country_leader = {
-						name = "Nixkamich"
+						name = "Ishkode"
 						ruling_only = yes
 					}
 				}

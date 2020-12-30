@@ -1575,11 +1575,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_GLF_the_trial_of_nixkamich_shine"
-		texturefile = "gfx/interface/goals/focus_GLF_the_trial_of_nixkamich.dds"
+		name = "GFX_goal_GLF_the_trial_of_ishkode_shine"
+		texturefile = "gfx/interface/goals/focus_GLF_the_trial_of_ishkode.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_GLF_the_trial_of_nixkamich.dds"
+			animationmaskfile = "gfx/interface/goals/focus_GLF_the_trial_of_ishkode.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1592,7 +1592,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_GLF_the_trial_of_nixkamich.dds"
+			animationmaskfile = "gfx/interface/goals/focus_GLF_the_trial_of_ishkode.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1735,11 +1735,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_GLF_free_nixkamich_shine"
-		texturefile = "gfx/interface/goals/focus_GLF_free_nixkamich.dds"
+		name = "GFX_goal_GLF_free_ishkode_shine"
+		texturefile = "gfx/interface/goals/focus_GLF_free_ishkode.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_GLF_free_nixkamich.dds"
+			animationmaskfile = "gfx/interface/goals/focus_GLF_free_ishkode.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1752,7 +1752,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_GLF_free_nixkamich.dds"
+			animationmaskfile = "gfx/interface/goals/focus_GLF_free_ishkode.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1831,11 +1831,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_GLF_appoint_nixkamich_shine"
-		texturefile = "gfx/interface/goals/focus_GLF_appoint_nixkamich.dds"
+		name = "GFX_goal_GLF_appoint_ishkode_shine"
+		texturefile = "gfx/interface/goals/focus_GLF_appoint_ishkode.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_GLF_appoint_nixkamich.dds"
+			animationmaskfile = "gfx/interface/goals/focus_GLF_appoint_ishkode.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1848,7 +1848,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_GLF_appoint_nixkamich.dds"
+			animationmaskfile = "gfx/interface/goals/focus_GLF_appoint_ishkode.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

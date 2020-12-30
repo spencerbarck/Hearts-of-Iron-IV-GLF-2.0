@@ -231,6 +231,15 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {#never used
+	name = "Sooleawa"
+	desc = ""
+	picture = "greatlakesconfederationleader.dds"
+	ideology = moderatism
+	traits = {
+	}
+}
+
 create_country_leader = {
 	name = "Teubentoo"
 	desc = ""

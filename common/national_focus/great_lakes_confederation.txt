@@ -1839,14 +1839,14 @@
 
 
 	focus = {
-		id = GLF_the_trial_of_nixkamich
-		icon = GFX_goal_GLF_the_trial_of_nixkamich
+		id = GLF_the_trial_of_ishkode
+		icon = GFX_goal_GLF_the_trial_of_ishkode
 		x = 3
 		y = 2
 		relative_position_id = GLF_support_our_scholars
 
 		cost = 10
-		prerequisite = { focus = GLF_the_new_world_institute focus = GLF_free_nixkamich_tree}
+		prerequisite = { focus = GLF_the_new_world_institute focus = GLF_free_ishkode_tree}
 		mutually_exclusive = { focus = GLF_no_crime_done }
 
 		cancel_if_invalid = yes
@@ -1855,11 +1855,11 @@
 
 		completion_reward = {
 			if = {
-				limit = { has_idea = GLF_free_nixkamich }
+				limit = { has_idea = GLF_free_ishkode }
 				GLF = { country_event = { id = glf.15  days = 1 }}
 				else = {
 					if = {
-						limit = { has_idea = GLF_martyred_nixkamich }
+						limit = { has_idea = GLF_martyred_ishkode }
 						GLF = { country_event = { id = glf.17 }}
 						else = {
 							GLF = { country_event = { id = glf.16 }}
@@ -1876,10 +1876,10 @@
 		icon = GFX_goal_GLF_end_hawkism
 		x = -2
 		y = 1
-		relative_position_id = GLF_the_trial_of_nixkamich
+		relative_position_id = GLF_the_trial_of_ishkode
 
 		cost = 10
-		prerequisite = { focus = GLF_the_trial_of_nixkamich }
+		prerequisite = { focus = GLF_the_trial_of_ishkode }
 		mutually_exclusive = { focus = GLF_re-form_the_aayaash }
 
 		cancel_if_invalid = yes
@@ -1985,8 +1985,8 @@
 	}
 
 	focus = {
-		id = GLF_free_nixkamich_tree
-		icon = GFX_goal_GLF_free_nixkamich
+		id = GLF_free_ishkode_tree
+		icon = GFX_goal_GLF_free_ishkode
 		x = 1
 		y = 1
 		relative_position_id = GLF_support_our_soldiers
@@ -1999,7 +1999,7 @@
 		available_if_capitulated = no
 
 		bypass = {
-			has_idea = GLF_free_nixkamich
+			has_idea = GLF_free_ishkode
 		}
 	
 		completion_reward = {
@@ -2018,11 +2018,11 @@
 		icon = GFX_goal_GLF_no_crime_done
 		x = 0
 		y = 1
-		relative_position_id = GLF_free_nixkamich_tree
+		relative_position_id = GLF_free_ishkode_tree
 
 		cost = 1
-		prerequisite = { focus = GLF_free_nixkamich_tree}
-		mutually_exclusive = { focus = GLF_the_trial_of_nixkamich }
+		prerequisite = { focus = GLF_free_ishkode_tree}
+		mutually_exclusive = { focus = GLF_the_trial_of_ishkode }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -2030,8 +2030,8 @@
 		
 		bypass = {
 			OR = {
-				has_idea = GLF_convicted_nixkamich
-				has_idea = GLF_executed_nixkamich
+				has_idea = GLF_convicted_ishkode
+				has_idea = GLF_executed_ishkode
 			}
 		}
 
@@ -2048,13 +2048,13 @@
 		relative_position_id = GLF_no_crime_done
 
 		cost = 10
-		prerequisite = { focus = GLF_no_crime_done focus = GLF_the_trial_of_nixkamich}
+		prerequisite = { focus = GLF_no_crime_done focus = GLF_the_trial_of_ishkode}
 		mutually_exclusive = { focus = GLF_end_hawkism }
 		
 		available = {
 			AND = {
-				NOT = {has_idea = GLF_convicted_nixkamich}
-				NOT = {has_idea = GLF_executed_nixkamich}
+				NOT = {has_idea = GLF_convicted_ishkode}
+				NOT = {has_idea = GLF_executed_ishkode}
 			} 
 		}
 
@@ -2077,8 +2077,8 @@
 	}
 
 	focus = {
-		id = GLF_appoint_nixkamich
-		icon = GFX_goal_GLF_appoint_nixkamich
+		id = GLF_appoint_ishkode
+		icon = GFX_goal_GLF_appoint_ishkode
 		x = 2
 		y = 1
 		relative_position_id = GLF_re-form_the_aayaash
@@ -2089,8 +2089,8 @@
 
 		available = {
 			AND = {
-				NOT = {has_idea = GLF_martyred_nixkamich}
-				NOT = {has_idea = GLF_executed_nixkamich}
+				NOT = {has_idea = GLF_martyred_ishkode}
+				NOT = {has_idea = GLF_executed_ishkode}
 			} 
 		}
 
@@ -2099,9 +2099,9 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			remove_ideas = GLF_free_nixkamich
+			remove_ideas = GLF_free_ishkode
 			create_country_leader = {
-				name = "Nixkamich"
+				name = "ishkode"
 				desc = ""
 				picture = "greatlakesconfederationleaderfasc.dds"
 
@@ -2126,7 +2126,7 @@
 
 		cost = 7.5
 		prerequisite = { focus = GLF_re-form_the_aayaash}
-		mutually_exclusive = { focus = GLF_appoint_nixkamich}
+		mutually_exclusive = { focus = GLF_appoint_ishkode}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -2232,12 +2232,12 @@
 	focus = {
 		id = GLF_great_lakes_industrial_council
 		icon = GFX_goal_GLF_great_lakes_industrial_council
-		x = -2
-		y = 2
-		relative_position_id = GLF_end_the_gentle_side
+		x = 7
+		y = 1
+		relative_position_id = GLF_rally_the_lake_chiefs
 		
 		cost = 5
-		prerequisite = { focus = GLF_end_the_gentle_side focus = GLF_tribes_in_the_20th_century }
+		prerequisite = { focus = GLF_rally_the_lake_chiefs }
 
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 
@@ -2262,7 +2262,7 @@
 		id = GLF_industrial_lake_projects
 		icon = GFX_goal_GLF_industrial_lake_projects
 		x = 0
-		y = 2
+		y = 7
 		relative_position_id = GLF_great_lakes_industrial_council
 
 		cost = 5

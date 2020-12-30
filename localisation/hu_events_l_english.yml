@@ -12,30 +12,30 @@
  glf.30.a:0 "Typical Colonizers. It is their loss!"
  
  glf.13.t:0 "Operation Dark Feather"
- glf.13.d:0 "The operation to free the former chief of the Confederation is ready. Tribes friendly to us living in Canadaian territory have sheltered our most elite soldiers, these brave warriors will face insurmountable odds assaulting the prison and escaping with the dark chief. For weeks of planning military strategists have debated the best way to get the chief back across the border, they have decided that while it may be risky a seaplane will be stationed nearby and if Nixkhamich is freed from his prison he will be airlifted back to our borders. If this mission fails we will likely never get a second chance and our relations with Canada will further sour."
+ glf.13.d:0 "The operation to free the former chief of the Confederation is ready. Tribes friendly to us living in Canadaian territory have sheltered our most elite soldiers, these brave warriors will face insurmountable odds assaulting the prison and escaping with the dark chief. For weeks of planning military strategists have debated the best way to get the chief back across the border, they have decided that while it may be risky a seaplane will be stationed nearby and if ishkode is freed from his prison he will be airlifted back to our borders. If this mission fails we will likely never get a second chance and our relations with Canada will further sour."
  glf.13.a:0 "Be as silent as the midnight woods"
  
  glf.14.t:0 "Operation Success"
- glf.14.d:0 "Nixkhamich is free! In the dead of night our brave warriors surprised the prison guards and located where Nixkhamich was being held. Before word got out that he was free his ace pilot daughter Honovi flew him by sea plane back home to the Great Lakes. We have yet to hear from those who captured him but they will no doubt be furious."
+ glf.14.d:0 "ishkode is free! In the dead of night our brave warriors surprised the prison guards and located where ishkode was being held. Before word got out that he was free his ace pilot daughter Honovi flew him by sea plane back home to the Great Lakes. We have yet to hear from those who captured him but they will no doubt be furious."
  glf.14.a:0 "Our warriors are truly great!"
  
  glf.66.t:0 "Operation Failed"
- glf.66.d:0 "Nixkhamich has died! The operation was a failure. Everything seemed to be going according to the plan, the prison guards were surprised, Nixkhamich was freed, but then a local garrison intercepted our forces and during the ensuing firefight Nixkhamich was shot. Our forces retreated with his body. Tribes across the Confederation are silent today as they mourn for this controversial yet strong figure."
+ glf.66.d:0 "ishkode has died! The operation was a failure. Everything seemed to be going according to the plan, the prison guards were surprised, ishkode was freed, but then a local garrison intercepted our forces and during the ensuing firefight ishkode was shot. Our forces retreated with his body. Tribes across the Confederation are silent today as they mourn for this controversial yet strong figure."
  glf.66.a:0 "This is a sad day"
  
- glf.15.t:0 "Trial of the free Nixkamich"
- glf.15.d:0 "Nixkhamich stands before the Confederation charged with warmongering and sabotage of foreign relations. During his 20 year reign as Chief of the Confederation he increased the size and power of our armed forces, cut what little ties we had to the Europeans, and left a permanent mark on our reputation with the world by invading Canada and the United States while their forces were occupied by the war in Europe. His supporters say that he acted in the Confederations best interest and re-took lands that rightfully belong to the Confederation. The verdict is left to the highest voice in the land, the chief of the Confederation."
+ glf.15.t:0 "Trial of the free Ishkode"
+ glf.15.d:0 "ishkode stands before the Confederation charged with warmongering and sabotage of foreign relations. During his 20 year reign as Chief of the Confederation he increased the size and power of our armed forces, cut what little ties we had to the Europeans, and left a permanent mark on our reputation with the world by invading Canada and the United States while their forces were occupied by the war in Europe. His supporters say that he acted in the Confederations best interest and re-took lands that rightfully belong to the Confederation. The verdict is left to the highest voice in the land, the chief of the Confederation."
  glf.15.a:0 "Put him in our prison"
  glf.15.b:0 "Execute him for his crimes"
  glf.15.c:0 "He fought for the tribes in his own way"
  
  glf.16.t:0 "Trial of a prisoner"
- glf.16.d:0 "Nixkhamich may not be in our custody but we can still hold a trial for him. Nixkhamich is charged with warmongering and sabotage of foreign relations. During his 20 year reign as Chief of the Confederation he increased the size and power of our armed forces, cut what little ties we had to the Europeans, and left a permanent mark on our reputation with the world by invading Canada and the United States while their forces were occupied by the war in Europe. His supporters say that he acted in the Confederations best interest and re-took lands that rightfully belong to the Confederation. The verdict is left to the highest voice in the land, the chief of the Confederation."
+ glf.16.d:0 "ishkode may not be in our custody but we can still hold a trial for him. ishkode is charged with warmongering and sabotage of foreign relations. During his 20 year reign as Chief of the Confederation he increased the size and power of our armed forces, cut what little ties we had to the Europeans, and left a permanent mark on our reputation with the world by invading Canada and the United States while their forces were occupied by the war in Europe. His supporters say that he acted in the Confederations best interest and re-took lands that rightfully belong to the Confederation. The verdict is left to the highest voice in the land, the chief of the Confederation."
  glf.16.a:0 "He commited a crime and belongs in a prison"
  glf.16.b:0 "He fought for the tribes in his own way"
  
  glf.17.t:0 "Trial the dead"
- glf.17.d:0 "Nixkhamich is gone but we can still discuss is actions and decide if they were right or wrong. During his 20 year reign as Chief of the Confederation he increased the size and power of our armed forces, cut what little ties we had to the Europeans, and left a permanent mark on our reputation with the world by invading Canada and the United States while their forces were occupied by the war in Europe. His supporters say that he acted in the Confederations best interest and re-took lands that rightfully belong to the Confederation. The verdict is left to the highest voice in the land, the chief of the Confederation."
+ glf.17.d:0 "ishkode is gone but we can still discuss is actions and decide if they were right or wrong. During his 20 year reign as Chief of the Confederation he increased the size and power of our armed forces, cut what little ties we had to the Europeans, and left a permanent mark on our reputation with the world by invading Canada and the United States while their forces were occupied by the war in Europe. His supporters say that he acted in the Confederations best interest and re-took lands that rightfully belong to the Confederation. The verdict is left to the highest voice in the land, the chief of the Confederation."
  glf.17.a:0 "He commited a crime but may he rest in peace"
  glf.17.b:0 "He fought for the tribes in his own way"
 
@@ -140,7 +140,7 @@
  
  glf.19.title:0 "Detroit auto success" 
  glf.19.d:0 "The car factories of Detroit are world renowned for their incredible output. Recently more and more members of the Confederation have purchased cars and trucks, this has brought lots of wealth and business to Detroit. The city that was once a small stop on the journey through the Great Lakes is now a bustling metropolis. These auto factories are important for the war effort as well as many military trucks come from the Detroit lines."
- glf.19.a:0 "Great news for the capital of the Confederation"
+ glf.19.a:0 "Great news for this Great City"
  
  glf.20.title:0 "Great Lakes Ship Race"
  glf.20.d:0 "The Great Lakes have always been a hub for trade and ship travel. As more and more ships began to traverse the Lakes small competitions were held to see who could go from Duluth to Chicago to the Saint Lawrence the fastest. The Great Lakes Ship Race has evolved into a display of great shipbuilding and great sailors. This year the competition has drawn the attention of many international sailors from Europe and the United States. The participants of the competition have always been lakers but perhaps this year it can be opened up for foreigners."
@@ -195,7 +195,7 @@
  glf.98.a:0 "Blessings and good luck to these fine aces"
  
  glf.97.title:0 "Honovi's great flight"
- glf.97.d:0 "Today the pilot Honovi became famous around the world after her incredibly long flight across the entire Confederation. She began in a small airstrip next to Manitoba and ended on the shores of Lake Ontario. Her piloting skills rival that of  American aviators like Charles Lindburg and Amilia Earhart. Even after this great feat Honovi is a controversial figure, she is an outspoken hawkist and the daughter of the dark chief himself Nixkhamich. The eyes of the Confederation are on it’s chief as they wait to see if Honovi will be honored."
+ glf.97.d:0 "Today the pilot Honovi became famous around the world after her incredibly long flight across the entire Confederation. She began in a small airstrip next to Manitoba and ended on the shores of Lake Ontario. Her piloting skills rival that of  American aviators like Charles Lindburg and Amilia Earhart. Even after this great feat Honovi is a controversial figure, she is an outspoken hawkist and the daughter of the dark chief himself ishkode. The eyes of the Confederation are on it’s chief as they wait to see if Honovi will be honored."
  glf.97.a:0 "Give her the greatest honor"
  glf.97.b:0 "Meet with her but don't encorage the Hawks"
  
@@ -238,15 +238,15 @@
  glf.11.a:0 "The New World is strong"
  
  glf.100.t:0 "Operation Dark Feather"
- glf.100.d:0 "Before Canada was defeated chief Nixkhamich was handed over to the English. The operation to free the former chief of the Confederation is ready. Operatives friendly to us living in English territory have sheltered our most elite soldiers, these brave warriors will face insurmountable odds assaulting the prison and escaping with the dark chief. For weeks of planning military strategists have debated the best way to get the chief back across the border, they have decided that while it may be risky a seaplane will be stationed nearby and if Nixkhamich is freed from his prison he will be airlifted back to our borders. If this mission fails we will likely never get a second chance."
+ glf.100.d:0 "Before Canada was defeated chief ishkode was handed over to the English. The operation to free the former chief of the Confederation is ready. Operatives friendly to us living in English territory have sheltered our most elite soldiers, these brave warriors will face insurmountable odds assaulting the prison and escaping with the dark chief. For weeks of planning military strategists have debated the best way to get the chief back across the border, they have decided that while it may be risky a seaplane will be stationed nearby and if ishkode is freed from his prison he will be airlifted back to our borders. If this mission fails we will likely never get a second chance."
  glf.100.a:0 "Be as silent as the midnight woods"
  
- glf.101.t:0 "Nixkamich is finally free"
- glf.101.d:0 "With the defeat of both the Canadians and the English Nixkhamich can finally return to the Confederation. Now that the Dark chief has returned he is now free to visit and speak to his followers."
+ glf.101.t:0 "Ishkode is finally free"
+ glf.101.d:0 "With the defeat of both the Canadians and the English ishkode can finally return to the Confederation. Now that the Dark chief has returned he is now free to visit and speak to his followers."
  glf.101.a:0 "He has been through much"
  
- glf.102.t:0 "Nixkamich is transfered to us"
- glf.102.d:0 "With the defeat of both the Canadians and the English Nixkhamich can finally return to the Confederation. Because of the Confederations decision to sentence him he will now be our prisoner."
+ glf.102.t:0 "Ishkode is transfered to us"
+ glf.102.d:0 "With the defeat of both the Canadians and the English ishkode can finally return to the Confederation. Because of the Confederations decision to sentence him he will now be our prisoner."
  glf.102.a:0 "He belongs at home"
  
  glf.103.t:0 "The Chief visits the North Shore"
@@ -266,7 +266,7 @@
  glf.106.a:0 "He served the Tribes well"
  
  glf.107.t:0 "Bugonaygeshig Passes Away"
- glf.107.d:0 "Today the oldest surviving chief of the Confederation died peacefully in his sleep. Bugonaygeshig was wise and unyielding when it came to forign affairs, in 1889 the United States claimed that old treaties ceded lands along the Confederation border to United States settlers and attempted to seize the land through several border skirmishes. Bugonaygeshig never gave an inch of land to the invaders and protected the Confederation from further territorial loss. Bugonaygeshig was also the first chief of the Confederation to come from the Ojibwe, ever since he stepped down and gave power to Nixkamich the Confederation has had only Ojibwe chiefs. Bugonaygeshig lived to the very old age of 98 and had four children and dozens of grandchildren."
+ glf.107.d:0 "Today the oldest surviving chief of the Confederation died peacefully in his sleep. Bugonaygeshig was wise and unyielding when it came to forign affairs, in 1889 the United States claimed that old treaties ceded lands along the Confederation border to United States settlers and attempted to seize the land through several border skirmishes. Bugonaygeshig never gave an inch of land to the invaders and protected the Confederation from further territorial loss. Bugonaygeshig was also the first chief of the Confederation to come from the Ojibwe, ever since he stepped down and gave power to ishkode the Confederation has had only Ojibwe chiefs. Bugonaygeshig lived to the very old age of 98 and had four children and dozens of grandchildren."
  glf.107.a:0 "His brought the Confederation into a Great Age!"
  
  glf.108.t:0 "Niagara Falls Bridge Collapse"
@@ -293,7 +293,7 @@
  glf.112.a:0 "Prophetstown continues to burn"
  
  glf.113.t:0 "Unrest in Prophetstown Ends"
- glf.113.d:0 "After over a year the city of Prophetstown has been reduced as the tribal police have restored order to many of the neighborhoods. It still remains uncertain how many have died initial estimates are in the hundredths, the people of Confederation have begun to call the time of unrest the Prophetstown sunset."
+ glf.113.d:0 "After over a year the city of Prophetstown has been reduced as the tribal police have restored order to many of the neighborhoods. It still remains uncertain how many have died initial estimates are in the hundreds, the people of Confederation have begun to call the time of unrest the Prophetstown sunset."
  glf.113.a:0 "Maybe one day the city will heal"
  
  glf.114.t:0 "The Chief opens the boarders of the Confederation"

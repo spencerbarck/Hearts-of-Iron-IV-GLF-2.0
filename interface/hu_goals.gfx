@@ -257,8 +257,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_GLF_the_trial_of_nixkamich"
-		texturefile = "gfx/interface/goals/focus_GLF_the_trial_of_nixkamich.dds"			
+		name = "GFX_goal_GLF_the_trial_of_ishkode"
+		texturefile = "gfx/interface/goals/focus_GLF_the_trial_of_ishkode.dds"			
 	}
 	
 	SpriteType = {
@@ -282,8 +282,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_GLF_free_nixkamich"
-		texturefile = "gfx/interface/goals/focus_GLF_free_nixkamich.dds"			
+		name = "GFX_goal_GLF_free_ishkode"
+		texturefile = "gfx/interface/goals/focus_GLF_free_ishkode.dds"			
 	}
 	
 	SpriteType = {
@@ -297,8 +297,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_GLF_appoint_nixkamich"
-		texturefile = "gfx/interface/goals/focus_GLF_appoint_nixkamich.dds"			
+		name = "GFX_goal_GLF_appoint_ishkode"
+		texturefile = "gfx/interface/goals/focus_GLF_appoint_ishkode.dds"			
 	}
 	
 	SpriteType = {
