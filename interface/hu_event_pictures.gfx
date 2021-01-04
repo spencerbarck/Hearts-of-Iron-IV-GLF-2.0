@@ -215,4 +215,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_GLF_unrest_ends.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_report_event_GLF_the_sturgeon_investigation"
+		texturefile = "gfx/event_pictures/report_event_the_sturgeon_investigation.dds"
+	}
+	
 }

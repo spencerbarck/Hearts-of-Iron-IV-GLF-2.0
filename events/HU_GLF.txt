@@ -891,6 +891,10 @@ country_event = {
 	option = { # this must be investigated
 		name = glf.24.b
 		ai_chance = { factor = 80 }
+		
+		GLF = {
+				country_event = { id = glf.115 days = 15 }
+			}
 
 	}
 }
@@ -1758,6 +1762,28 @@ country_event = {
 		name = glf.114.a
 		add_ideas = GLF_give_me_your_tired
 		set_country_flag = GLF_give_me_your_tired
+	}
+}
+
+
+#The Sturgion incident
+country_event = {
+	id = glf.115
+	title = glf.115.t
+	desc = glf.115.d
+	picture = GFX_report_event_GLF_the_sturgeon_investigation
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag  = GLF
+	}
+	
+	option = {
+		name = glf.115.a
+		add_political_power = -10
 	}
 }
 	

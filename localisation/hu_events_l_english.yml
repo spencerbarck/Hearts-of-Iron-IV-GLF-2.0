@@ -61,7 +61,7 @@
  hu_russia.1.b:0 "Decline"
 
  hu_news.1.t:0 "The Great Lakes Confederation Lake Fair"
- hu_news.1.d:0 "Thousands flocked to lake Superior today for the Great Lakes Confederation Lakes fair! Items on dispaly included finely woven dresses, extravagant canoes, beautiful beadwork, and newly modified rifles from America."
+ hu_news.1.d:0 "Thousands flocked to lake Superior today for the Great Lakes Confederation Lakes fair! Items on dispaly included finely woven dresses, extravagant canoes, beautiful beadwork, and newly modified rifles from The United States."
  hu_news.1.a:0 "What a cultured fair!"
  
  hu_news.2.t:0 "Great Lakes Confederation Joins Allies"
@@ -299,3 +299,7 @@
  glf.114.t:0 "The Chief opens the boarders of the Confederation"
  glf.114.d:0 "In an international address today the Chief of the Confederation addressed the recent forced migration of people to the Great Lakes. The Chief told the world to give us your tired, your poor, your huddled masses yearning to breathe free. The Chief said this in defiance of his advisors who warned him that such a statement would insult the United States and make the tribal relocation issue known globally."
  glf.114.a:0 "The United States has failed these people but we will not"
+
+ glf.115.t:0 "The Sturgeon Investigation"
+ glf.115.d:0 "The sinking of the Sturgeon was a tragedy that brought the Confederation to the brink of war. The Canadians have agreed to a joint investigation of the matter and have concluded that a sailor on the Sturgeon started to fire on the Canadian destroyer and the destroyer felt threatened and returned fire. Evidence was found that a crew member of the Sturgeon brought a heavy machine gun with him on his voyage. When the Candian destroyer passed by the ship he opened fire. Whether this hawkist was trying to provoke war or just let out his frustrations may never be known."
+ glf.115.a:0 "Unbelievable!"

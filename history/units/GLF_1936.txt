@@ -48,7 +48,7 @@ units = {
 
 	}
 	division= {	
-		name = "Anyǫnyętaˀ"
+		name = "Anyonyeta"
 		location = 9450
 		division_template = "Lake Warriors"
 		start_experience_factor = 0.2
@@ -56,7 +56,7 @@ units = {
 
 	}
 	division= {	
-		name = "Anyǫnyętaˀ"
+		name = "Anyonyeta"
 		location = 1595
 		division_template = "Lake Warriors"
 		start_experience_factor = 0.2
@@ -64,7 +64,7 @@ units = {
 
 	}
 	division= {	
-		name = "Anyǫnyętaˀ"
+		name = "Anyonyeta"
 		location = 1866
 		division_template = "Lake Warriors"
 		start_experience_factor = 0.2
@@ -88,7 +88,7 @@ units = {
 
 	}
 	division= {	
-		name = "Wɒrɪə"
+		name = "Wbrɪe"
 		location = 4437
 		division_template = "Lake Warriors"
 		start_experience_factor = 0.2
@@ -112,7 +112,7 @@ units = {
 
 	}
 	division= {	
-		name = "Wɒrɪə"
+		name = "Wbrɪe"
 		location = 3778
 		division_template = "Lake Warriors"
 		start_experience_factor = 0.2

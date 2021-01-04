@@ -51,23 +51,23 @@ GLF_INF_01 =
 	{
 		1 = { "%s Oshkinawe-ogichidaag" }
 		2 = { "%s Oshkinawe-ogichidaag" }
-		3 = { "%s Wɒrɪə" }
-		4 = { "%s Wɒrɪə" }
+		3 = { "%s Wbrɪe" }
+		4 = { "%s Wbrɪe" }
 		5 = { "%s Oshkinawe-ogichidaag" }
 		6 = { "%s Oshkinawe-ogichidaag" }
 		7 = { "%s Oshkinawe-ogichidaag" }
 		8 = { "%s Oshkinawe-ogichidaag" }
-		9 = { "%s Wɒrɪə" }
+		9 = { "%s Wbrɪe" }
 		10 = { "%s Oshkinawe-ogichidaag" }
 		11 = { "%s Kiilhswa Alenia" }
 		12 = { "%s Kiilhswa Alenia" }
 		13 = { "%s Oshkinawe-ogichidaag" }
 		14 = { "%s Kiilhswa Alenia" }
 		15 = { "%s Oshkinawe-ogichidaag" }
-		16 = { "%s Anyǫnyętaˀ" }
-		17 = { "%s Anyǫnyętaˀ" }
+		16 = { "%s Anyonyeta" }
+		17 = { "%s Anyonyeta" }
 		18 = { "%s Oshkinawe-ogichidaag" }
 		19 = { "%s Oshkinawe-ogichidaag" }
-		20 = { "%s Anyǫnyętaˀ" }		
+		20 = { "%s Anyonyeta" }		
 	}
 }
