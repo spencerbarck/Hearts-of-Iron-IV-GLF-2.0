@@ -739,9 +739,9 @@ country_event = {
 		original_tag  = GLF
 		date > 1939.3.2
 		
-		country_exists = USA
+		country_exists = CAN
 		GLF = {
-			NOT { has_war_with = USA}
+			NOT { has_war_with = CAN}
 		}
 	}
 	
